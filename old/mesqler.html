@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vucut yapımı</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/fontawesome/css/all.css">
+
+</head>
+<body>
+	<div class="loading">
+			<img src="img/yuklenir.gif">
+	</div>
+
+	<div class="head">
+		<div class="head_l">
+			<i class="menuicon fas fa-bars"></i>
+		</div>
+		<div class="head_c">
+			<h2 class="title"></h2>
+		</div>
+		<div class="head_r">
+			<i class="bilgiicon fas fa-lightbulb"></i><span></span>
+		</div>
+	</div>
+	<div class="body">
+		<div class="qaralti_x"></div>
+		<!-- Menu baslangic -->
+		<div class="body_menu animated">
+			
+			<ul>
+				<li class="" data-value="1"><a href="index.html"><i class="fas fa-dumbbell"></i><label>Antreman</label></a></li>
+				<li class="" data-value="2"><a href="kesfet.html"><i class="fas fa-compass"></i><label>Keşfet</label></a></li>
+				<li class="active" data-value="3"><a href="program.html"><i class="fas fa-bolt"></i><label>Program</label></a></li>
+				<li class="" data-value="5"><a href="motiv.html"><i class="fas fa-child"></i><label>Motivasyon</label></a></li>
+				<li class="" data-value="6"><i class="fas fa-redo-alt"></i><label>Sıfırla</label></li>
+
+			</ul>
+			<div class="paylas"><i class="fas fa-share-alt"></i><label></label></div>
+		</div>
+
+		<!-- Menu son -->
+		<div class="m1"  style="display: block;">
+			<div class="mesq_cover">
+				<img class="mesq_sekil" src="">
+			</div>
+		
+			<div class="mesqler">
+				<ul>
+				</ul>
+			</div>
+
+			<div class="mesq_basla">
+				Başla
+			</div>
+		</div>
+
+		<div class="m2" style="display: none;">
+			<div class="start">
+				<img class="mesq_b_sekil" src="">
+				<h2 class="mesq_b_ad"></h2>
+				<h3 class="mesq_b_say"></h3>
+				<h3 class="mesq_s_say"></h3>
+				<div class="tekrarlar">
+					<ul>
+						<li id="cat1" class="tekrarsec" data-value="8">x8</li>
+						<li id="cat2" class="tekrarsec" data-value="10">x10</li>
+						<li id="cat3" class="tekrarsec" data-value="12">x12</li>
+						<li class="tekrarsec">
+							<select id="mesqsay_x">
+								
+							</select>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="skip">
+					<div class="skip_x" id="skip_sol">
+						<i class="fas fa-chevron-left"></i>
+					</div>
+					<div class="skip_x ok">
+						<i class="oldu fas fa-check"></i>
+
+					</div>
+					<div class="skip_x" id="skip_sag">
+						<i class="fas fa-chevron-right"></i>
+					</div>
+			</div>
+
+			<div class="sayim">
+				<h2 id="hereketsayi">0/20</h2><i id="pausa" class="fas deyisme fa-pause"></i><!-- <i class="fas fa-play"></i> -->
+				<div class="reng"></div>
+			</div>
+
+
+		</div>
+
+		<div class="m3" style="display: none;">
+			<div class="finish">
+				<div class="f_basliq">
+					<i class="fas fa-check"></i>
+				</div>
+				<div class="f_zaman">
+					<h2 id="vaxt">Süre: 03:15</h2>
+				</div>
+				<div class="f_zaman">
+					<h2 id="mesqsayi">Egzersiz: 15</h2>
+				</div>
+				<div class="f_button">
+					<a href="index.html#1">Antremanlar</a>
+				</div>
+				<div class="f_button">
+					<a href="mesqler.html">Egzersizi Tekrarla</a>
+				</div>
+				<div class="f_button">
+					<a href="">Programa geri dön</a>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="m4" style="display: none;">
+			<div class="hefte">
+				<ul>
+					<li data-value="0">1-ci gün</li>
+					<li data-value="1">2-ci gün</li>
+					<li data-value="2">3-ci gün</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="m5" style="display: none;">
+			<div class="cat_x">
+				<div class="cat_x_desk animated">
+					<div class="cat_title">
+						<h2 class="cattitle"></h2>
+					</div>
+					<div class="cat_info">
+						<img class="sekil" src="">
+						<p class="catinfo"></p>
+						<p class="catinfo2" style="text-align: left"></p>
+						<p class="catinfo3"></p>
+						<div class="cat_but" style="display: none;" id="c0">
+							Harekete Bak
+						</div>
+
+						<div class="cat_but" id="c1">
+							Nasıl Yapılır?
+						</div>
+						<div class="cat_but" id="c2">
+							İpuçları
+						</div>
+						<div class="cat_but" id="c3">
+							Çalışan Kaslar
+						</div>
+						
+					</div>
+
+					<div class="cat_bottom">
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+
+	</div>
+	
+
+
+
+	<!-- help -->
+
+	<div class="help">
+		<div class="help_desk animated">
+			<div class="help_desk_title">
+				<h2 class="helptitle">Protein</h2>
+			</div>
+			<div class="help_desk_info">
+				<p class="helpinfo"></p>
+			</div>
+
+			<div class="help_desk_bottom">
+				
+				<div class="help_desk_bottom_left">
+					<i class="help_left fas fa-angle-double-left"></i>
+				</div>
+				<div class="help_desk_bottom_right">
+					<i class="help_right fas fa-angle-double-right"></i>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- help son -->
+
+	<script src='js/responsivevoice.js'></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/SocialSharing.js"></script>
+
+	<script type="text/javascript" src="js/mesqler.js"></script>
+
+
+	
+</body>
+</html>

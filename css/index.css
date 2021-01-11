@@ -1,0 +1,48 @@
+@font-face
+{
+	font-family: "Roboto";
+	src: url("Roboto.ttf") format("embedded-opentype"),
+	url("Roboto.ttf") format("opentype");
+}
+body
+{
+	font-family: Roboto;
+}
+.logo
+{
+	display: block;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+.logo img
+{
+	height: 120px;
+	width: auto;
+	object-fit: cover;
+}
+.logo h4
+{
+	text-transform: capitalize;
+	font-weight: 800;
+}
+.logo span
+{
+	display: block;
+}
+.loader
+{
+	padding: 15px;
+	width: 65px !important;
+	height: 65px !important;
+}
+.screen-center
+{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.position-fixed
+{
+	position: fixed;
+}
