@@ -1,0 +1,44 @@
+{
+	"en":
+	{
+		"confirmText"		: "Ok",
+
+		"cancel"			: "Cancel",
+
+		"confirmDelete"		: "Yes, delete it!",		
+
+		"pro-ok"			: {"message"	: "Congratulations, you've switched to PRO!", "info": "info"}
+
+	},
+	"tr":
+	{
+		"confirmText"		: "Tamam",
+
+		"cancel"			: "İptal",
+
+		"confirmDelete"		: "Eminim, sil!",		
+
+		"pro-ok"			: {"message"	: "Tebrikler,pro-a geçtiniz!", "info": "info"}
+
+	},
+	"az":
+	{
+		"confirmText"		: "Tamam",
+
+		"cancel"			: "İmtina",
+
+		"confirmDelete"		: "Əminəm, sil!",
+		
+		"pro-ok"			: {"message"	: "Təbriklər,pro versiyaya keçdiniz!", "info": "info"}
+
+	},
+	"ru":
+	{
+		"confirmText"		: "ОК",
+		"cancel"			: "Отмена",
+		"confirmDelete"		: "Да удалите!",
+		"pro-ok"			: {"message"	: "Поздравляем, вы перешли на PRO!", "info": "info"}
+
+	}
+
+}

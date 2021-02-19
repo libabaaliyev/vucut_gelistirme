@@ -1,0 +1,23 @@
+{
+	"az":
+	{
+		"app-name" : "Vücud inkişaf rəhbəri"
+
+	},
+	"en":
+	{
+		"app-name" : "Bodybuilding guide"
+
+	},
+	"ru":
+	{
+		"app-name" : "Гид по бодибилдингу"
+
+	},
+	"tr":
+	{
+		"app-name" : "Vücut geliştirme rehberi"
+		
+	}
+
+}
