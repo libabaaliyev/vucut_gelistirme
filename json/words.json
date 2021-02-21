@@ -1,22 +1,82 @@
 {
 	"az":
 	{
-		"app-name" : "Vücud inkişaf rəhbəri"
+		"app-name" 		: "Vücud inkişaf rəhbəri",
+		"training" 		: "Məşqlər",
+		"discovery" 	: "Kəşf et",
+		"program" 		: "Proqram",
+		"motivation" 	: "Motivasiya",
+		"reset" 		: "Sıfırla",
+		"share" 		: "Paylaş",
+		"helper"		: "Faydalı bilgilər",
+		
+		"chest-musc"	: "Sinə əzələsi",
+		"arm-musc" 		: "Qol əzələsi",
+		"shoulder-musc"	: "Çiyin əzələsi",
+		"back-musc"		: "Kürək əzələsi",
+		"sixpack-musc"	: "Qarın əzələsi",
+		"leg-musc" 		: "Ayaq əzələsi",
+		"go"			: "Bax"
 
 	},
 	"en":
 	{
-		"app-name" : "Bodybuilding guide"
+		"app-name" 		: "Bodybuilding guide",
+		"training" 		: "Exercises",
+		"discovery" 	: "Discover",
+		"program" 		: "Program",
+		"motivation" 	: "Motivation",
+		"reset" 		: "Reset",
+		"share" 		: "Share",
+		"helper"		: "Useful information",
+
+		"chest-musc"	: "Chest Muscle",
+		"arm-musc" 		: "Arm Muscles",
+		"shoulder-musc"	: "Shoulder Muscle",
+		"back-musc"		: "Back muscle",
+		"sixpack-musc"	: "Sixpack",
+		"leg-musc" 		: "Leg",
+		"go"			: "Go"		
 
 	},
 	"ru":
 	{
-		"app-name" : "Гид по бодибилдингу"
+		"app-name" 		: "Гид по бодибилдингу",
+		"training" 		: "Упражнения",
+		"discovery" 	: "Обнаружить",
+		"program" 		: "Программа",
+		"motivation" 	: "Мотивация",
+		"reset" 		: "Перезагрузить",
+		"share" 		: "",
+		"helper"		: "Полезная информация",
+
+		"chest-musc"	: "Грудная мышца",
+		"arm-musc" 		: "Мышцы рук",
+		"shoulder-musc"	: "Плечевая мышца",
+		"back-musc"		: "Мышцы спины",
+		"sixpack-musc"	: "Шесть пакетов",
+		"leg-musc" 		: "Нога",
+		"go"			: "идти"
 
 	},
 	"tr":
 	{
-		"app-name" : "Vücut geliştirme rehberi"
+		"app-name" 		: "Vücut geliştirme rehberi",
+		"training" 		: "Antremanlar",
+		"discovery" 	: "Keşfet",
+		"program" 		: "Program",
+		"motivation" 	: "Motivasyon",
+		"reset" 		: "Sıfırla",
+		"share" 		: "Paylaş",
+		"helper"		: "Yararlı bilgiler",
+
+		"chest-musc"	: "Göğüs Kası",
+		"arm-musc" 		: "Kol Kasları",
+		"shoulder-musc"	: "Omuz Kası",
+		"back-musc"		: "Sırt",
+		"sixpack-musc"	: "Karın Kası",
+		"leg-musc" 		: "Bacak",
+		"go"			: "Git"
 		
 	}
 

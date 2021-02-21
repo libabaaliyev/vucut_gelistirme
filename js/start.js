@@ -1,13 +1,20 @@
-/*document.addEventListener("deviceready", onDeviceReady, false);
-function onDeviceReady(){*/
-	
 $(document).ready(function()
 {
 	let starting;
-	let lang;
+	let lang = 'az';
 
 	words 			= getDatas('words');
 	notifications 	= getDatas('notifications');
+	menu 			= getDatas('menu');
+	helper 			= getDatas('helper');
+	categories 		= getDatas('categories');
+	const appName_ 	= 
+	{
+		"az" 	: "Vücud inkişaf rəhbəri",
+		"tr"	: "Vücut geliştirme rehberi",
+		"en" 	: "Bodybuilding guide",
+		"ru" 	: "Гид по бодибилдингу"
+	}
 
 	if(localStorage.getItem("lang") === null){
 		lang 		= 'az';
@@ -17,11 +24,15 @@ $(document).ready(function()
 		lang 		= JSON.parse(localStorage.lang);
 		starting 	= true;
 	}
+	
 	start();
+	
 	function start()
 	{
 		
-		appName 		= words[lang]['app-name'];
+		appName 		= appName_[lang];
+
+		console.log(appName)
 
 		$(".app-name")	.html(appName);		
 		$("title") 		.html(appName);
@@ -49,9 +60,11 @@ $(document).ready(function()
 			      if (value) {
 			      	localStorage.lang 		= JSON.stringify(value);
 			      	lang 					= localStorage.lang;
-			      	console.log(words)
-			      	$(".app-name").html(words[lang]['app-name']);
-			      	$("title").html(words[lang]['app-name']);
+			      	
+			      	appName 				= appName_[lang];
+
+			      	$(".app-name").html(appName);
+			      	$("title").html(appName);
 			      	
 			      	setTimeout(function()
 					{
@@ -87,4 +100,3 @@ $(document).ready(function()
 	}
 
 });
-/*}*/

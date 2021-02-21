@@ -1,0 +1,37 @@
+[
+	{
+		"name" 	: "training",
+		"url" 	: "training.html",
+		"icon" 	: "fas fa-dumbbell"
+	},
+
+	{
+		"name" 	: "discovery",
+		"url" 	: "discovery.html",
+		"icon" 	: "fas fa-compass"
+	},
+
+	{
+		"name" 	: "program",
+		"url" 	: "program.html",
+		"icon" 	: "fas fa-bolt"
+	},
+
+	{
+		"name" 	: "motivation",
+		"url" 	: "motivation.html",
+		"icon" 	: "fas fa-child"
+	},
+
+	{
+		"name" 	: "reset",
+		"url" 	: "#reset",
+		"icon" 	: "fas fa-redo-alt"
+	},
+
+	{
+		"name" 	: "share",
+		"url" 	: "#share",
+		"icon" 	: "fas fa-share-alt"
+	}
+]

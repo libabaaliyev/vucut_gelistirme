@@ -321,7 +321,7 @@ body
 /*help*/
 .help,.motive,.cat_x,.bilgi
 {
-	position: fixed;
+	position: fixed; 
 	display: none;
 	float: left;
 	top: 50px;

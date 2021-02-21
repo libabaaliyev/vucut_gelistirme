@@ -1,0 +1,44 @@
+[
+	{
+		"name"		: "chest-musc",
+		"image_0"	: "img/sine_cetin.jpg",
+		"image_1"	: "img/sine_asan.jpg",
+		"image_2"	: "img/sine_orta.jpg",
+		"image_3"	: "img/sine_cetin.jpg"
+	},
+	{
+		"name"		: "arm-musc",
+		"image_0"	: "img/cat2.jpg",
+		"image_1"	: "img/kol_asan.jpg",
+		"image_2"	: "img/kol_orta.jpg",
+		"image_3"	: "img/kol_cetin.jpg"
+	},
+	{
+		"name"		: "shoulder-musc",
+		"image_0"	: "img/cat3.jpg",
+		"image_1"	: "img/omuz_asan.jpg",
+		"image_2"	: "img/omuz_orta.jpg",
+		"image_3"	: "img/omuz_cetin.jpg"
+	},
+	{
+		"name"		: "back-musc",
+		"image_0"	: "img/cat4.jpg",
+		"image_1"	: "img/sirt_asan.jpg",
+		"image_2"	: "img/sirt_orta.jpg",
+		"image_3"	: "img/sirt_cetin.jpg"
+	},
+	{
+		"name"		: "sixpack-musc",
+		"image_0"	: "img/cat5.jpg",
+		"image_1"	: "img/karin_asan.jpg",
+		"image_2"	: "img/karin_orta.jpg",
+		"image_3"	: "img/karin_cetin.jpg"
+	},
+	{
+		"name": "leg-musc",
+		"image_0": "img/cat6.jpg",
+		"image_1": "img/bacak_asan.jpg",
+		"image_2": "img/bacak_orta.jpg",
+		"image_3": "img/bacak_cetin.jpg"
+	}
+]

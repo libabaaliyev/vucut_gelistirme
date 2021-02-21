@@ -3,42 +3,77 @@
 <head>
 	<meta charset="UTF-8" />
   	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Antremanlar</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/index.css">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/animate.min.css" type="text/css">
+	<link rel="stylesheet" href="css/animate.css" type="text/css">
+	<link rel="stylesheet" href="css/index.css" type="text/css">
+	<link rel="stylesheet" href="css/color.css" type="text/css">
 	<link rel="stylesheet" href="css/fontawesome/css/all.css">
-	
-
+	<!-- <script type="text/javascript" src="cordova.js"></script> -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/sweetalert2@10.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-	<header class="header">
+	<div class="loading">
+		<img src="img/gif/loading.jpg" class="loader">
+	</div>
+
+	
+	<div class="fixed-top">
+	  <nav class="navbar navbar-dark bg-dark">
+	  	<div class="float-left menu-icon">
+	  		<i class="fas fa-bars text-light pt-2 pb-2 lead"></i>
+	  	</div>
+	  	<div class="d-inline-block float-left text-left">
+	  		<span class="lead pt-2 pb-2 m-0 text-light head-title"></span>
+	  	</div>
+	  	<div class="float-left helper-icon">
+	  		<i class="fas fa-lightbulb pt-2 pb-2 yellow"></i>
+	  	</div>
+
+	  	<div class="d-none float-left close-tab">
+	  		<i class="fas fa-times-circle yellow"></i>
+	  	</div>
+
+	  </nav>
+	</div>
+	
+
+	<div class="menu-collapse bg-dark animated">
+		<ul id="menu-collapse">
+			
+		</ul>
 		
-	</header>
-	<div class="head">
-		<div class="head_l">
-			<i class="menuicon fas fa-bars"></i>
-		</div>
-		<div class="head_c">
-			<h2 class="title">Antremanlar</h2>
-		</div>
-		<div class="head_r">
-			<i class="bilgiicon fas fa-lightbulb"></i><span></span>
+	</div>
+	<div class="menu-darkness"></div>
+
+	<div class="help desk">
+		<div class="desk-body animated">
+			<div class="desk-title">
+				<h2 class="title-txt lead help-title"></h2>
+			</div>
+			<div class="desk-info">
+				<p class="info-txt lead help-txt"></p>
+			</div>
+
+			<div class="desk-footer">				
+				<div class="d-block float-left back">
+					<i class="fas fa-angle-double-left"></i>
+				</div>
+				<div class="d-block float-right next">
+					<i class="fas fa-angle-double-right"></i>
+				</div>
+			</div>
 		</div>
 	</div>
 
+	<div class="categories">
+		
+	</div>
 
-	
-	<div class="qaralti1"></div>
-
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="cordova.js"></script>
-	<script type="text/javascript" src="js/SocialSharing.js"></script>
-
-	<script type="text/javascript" src="js/index.js"></script>
-	<script type="text/javascript" src="js/time.js"></script>
-
-	
+	<!-- <script type="text/javascript" src="js/SocialSharing.js"></script> -->
+	<script type="text/javascript" src="js/index.js"></script>	
 </body>
 </html>
