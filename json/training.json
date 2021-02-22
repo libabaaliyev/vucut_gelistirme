@@ -1,0 +1,810 @@
+{
+	"tr":
+	{
+		"chest-musc":
+		[
+
+			{
+				"name": "Dumbbell Chest Press",
+				"image": "img/cat/sine/dumbbell-chest-press.gif",
+				"information": "Kanepenin ucuna oturun ve halterlerin dizlerinize yaslanmasına izin verin. Halterleri omuzlarınıza getirin ve sonra sırtüstü koltukta uzanın. Göğsünüzün her iki tarafındaki halterleri avuçlarınız vücudunuza dönük ve dirsekleriniz bükülmüş olarak tutun. Halterleri yukarı doğru bastırın ve dirseklerinizi yay şeklinde küçük bir hareketle gerin. Göğsünüzün üstündeki halterleri birbirine yakın tutun. Ağırlıkları yavaşça başlangıç pozisyonuna getirin ve hissettiğinizde omuzlarınıza çekin.",
+				"help": "a) Harekete hakim olmak için, yeni başlayanlar en iyi ihtimalle düşük ağırlıkla başlayabilir. <hr>b) Dambıl ile yay şeklinde hareketler yapın. Bu etki, halterleri omuz genişliğinden daha düşük ve omuz genişliğinden daha düşük tutarak sağlanmıştır. <hr>c) Egzersizi yapmazdan önce zemindeki halterleri uzandığınız konumdan almayın. Bu, yaralanmalara neden olabilir. <hr>d) Halterlerin birbirine değmesine izin vermeyin. <br>",
+				"musc":"İlk etapta büyük göğüs kası (pektoralis majör) ve omuz kanadının (ön deltoid) yanlarındaki kasları çalıştırıyorsunuz. Halterleri kaldırmak için kollar genellikle üst kolların arkasındaki kaslara (triceps brachii) dayanır. Ek olarak, dambıl göğüs presini gerçekleştirmek için farklı kaslar birlikte çalışır. Bunlar dengeleyici kaslar. Bu omuz kuşağının ön serratusudur. Sırtta bunlar geniş sırt kası (latissimus dorsi) ve keşiş kasıdır (trapezius). Üst kollarda ise, bu ravenbone kol kasıdır (coracobrachialis)."
+				
+			},
+			{
+				"name": "Dumbbell Fly ",
+				"image": "img/cat/sine/dumbbell-fly.gif",
+				"information": "Düz bir  fitness tezgahı kullanın. Kondisyon tezgahına uzanın ve halterleri hafifçe bükülmüş dirseklerle tutun. Halterler artık göğsün ortasından yüksekte, avuç içi birbirine bakmaktadır. Şimdi halterleri yumuşak bir hareketle göğsünüzün yanlarına getirin. Dirseklerinizin aynı açıyla hafifçe bükülmüş kaldığından emin olun. Omuzlarınızın ve göğsünüzün önünde bir çekme hissi oluştuğunda hareketi durdurun. Ardından dambılleri yavaşça başlangıç konumuna getirin. Halterlerin birbirine temas etmesini önleyin.",
+				"help": "a) Ağırlığı yavaşça arttırın. Son pozisyon omuz ekleminden çok şey talep ettiğinden, çok fazla ağırlık kullanırken yaralanma riski vardır. <hr>b) Dirsekler daima dambıl kanadı ile aynı açıda hafifçe bükülmüş kalmalıdır. <hr>c) Kolların her zaman omuzlarının önünde olmalı. <br>",
+				"musc": "Dumbbell fly  sözde bileşik bir egzersizdir . Bu, aynı anda farklı kasların çalıştığı anlamına gelir. Ana pektoral kas (pektoralis major) esas olarak eğitilmiştir. Destekleyici kaslar deltoid kas (omuzlar), pazı brachii (üst kol üst tarafı), brachioradialis (alt kol alt tarafı) ve brachialis (üst kol üst tarafı)."
+
+			},
+			{
+				"name": "Dumbbell Pullover",
+				"image": "img/cat/sine/dumbbell-pullover.gif",
+				"information": "İki elinizle bir halter alın (halterin kenarına doğru tutun). Düz bir fitness bankında arkanıza yaslanın. Ayaklarınız yere temas eder ve başınız sonunda görünür. Şimdi kollarını dümdüz yukarı itin ve yüzünüzün üstüne uzatın. Şimdi dumbbell'i yavaşça başınızın üzerine geri getirin. Göğsünüze ve omuzlarınıza çekildiğini hissettiğinizde hareketi durdurun. Ağırlığı yavaşça başlangıç pozisyonuna getirin.",
+				"help": "a) Sırtınızı dik tutmak için karın kasınızı sıkın. Sırtın boş kalmamalı. <hr>b) Dirseklerinizi daima aynı konumda tutun: hafifçe bükülmüş ve omuzlarınızla hizalı.<hr>c) Ne kadar uzatabileceğiniz esnekliğinize bağlıdır. Göğsünüze ve omuzlarınıza çekildiğini hissettiğinizde hareketi durdurun.<br>",
+				"musc":"Ana göğüs kasları (pektoralis majör) ve geniş sırt kasları (latissimus dorsi) ağırlıklı olarak bu haraket ile eğitilir. Diğer çeşitli kaslar egzersizi gerçekleştirmeye yardımcı olur ve bu nedenle derhal ele alınır. Eğitilen destekleyici kaslar arasında triceps (üst kolların alt kısmında), düz karın kası (rektus abdominisi) ve büyük gluteal kaslar (glutaus maximus) bulunur. Kısacası: Bu, çok fazla etkinliğe sahip bir egzersizdir."
+
+			},
+			{
+				"name": "Barbell Bench Press",
+				"image": "img/cat/sine/Barbell-bench-press.gif",
+				"information": "Yatay olarak yerleştirilmiş bir fitness bankına sırtınızla uzanın. Halteri alın ve ellerinizi omuz genişliğinden biraz daha fazla tutun. Halteri kollarınız düz bir şekilde tutun ve göğsünüzün hemen üzerinde avuç içi yapın. Nefes alın ve halterleri göğse doğru yavaşça indirin ve hemen üzerinde durun. Kollarınız tekrar esnetilinceye kadar uzun süre halterle nefes verin ve itin.",
+				"help": "a) Yeni başlayanlar önce bu egzersizi ağırlık plakası olmayan bir halterle yapmalıdır. Harekete hakim olduğunuzda, halter üzerine ekstra ağırlık yükleyebilirsiniz. <hr>b) Bench press ile daima sırtınızı dik dururken fitness tezgahında kalın. Sırtınız büküldüğünde, ağırlığın çok ağır olduğu anlamına gelir. Bu yaralanma riskini arttırır.<hr>c) Yeni başlayanlar için bir yardımcı  kullanmak akıllıca olabilir. Bu aynı zamanda ağır ağırlık kullanan deneyimli sporcular için de geçerlidir.<hr>d) Halteri her zaman doğrudan göğsün üzerinde tutun ve ileri ya da geri dolaşmasına izin vermeyin.<br>",
+				"musc": "Halter bench press, öncelikle göğüs, omuz ve kol kaslarını çalıştırmaya odaklanır. Bu egzersizde, büyük göğüs kası (depectoralis major), omuzların etrafındaki delta şekilli kas (anterior deltoid) ve üst kolun arkası (triceps brachii) güçlenir. Rotator manşet ve omuz bıçağının dengeleyici kasları da eğitilmiştir. Kısacası: bench press, farklı kasları eğitmek için etkili bir egzersizdir."
+
+			},
+			{
+				"name": "Cable Crossover",
+				"image": "img/cat/sine/cable-crossover.gif",
+				"information": "Makaraları başınızın biraz üstünde olacak şekilde ayarlayın. Kasnaklar arasında ortada durun. Kolları avuç içi aşağı yatırılmış durumdayken tutun. Omuzların içe doğru döndü ve kalçaların hafifçe öne eğildi. Göğüs kaslarınızı sıkın ve kollarınızı aşağı ve içe doğru hareket ettirin. Dirseklerinizi hareket boyunca sabit bir açıda tutun. Yavaş (kontrollü) bir hareketle başlangıç pozisyonuna dönün.",
+				"help": "a) Hafif hareketler yapın ve kolların geri çekilmesini önleyin. Bu, omzun kaseden çıkmasına neden olabilir.<hr>b) Bu egzersiz bükülmüş dirseklerle yapılır. Bu nedenle göğüs kasları işi yapar, kol kaslarını değil.<hr>c) Kablo geçişi, makaraları omuz yüksekliğinin biraz altına ayarlayarak daha hafif yapılabilir. <br>",
+				"musc": "Kablo geçişi ile birlikte büyük göğüs kasları (pektoralis major) ele alınır. Bu egzersizi yapabilmek için çeşitli destek kasları da kullanılır ve bu nedenle hafifçe eğitilir. Abs ile ilgilidir ve önkollarda flexor carpi ulnaris ve extensor carpi radialis bulunur."
+
+			},
+			{
+				"name": "Push Up ",
+				"image": "img/cat/sine/push-up.gif",
+				"information": "Karnını yere yatır. Elleriniz omuzlarınızın yanına, eller öne bakacak şekilde yerleştirin. Vücudunu, ayak parmakların üstünde tutarak. Kollarınızı maksimuma uzatın. Kollarınızı bükerek başlangıç pozisyonuna dönün. Vücudu yavaşça zeminin hemen üstüne indirin.",
+				"help": "a) Push-up pozisyonuna geldiğinizde tüm vücudunuzu dik tutun.<hr>b) Egzersiz sırasında omuzlarınızı omuz silkmeyin. Bu, kollarınızı daha az stabil yapar.<hr>c) Yeni başlayanlar bu egzersizi ayak parmakları yerine dizler üzerinde de yapabilirler. Bu durumda, sırtınızın düz olduğundan emin olun ve kalçalarınızın bükülmesini önleyin. Aksi takdirde etkisi yoktur.<br>",
+				"musc": "Push-up ile çok sayıda kasları çalıştırıyorsunuz. Vurgu temel olarak büyük göğüs kası (pektoralis majör), omuzların üst tarafında (anterior anterior), omuz kuşağı (serratus anterior) ve üst kolların (triceps brachii) sırtındadır. Ek olarak, bir dizi dengeleyici kas, egzersizi gerçekleştirmeye yardımcı olur. Yoğun bir şekilde eğitilmemelerine rağmen, teşvik edilirler. Ön kollarda farklı kaslar bulunur (ekstansör carpi radialis longus, ekstansör carpi radialis brevis ve ekstansör carpi ulnaris). Üst kolların iç kısmında bu coracobrachialis'dir. Omuzların arkasında, rotator manşeti, dengeleyici işlevlere sahiptir ve sırt tarafında, bu eşkenar dörtgen kaslar için geçerlidir."
+
+			},
+			{
+				"name": "Chest Dip ",
+				"image": "img/cat/sine/chest-dip.gif",
+				"information": "Paralel çubuklarin arasinda durun ve barlarin bel yüksekligine ulasmasi için adimi kullanin.Çubuklari iki elinizle kavrayin.Dirseklerini uzat ve dizlerini bük.Ayaklarinizi basamaktan kaldirin.Simdi dirsekleriniz 90 derecelik bir açiya gelene kadar kendinizi yavasça indirin.Kendinizi tekrar baslangiç pozisyonuna dogru itin.",
+				"help": "a) Egzersiz muhtemelen ekstra ağırlıkta bir dip kemer takılarak ağırlaştırılabilir.<hr>b) Büyük göğüs kası ve trisepsinde çatlaklara yol açabileceğinden aşırı kilo kullanmayın.<hr>c) Göğüs kaslarını eğitmek için öne eğilmek. tricepsleri eğitmek için dik durun.<br>",
+				"musc": "Chest dip haraketi  ile özellikle büyük göğüs kası (pektoralis major) ve omuzların etrafındaki üçgen kası (anterior deltoid) eğitilir. Triceps brachii (arka üst kollar) da yoğun bir şekilde eğitilmiştir. Ek olarak, birkaç destekleyici kas hafifçe eğitilmiştir. Bunlar önkollardaki şu kaslardır: ekstansör carpi radialis (önkol dış) ve ekstansör carpi ulnaris."
+			}
+		],
+
+		"arm-musc":
+		[
+
+				{
+					"name":"Dumbbell Concentration Curl",
+					"image": "img/cat/qol/dumbbell-concentration-curl.gif",
+					"information": "Bir fitness bankına, tabureye ve ya sandalyeye oturun. Halteri ayaklarınızın arasına yerleştirin.Halterinizi avuçlarınız sizden uzağa bakacak şekilde tutun.Avucunuz omzunuza bakana kadar kolunuzu yukarı kaldırın. Kolunuz tamamen uzayana kadar ağırlığı tekrar indirin.",
+					"help": "a) Bu alıştırma izolasyonda yapılmalıdır. Bu, antrenman sırasında elbette antrenman yaptığınız kol dışında tüm vücudun sessiz olması gerektiği anlamına gelir <hr>b) Göğsünüzden dönüş veya kalkmayı önleyin. Bu durumda, o zaman ağırlık çok ağır.<hr>c) Diğer elinizi destek için uyluğunuza koyun.<br>",
+					"musc":"Bu izolasyon egzersizi ile hedeflenen şekilde üç kası çalıştırıyorsunuz. Üst kolda bu esas olarak brachialis'tir. Bu, öndeki dirsek eklemi üzerinden geçen bir fleksör kasıdır. Dumbbell konsantrasyonu kıvrılmalarında da büyük ölçüde ele alınan biseps brachii altında üst kolun iç kısmında bulunur. Sonunda brachioradialis'i eğitiyorsun. Bu kolun ön kısmındaki kolla kaplı kas. Önkolların iç kısmında üst kısımda bulunur. Ek olarak, bazı dengeleyici kaslar onunla çalışır. Bunlar kollardaki fleksör carpi radialis ve fleksör carpi ulnaris'tir. Ön deltoid omuzda hafifçe eğitilmiştir."
+				},
+				{
+					"name":"Barbell Wrist Curl",
+					"image": "img/cat/qol/barbell-wrist-curl.gif",
+					"information": "Bir fitness bankının ortasına oturun, öne dogru eğin ve ön kollarınızı bankta dinlendirin.Halteri omuz genişliğinden biraz daha az elinizle kavrayın. Avuçlarınız yukarı dönük.Kollarınızı, fitness tezgahında, bileklerinizi sonuna kadar dinlendirin.Artık fitness tezgahına dokunmadan bileklerinizi yere çevirebilirsiniz. Şimdi halteri yere indirin ve çubuğun avuç içinde parmaklara dogru dönmesine izin verin.",
+					"help": "a)Bilek bükme kaslarına karşı direnci korumak için bileklerinizi ve dirseklerinizi aynı yükseklikte tutun. <hr>b) Zemin yüzeyinin boş olduğundan emin olun. Halter elinizden kayarsa, başkalarına dokunmadan kayabilir.<hr>c) Ellerin dışındaki vücut parçalarının hareketlerinden kaçının.<br>",
+					"musc":"Barbell wrist curl, öncelikle el fleksörlerini eğitmeye odaklanır. Bunlar, ön kollardaki ellerimizin hareket etmesini sağlayan kaslardır. Kesin olarak, radyal el kıvrımı olarak da bilinen flexor carpi radialis'i çalıştırıyorsunuz. Bu kas, ön kolun sağ tarafında çapraz olarak uzanır. Ayrıca ön kolun sol tarafında yer alan flexor carpi ulnaris'i de eğitiyorsunuz. Son olarak, flexor digitorum da hafifçe eğitilmiştir. Bu parmakların hareketine yardımcı olan bir kastır."
+				}
+				,
+				{
+					"name":"Dumbbell Triceps Extension",
+					"image": "img/cat/qol/dumbbell-triceps-extension.gif",
+					"information": "Bacaklariniz hafifce birbirinden ayrı ve ayaklarınız hafifce dize bakacak şekilde dik durun. Halterin bir tarafında her iki avuç içi olan bir halter alın. Elleriniz artık dambıl tarafının iç tarafında V şeklindedir.Dirseklerinizi sabit tutun ve halteri başınızın arkasına getirin. Dirsekleriniz hareketin sonunda biraz hareket etsin.",
+					"help": "a) dumbbell triceps extension ile sırtınızın egzersiz boyunca düz olması amaçlanmıştır. Bunun için absini sıkın. <hr>b) Ağırlığı yavaşça indirin ve kontrollü bir hareket sağlayın.<hr>c) Çok fazla kilo alarak kas yetmezliğinden kaçının. Ağırlık boynunuza düşebilir.<br>",
+					"musc": "Bir çok sporcu, pazı (ön üst kollar) iyi eğitilirken triceps'i eğitmeyi unutma eğilimindedir. Her ikisinin de dikkat etmesi gerekir, çünkü tricepsler pazıların zıt işini yapar: triceps önkolu uzatır ve pazı önkolu esnetir. Halter triceps uzantısıyla triceps brachii'ye ek olarak aynı zamanda fleksör karpi ulnaris (önkolların altı), deltoid (omuzların üstü), pektoralis major (büyük göğüs kasları) ve latissimus dorsi'nin (geniş sırt kasları) antremanı yapabilirsiniz. Kısacası, aynı anda farklı kasları çalıştırmak için etkili bir egzersiz."
+				}
+				,
+				{
+					"name":"Dumbbell Kickback",
+					"image": "img/cat/qol/dumbbell-kickback.gif",
+					"information": "Elinize yaslanın ve dizinizi stabilizasyon için kullanın.Diğer ayağınızı kanepenin yanındakı yere yerleştirin. Bacağınızla kanepe arasında bir boşluk bırakın. Şimdi kolunuzu tamamen uzayana ve geriye doğru çıkana kadar dirseğinizden uzatın.Ağırlığı yavasça başlanğıç konumuna indirin.",
+					"help": "a) Hareketi kolundan yap. Vücudunuzun ağırlığını taşımasına yardım etmesini önleyin.<hr>b) Dirseğinizin daima yanınızın yanında durduğundan emin olun.<hr>c) Egzersiz sırasında önünüzdeki bir metreden bir noktaya bakın.<br>",
+					"musc": "Dumbbell kickback egzersizinde  özellikle triceps brachii eğitilmiştir. Ek olarak, eğitilmiş ve bir egzersiz sırasında çok fazla etkinlik anlamına gelen üç stabilize edici kas vardır. Destekleyici kaslar posterior deltoid (omuzlar) ve uzatıcı carpi ulnaris'tir (iç önkol). Latissimus dorsi (geniş sırt kası) da hafifçe eğitilmiştir."
+				}
+				,
+				{
+					"name":"Barbell Biceps Curl",
+					"image": "img/cat/qol/Barbell-biceps-curl.gif",
+					"information": "Ayaklariniz omuz genisliginde ve dizler hafifçe bükülmüş olarak düz bir zeminde durun. Şimdi ön kollarınız dikey olana kadar halterinizi üst bedeninize doğru kaldırın.Kollarınız tekrar gerilinceye kadar çubugu yavaşça tekrar indirin.",
+					"help": "a) Pazı kıvırmak dirseklerinizle sürekli yanınızda yapılmalıdır.<hr>b) En iyi sonuçlar vücudu mümkün olduğunca sabit tutarak elde edilir. Bu nedenle, vücudunuzu sabit tutmak için kalça ve karın kaslarınızı sıkın.<hr>c) Vücudunuz hızlandırmak için çok hareket ettiğinde, halter aşırı yüklenmiş olur. Alt sırtınız daha sonra yüklenir ve bu, yaralanma riskini arttırır.<br>",
+					"musc": "Barbell biceps curl haraketi, üst kolların ön kısmını (biseps brachii), dirsek ekleminin önünü (brachialis) ve alt kol kasını (brachioradialis) eğitmeye odaklanır. Ek olarak, önkol ve omuzlardaki bazı dengeleyici kaslar ele alınır. Omuzlarda, sırtın üstündeki elmas şeklindeki kas (trapezius) ve üst koldaki delta şeklindeki kas (anterior deltoid) vardır. Önkolların iç kısmında bunlar, flexor carpi radialis ve flexor carpi ulnaris'dir."
+				},
+				{
+					"name":"Chest Dip",
+					"image": "img/cat/qol/chest-dip.gif",
+					"information": "Paralel çubukların arasında durun ve barların bel yüksekliğine ulaşması için kullanın. Çubukları iki elinizle kavrayın. Dirseklerinizi uzatın ve dizlerini bükün. Ayaklarınızı basamaktan kaldırın. Şimdi dirsekleriniz 90 derecelik bir açıya gelene kadar kendinizi yavaşça indirin. Kendinizi tekrar başlanğıç pozisyonuna doğru itin.",
+					"help": "a) Egzersiz muhtemelen ekstra ağırlıkta bir dip kemer takılarak ağırlaştırılabilir.<hr>b) Büyük göğüs kası ve trisepsinde çatlaklara yol açabileceğinden aşırı kilo kullanmayın.<hr>c) Göğüs kaslarını eğitmek için öne eğilmek. tricepsleri eğitmek için dik durun.<br>",
+					"musc": "Chest dip haraketi  ile özellikle büyük göğüs kası (pektoralis major) ve omuzların etrafındaki üçgen kası (anterior deltoid) eğitilir. Triceps brachii (arka üst kollar) da yoğun bir şekilde eğitilmiştir. Ek olarak, birkaç destekleyici kas hafifçe eğitilmiştir. Bunlar önkollardaki şu kaslardır: ekstansör carpi radialis (önkol dış) ve ekstansör carpi ulnaris."
+				}
+				,
+				{
+					"name":"Chin Up",
+					"image": "img/cat/qol/chin-up.gif",
+					"information": "Aynı anda sırt kaslarını da çalıştırsada tutarkenki el pozisyonunuz iç taraf olsa ön kolu daha çok çalıştırır.",
+					"help": "a) Antrenman sırasında abs'inizi sert  tutun. Aksi halde vücudunu çok sallarsın.<hr>b) Dirsek yaralanmalarını önlemek için yavaşça başlangıç konumuna geri indirin<br>",
+					"musc":"Bununla aktif olarak çalıştırdığınız kaslar aşağıda listelenmiştir. Arkada bunlar eşkenar dörtgen kaslar ve trapez omuz (trapezius). Omuzlarda bunlar delta şeklindeki kas (posterior deltoid) ve yuvarlak kol kaslarıdır (ana ve küçük ana teller). Üst kolların üst tarafında biceps brachii ve brachialis'i, alt kollarda ise brachioradialis kasını  çalıştırıyorsunuz. Ek olarak, diğer bazı kaslar hafifçe eğitilmiştir. Arkada bu infraspinatus, omuzda ise serratus anterior kuşağı. Ve kollarda bunlar fleksör karpi ulnaris, triceps brachii ve ekstansör digitorumdur."
+				}
+				,
+				{
+					"name":"Cable Triceps Pushdown",
+					"image": "img/cat/qol/cable-triceps-pushdown.gif",
+					"information": "Ellerinizi omuz genişliğinden biraz daha az yerleştirin. Kollarınızı gerin ve dirseğiniz yanınızda dururken çubugu yere itin. Şimdi kollarınızı kollarınız neredeyse üst kollariniza değene kadar yavasça geri hareket ettirin.",
+					"help": "a) Egzersiz sırasında sırtınızı dik tutun. Sırtınız sizinle birlikte hareket ettiğinde, ağırlık çok ağırdır ve triseps etkili bir şekilde eğitilmez.<hr>b) Kabloya yakın durun, böylece egzersiz boyunca yeterli dayanıklılığa sahip olursunuz.<hr>c) Bir ayağını diğerinin önüne koyarak daha fazla stabilite elde edilebilir.<br>",
+					"musc": "İlk etapta, üst kolların arkasında bulunan triceps brachii'yi eğitiyorsunuz. Cable triceps pushdown  de diğer çeşitli kaslara iyi bir ikincil egzersiz sunuyor. Bunlar, egzersizi gerçekleştirmeye yardımcı olan dengeleyici kaslar. Bunlar düz karın kasları (rektus abdomini) ve dış eğik karın kasları (oblik externus abdomini) 'dir. Büyük pektoralis major (pektoralis major) de hafifçe eğitilmiştir. Ön kollarda, el fleksörleri (flexor carpi radialis ve flexor carpi ulnaris) iyi bir ikincil egzersiz yapar."
+				}
+		],
+		"shoulder-musc":
+		[
+
+				{
+					"name": "Dumbbell Shoulder Press",
+					"image": "img/cat/omuz/dumbbell-shoulder-press.gif",
+					"information": "Bir fitness bankına oturun ve dikey olarak yerleştirilmiş sırt dayanağına sıkıca oturun. Ayaklarınızı ayırın ve her bir elinizde bir halter alın. Halterleri kulak yüksekliğinde avuç içi öne bakacak şekilde tutun. Şimdi kollarınızı başınızın üstüne kadar uzatıncaya kadar halterleri yukarı itin. Halterler başınızın üzerinde bir araya gelsin, ancak halterlerin birbirine değmesine izin vermeyin. Halterleri yavaşça başlangıç pozisyonuna getirin.",
+					"help": "a) Bu haraketi yaparken kavisli bir sırttan kaçının. Karın kaslarınızı sıkılaştırarak bunu önleyebilirsiniz.<hr>b) Egzersizin maksimum etki etmesi için halterlerin birbirine temas etmesine izin vermeyin.<hr>c) Ağır ağırlıklarla antrenman yaparken, kas arızası sırasında halterin başınıza düşmesini önlemek için bir gözcü yararlı olabilir.<br>",
+					"musc": "Bu egzersiz öncelikle ön ve yan deltoid kaslarının antremanına odaklanmaktadır. Bu omuzların üstünde yer almaktadır. Stabilize kaslar, biseps brakii (üst kol üst tarafı), triceps brachii (üst kol arka), serratus anterior ve serratus anterior (omuz kuşağı) ve trapezius'tur (sırtın üzerinde elmas şeklindeki kas). Halterleri başın üstünde kaldırabilmek için, bagajın dengeleyici kapasitesine de başvurulur. Dambıl omuz basın ile, abs de eğitilmiştir."
+
+				},
+				{
+					"name": "Barbell Front Raise",
+					"image": "img/cat/omuz/Barbell-front-raise.gif",
+					"information": "Ayaklarınız omuz genişliğinde ve ayaklarınız hafifçe bükülmüş olarak dik durun. Halteri elleriniz omuz genişliğinde olacak şekilde tutun. Avuçlarınız size bakıyor. Dirsekleriniz çok hafif düz şekilde bükülmüş. Şimdi kollarınızı, omuzlarınızın yüksekliğine ulaşana kadar öne ve yukarı doğru kaldırarak kaldırın. Ağırlığı yavaşça başlangıç konumuna indirin. Halterin bacaklarınıza temas etmesini önleyin.",
+					"help": "a) Barbell front raise gövdesi düz bir konumda yapılmalıdır.<hr>b) Vücudunuzu egzersiz yaparken yardımcı olmak zorunda kalmaktan koruyun.<hr>c) Egzersiz sırtınızla duvara da yapılabilir.<hr>d) Egzersiz sırasında dümdüz ileri bakmaya devam edin. <hr>e) Halter omuz yüksekliğinden daha yüksek olmayabilir.<br>",
+					"musc": "Barbell front raise başlangıçta ön deltoid kasların (omuzların) antremanına odaklanır. Ayrıca, diğer çeşitli kaslar da eğitilmiştir. Omuzlarda bunlar trapezius ve lateral deltoiddir. Egzersizi yapmak için, ön kollardaki aşağıdaki kaslar yardımcı olur: extensor carpi radialis ve extensor carpi ulnaris. Son olarak, düz karın kası (rektus abdominisi) de önemli bir çaba ile başa çıkmak zorundadır."
+
+				},
+				{
+					"name": "Dumbbell Rear Fly",
+					"image": "img/cat/omuz/dumbbell-rear-fly.gif",
+					"information": "Bir fitness bankının sonuna oturun. Bir sandalye veya sandık da kullanabilirsiniz. Öne doğru eğilin ve vücudunuzun uyluklarınıza yaslanmasına izin verin. Ayaklarının yanındaki halterleri al. Avuçlarınız içeriye dönük. Şimdi dirsekleriniz omuz hizasında oluncaya kadar ellerinizi yukarı ve yana doğru kaldırın. Ağırlığı yavaşça başlangıç pozisyonuna getirin. Halterlerin bacaklarınıza temas etmesine izin vermeyin.",
+					"help": "a) Dirseklerinizin omuz yüksekliğinden daha yüksek olmasına izin vermeyin. Bu, egzersiz için bir anlam ifade etmiyor ve aşırı yüklenmeye neden olabilir.<hr>b) Halter arkasını, yaralanmaları önlemek için hafifçe bükülmüş dirseklerle yapın.<hr>c) Dambıllerin bacaklara temas etmesini önleyin ve bacaklarınıza vurmalarına izin vermeyin.<br>",
+					"musc": "Bu sözde bileşik egzersizde  farklı kaslar eğitilmiştir. Bu, sadece tek bir egzersiz sırasında çok fazla etkinlik anlamına gelir. Dumbbell rear fly haraketi ile odak, omuzların hemen altında, üst sırtın iki tarafında bulunan arka deltoid üzerindedir. Ek olarak, bir dizi dengeleyici kas eğitilmiştir. Bunlar arkada ve omuzlarda trapezius (üst sırtın üst tarafı), eşkenar dörtgen kaslar (trapeziusun altı), küçük dişler (omuz bıçaklarının dış kenarı) ve infraspinatus (omuz bıçakları). Son olarak, triceps brachii (üst kolların altı) da eğitim alır."
+
+				}
+		],
+
+		"back-musc":
+		[
+			{
+				"name": "Barbell Shrug Back",
+				"image": "img/cat/sirt/Barbell-shrug-back.gif",
+				"information": "Ayak omuz genişliğiniz ve düz dizlerinizle, halterin önünde durun. Ellerin omuz genişliğiyle halteri al. Avuçlarınız size dönük ve dirsekleriniz düz. Kollarınız uzanmış şekilde dik duruyorsunuz. Bu senin başlangıç pozisyonun. Şimdi omuzlarını indir. Ardından, halteri kulaklarınıza kaldırarak düz olarak yukarı çekin. Halteri yavaşça başlangıç pozisyonuna getirin.",
+				"help": "a) Daha ağır ağırlıklarla antrenman yaparken, silkmek (halter) raf yardımı ile yapılması tavsiye edilir. Halteri başlangıç pozisyonunuz hakkında bilgilendirin. <hr>b) Egzersiz sırasında omuzlarınızı yuvarlamanıza gerek yoktur. Aşağı ve yukarı doğru düz bir hareket yeterlidir.<hr>c) Halterleri daima vücudunuza karşı sıkı tutun.<br>",
+				"musc": "Trapezius halter omuz silkme ile eğitilmiştir. Bu sırtın üst tarafındaki elmas şeklindeki kastır. Vurgu, trapeziusun üst tarafındadır ve levator skapulaları (omuz bıçağının boyuna doğru kaldırılması) yardımcı olur. Ele alınan diğer kaslar, fleksör dijitorum (önkolun arkası), fleksör pollicis longus (ön kolun arkası) ve alt sırtındaki erector spinae'dir. Kısacası: Bu, aynı anda farklı kasları çalıştırmak için etkili bir egzersizdir."
+
+			},
+			{
+				"name": "Dumbbell Pullover",
+				"image": "img/cat/sirt/dumbbell-pullover.gif",
+				"information": "İki elinizle bir halter alın (halterin kenarına doğru tutun). Düz bir fitness bankında arkanıza yaslanın. Ayaklarınız yere temas eder ve başınız sonunda görünür. Şimdi kollarını dümdüz yukarı itin ve yüzünüzün üstüne uzatın. Şimdi dumbbell'i yavaşça başınızın üzerine geri getirin. Göğsünüze ve omuzlarınıza çekildiğini hissettiğinizde hareketi durdurun. Ağırlığı yavaşça başlangıç pozisyonuna getirin.",
+				"help": "a) Sırtınızı dik tutmak için karın kasınızı sıkın. Sırtın boş kalmamalı.<hr>b) Dirseklerinizi daima aynı konumda tutun: hafifçe bükülmüş ve omuzlarınızla hizalı.<hr>c) Ne kadar uzatabileceğiniz esnekliğinize bağlıdır. Göğsünüze ve omuzlarınıza çekildiğini hissettiğinizde hareketi durdurun.<br>",
+				"musc": "Ana göğüs kasları (pektoralis majör) ve geniş sırt kasları (latissimus dorsi) ağırlıklı olarak bu haraket ile eğitilir. Diğer çeşitli kaslar egzersizi gerçekleştirmeye yardımcı olur ve bu nedenle derhal ele alınır. Eğitilen destekleyici kaslar arasında triceps (üst kolların alt kısmında), düz karın kası (rektus abdominisi) ve büyük gluteal kaslar (glutaus maximus) bulunur. Kısacası: Bu, çok fazla etkinliğe sahip bir egzersizdir."
+
+			},
+			{
+				"name": "Dumbbell Rear Fly",
+				"image": "img/cat/sirt/dumbbell-rear-fly.gif",
+				"information": "Bir fitness bankının sonuna oturun. Bir sandalye veya sandık da kullanabilirsiniz. Öne doğru eğilin ve vücudunuzun uyluklarınıza yaslanmasına izin verin. Ayaklarının yanındaki halterleri al. Avuçlarınız içeriye dönük. Şimdi dirsekleriniz omuz hizasında oluncaya kadar ellerinizi yukarı ve yana doğru kaldırın. Ağırlığı yavaşça başlangıç pozisyonuna getirin. Halterlerin bacaklarınıza temas etmesine izin vermeyin.",
+				"help": "a) Dirseklerinizin omuz yüksekliğinden daha yüksek olmasına izin vermeyin. Bu, egzersiz için bir anlam ifade etmiyor ve aşırı yüklenmeye neden olabilir.<hr>b) Halter arkasını, yaralanmaları önlemek için hafifçe bükülmüş dirseklerle yapın.<hr>c) Dambıllerin bacaklara temas etmesini önleyin ve bacaklarınıza vurmalarına izin vermeyin.<br>",
+				"musc": "Bu sözde bileşik egzersizde  farklı kaslar eğitilmiştir. Bu, sadece tek bir egzersiz sırasında çok fazla etkinlik anlamına gelir. Dumbbell rear fly haraketi ile odak, omuzların hemen altında, üst sırtın iki tarafında bulunan arka deltoid üzerindedir. Ek olarak, bir dizi dengeleyici kas eğitilmiştir. Bunlar arkada ve omuzlarda trapezius (üst sırtın üst tarafı), eşkenar dörtgen kaslar (trapeziusun altı), küçük dişler (omuz bıçaklarının dış kenarı) ve infraspinatus (omuz bıçakları). Son olarak, triceps brachii (üst kolların altı) da eğitim alır."
+
+			},
+			{
+				"name": "Dumbbell Single Arm Row",
+				"image": "img/cat/sirt/dumbbell-single-arm-row.gif",
+				"information": "Düz bir fitness tezgahı kullanın. Dizinizi ve destek kolunuzun elini fitness tezgahının kenarına yerleştirin. Üst gövdenin zeminde yatay olduğundan emin olun. Diğer ayağınızı kanepenin yanındaki yere yerleştirin. Ayağını stabilite için bir kenara koy. Dumbbell'i serbest elinizle alın ve avuç içinde fitness tezgahına bakacak şekilde tutun. Şimdi dumbbell'i gövdesine gelene kadar yukarı çekin. Hareket sırasında, kolunuz dirseğiniz belinizden biraz yukarıda olana kadar yanınızda hareket eder. Şimdi ağırlığı yavaşça başlangıç pozisyonuna getirin. İstediğiniz tekrar sayısını yapın ve ardından kol başlangıç pozisyonunu değiştirin.",
+				"help": "a) Bu egzersiz sırasında vücudunuzla mümkün olduğunca az hareket edin. Hareket, üst bedeninizden değil kolunuzdan gelmelidir.<hr>b) Haraketi  gerçekleştirirken, daima önünüzdeki bir metre kadar, zemindeki bir noktaya bakın.<hr>c) Vücudunuzun her iki tarafı için aynı egzersiz yükünü sağlayın.<br>",
+				"musc": "Halter tekli kol sırası ile sırt kasları (latissimus dorsi ve eşkenar dörtgen kaslar), sırt omuz kasları (deltoid kaslar) ve üst kolların önü (pazılar) eğitilir. Ek olarak, üst sırttaki elmas şeklindeki kas (trapezius), üst kolların arkasındaki kas (ana büyük tırtıllar) ve dirsek eklemi üzerindeki ön kısım (brachialis) de bu egzersizde eğitilmiştir. Kısacası: Tek bir egzersizde aynı anda farklı kasları çalıştırıyorsunuz."
+
+			},
+			{
+				"name": "Barbell-bent-over-row",
+				"image": "img/cat/sirt/Barbell-bent-over-row.gif",
+				"information": "Halter önünüzde yerde. Halterle yüz yüze gidin. Halteri avuç içi gövdeye bakacak şekilde ve omuz genişliğinden biraz daha fazla tutun. Ayaklarınızı omuz genişliğine yerleştirin ve dizlerinizi hafifçe bükün. Sırtını dik tut. Dizleriniz halterin hemen üstüne gelinceye kadar kalçalarınızdan kıvrılın. Halterleri dirsekleriniz yerin gövdesine yakın olacak şekilde çekin. Halteri göbeğinize doğru hareket ettirin ancak dokunmayın. Halteri tekrar başlangıç konumuna indirin, ancak yere dokunmayın.",
+				"help": "a) Satır üstündeki halter düz bir sırt ile yapılmalıdır. Asla sırtınızı oyuk veya yuvarlak hale getirmeyin, çünkü bu yaralanma riskini arttırır.<hr>b) Bu egzersiz sırasında gözlerinizi önünüzdeki yaklaşık iki metre önünde bir noktaya odaklayın.<hr>c) İsteğe bağlı olarak, halteri avuçlarınızla kendinizden uzağa hareket ettirerek değişir. Bununla pazı eğitmeye daha çok önem veriyorsunuz.<br>",
+				"musc": "Bu haraketde  özellikle sırtın üstündeki kasları çalıştırıyorsunuz. Bu, geniş sırt kası (latissimus dorsi), omuz etrafındaki üçgen kası (arka deltoid), omuz kılığındaki kas (infraspinatus) ve üst kolların önü (pazı) ile ilgilidir. Bu egzersizde de eğitilmiş olan kaslar, alt sırttaki sırt gergisi (erector spinae) ve arka bacak kaslarıdır (hamstrings)."
+
+			},
+			{
+				"name": "Chin Up",
+				"image": "img/cat/sirt/chin-up.gif",
+				"information": "Çubuğu ellerinizin omuz genişliğiyle kavrayın. Avuç içi vücudunla karşı karşıya. Hafifçe bükülmüş dizlerle çubuğa asın. Kafanı dik tut. Çenenizi çubuğun üstüne gelinceye kadar vücudunuzu yumuşak bir hareketle çekin. Sonra vücudunuzu yavaşça başlangıç pozisyonuna indirin. Vücudunuz başlangıç pozisyonundayken kollarınız tamamen uzar.",
+				"help": "a) Antrenman sırasında abs'inizi sert  tutun. Aksi halde vücudunu çok sallarsın.<hr>b) Dirsek yaralanmalarını önlemek için yavaşça başlangıç konumuna geri indirin <br>",
+				"musc": "Bununla aktif olarak çalıştırdığınız kaslar aşağıda listelenmiştir. Arkada bunlar eşkenar dörtgen kaslar ve trapez omuz (trapezius). Omuzlarda bunlar delta şeklindeki kas (posterior deltoid) ve yuvarlak kol kaslarıdır (ana ve küçük ana teller). Üst kolların üst tarafında biceps brachii ve brachialis'i, alt kollarda ise brachioradialis kasını  çalıştırıyorsunuz. Ek olarak, diğer bazı kaslar hafifçe eğitilmiştir. Arkada bu infraspinatus, omuzda ise serratus anterior kuşağı. Ve kollarda bunlar fleksör karpi ulnaris, triceps brachii ve ekstansör digitorumdur."
+
+			},
+			{
+				"name": "Cable Lat Pulldown",
+				"image": "img/cat/sirt/cable-lat-pulldown.gif",
+				"information": "Bankta otur ve sırtını dik tut. Uyluklarınızı sıkıca silindirlerin altına yerleştirin. Çubuğu omuz genişliğinden biraz daha fazla tutun. Avuç içi vücudun kapalı. Çubuğu çenenizin altına indirin ve omuz bıçaklarınızı birbirine sıkın. Kollarınız tekrar düz oluncaya kadar ağırlığı yavaşça indirin.",
+				"help": "a) Çubuğu başınızın arkasına çekmeyin. Bunun omuz kapsülü üzerinde yarattığı gerilim yaralanmalara neden olabilir.<hr>b) Bu egzersizi düz bir sırtla yapın ve sırtınıza yaslanmayın.<hr>c) Bu egzersiz ellerinizi çubuğun omuz genişliğinden daha azına ve avuç içi size bakacak şekilde yerleştirerek daha hafif yapılabilir. <br>",
+				"musc": "Bu haraket ile, tek bir egzersiz sırasında çok sayıda kasları çalıştırırsınız. Vurgu, geniş sırt kası (latissimus dorsi) ve büyük yuvarlak kol kası (ana teres ana) eğitimi üzerinedir. Ek olarak, üst kollardaki bazı kaslar etkili bir eğitim alır. Bunlar pazı brachii (ön üst kol), brachialis (ön dirsek eklemi), brachioradialis (kol-bacak bacak kası) ve posterior deltoid (omuzların etrafındaki üçgen kası). Son olarak, bir dizi dengeleyici kaslar birlikte çalışır. Bunlar arasında ekstansör digitorum (üst önkol), üst sırttaki farklı kaslar (trapezius, eşkenar dörtgen, eşkenar dörtgen ana), tensör fascia lata (ön kalçalar), triceps brachii (arka üst kollar) ve infraspinatus (omuz kanadının dibi) bulunur."
+
+			}
+		],
+		"sixpack-musc":
+		[
+			{
+				"name": "Bridge Decline",
+				"image": "img/cat/karin/Bridge-decline.gif",
+				"information": "Fitness minderi üzerine sırt üstü uzanın. Ellerini vücudunun yanına koy. Şimdi dizlerinizi vücudunuza doğru eğin ve ayaklarınızı yere düz bir şekilde yerleştirin. Karın ve kalça kaslarınızı sıkın ve topuklarınıza baskı uygulayın. Kalçalarını yerden kaldır ve gövdesini yukarı kaldır. Kalçalarınızın üst bedeninizle düz bir çizgi oluşturduğundan emin olun. Bu pozisyonda 20 ila 30 saniye kalın. Kaslarınız yorulduğunda yere geri dönün. Egzersizi tekrarlayın.",
+				"help": "a) Köprüyü sakin hareketlerle yapın. Çok hızlı düşmeyin, çünkü bu yaralanmalara neden olabilir.<hr>b) Bir içbükey veya dışbükey geri kaçının. Karın ve kalça kaslarını sıkarak daima sabit bir düz pozisyon sağlayın.<hr>c) Bu egzersiz, karnınıza fazladan ağırlık verilerek daha ağır şekilde eğitilebilir.<br>",
+				"musc": "Köprü, öncelikle, abs(karın kasları) ve bel kaslarını çalıştırmaya odaklanmaktadır. Bu egzersizde aşağıdaki karın kaslarına değinilir: düz karın kasları (rektus abdominisi), iç oblik karın kasları (eğik internus abdomini) ve dış eğik karın kasları (eğik eksterus abdomini). Alt sırtta, bölünmüş sırt kası (multifidus) ve sırt gerdiricisi (erector spinae) ele alınır. Son olarak, büyük gluteal kaslar (glutaeus maximus) ayrıca sıkı bir antrenman alır."
+
+			},
+			{
+				"name": "Crunch",
+				"image": "img/cat/karin/crunch.gif",
+				"information": "Bir spor minderinde sırtınızla uzanın. Ayaklarınızı kalçalarınıza doğru hareket ettirin ve yere düz bir şekilde koyun. Bacaklarınız artık zeminde hayali bir üçgen oluşturmalıdır. Ellerini arkana koy. Kollarınız öne doğru değil, yana doğru yönlendirilir. Nefes al. Şimdi abs'inizi sıkın ve yumuşak bir hareketle başınızı, omuzlarınızı ve omuz bıçaklarınızı yerden kaldırın. Zeminden fazla uzaklaşmayın ve yavaşça alçaltın. Nefes verin.",
+				"help": "a) Sırtınızı içi boş veya yuvarlak yapmayın, ancak her zaman sırtınızın düz olduğundan emin olun.<hr>b) Hareket midenden gelmeli. Bu yüzden başınızı ellerinizin boynunuzun arkasında olacak şekilde kaldırmayın.<hr>c) Elleriniz omuzlarınızda olacak şekilde ellerinizi göğsünüzün üzerinden geçirerek kıtlık hafifleşir.<hr>d) Egzersizi daha hafif kılmanın başka bir yolu da ayaklarınızı bir kanepenin altına sıkıştırmaktır.<br>",
+				"musc": "Crunch öncelikle farklı karın kaslarını eğitmeye odaklanıyor. Bu egzersiz özellikle aşağıdaki karın kaslarına yöneliktir: düz karın kası (rektus abdomini), dış eğik karın kası (eğik externus abdomini) ve iç eğik karın kası (eğik internus abdomini). Eğitilmiş olan destekleyici kaslar büyük gluteal kaslardır (glutaeus maximus) ve uylukların önündeki rektus femoris."
+
+			},
+			{
+				"name": "Plank",
+				"image": "img/cat/karin/plank.gif",
+				"information": "Karnınızı yere yatırın ve dirseklerinize ve ayak parmaklarınıza yaslanın. Ellerin omuzlarının önünde sıkılıyken dirseklerine yaslan. Vücudunuzu, sadece ayak parmaklarınıza ve ön kollarınıza yaslanacak şekilde yükseltin. Aşağıya bak ve sırtını dik tut. Bu, tüm vücudunuzun baştan topuğa düz olması gerektiği anlamına gelir. Bir içbükey veya dışbükey geri kaçının. Bu pozisyonu bir süre basılı tutun. 15 saniye ile başlayın ve süresi yavaş yavaş arttırın. İsteğe bağlı olarak, kısa aralıklarla birden fazla set gerçekleştirin.",
+				"help": "a) Alt sırtın düz tutulması önemlidir.<hr>b) Başlangıçta konumunuzu kontrol edin.<hr>c) Yeni başlayanlar bu egzersizi ayak parmakları yerine dizler üzerinde de yapabilirler. Bu egzersiz yapmak için kolay yapar.<br>",
+				"musc": "Plank haraketi, sözde bir bileşik alıştırmasıdır . Bu, tek seferde farklı kasları çalıştırdığınız anlamına gelir. Plank haraketi ile esas olarak çok sayıda önemli kasla mücadele edersiniz. Bunlar düz karın kası (rektus abdomini), iç oblik karın kası (eğik internus abdomini) ve dış eğik karın kası (eğik eksterus abdomini) 'dir. Ek olarak, omuzlarda, alt sırtta ve kalçalarda çeşitli dengeleyici kaslar çalışır."
+
+			},
+			{
+				"name": "Band Bicycle Crunch",
+				"image": "img/cat/karin/band-bicycle-crunch.gif",
+				"information": "Askıları ayaklarınızın etrafına yerleştirin. Sırtınızı yere bastırarak yere yaslayın. Gövde kaslarınızı sıkın. Ellerinizi başınızın arkasına gevşetin. Dizlerinizi 45 derecelik bir açıyla kaldırın. Bacaklarınızla bir bisiklet hareketi yapın. Her zaman karşı dizinizi dirsekle vurmak için bir dönüş yapın.",
+				"help": "a) Derin absleri daima omurgaya doğru çekerek omurgayı nötr pozisyonda tutun.<hr>b) Çeneyi göğsüne taşımaktan kaçının.<hr>c) Tüm egzersiz boyunca rahat bir boyun sağlayın.<br>",
+				"musc": "Bisiklet egzersizi bileşik bir egzersizdir . Bu, egzersiz sırasında farklı kaslara yönelik anlamına gelir. Bu egzersiz temel olarak düz karın kası (rektus abdominisi), iç oblik abs (eğik internus karın kası), dış eğik karın (eğik eksterus karın kemiği) ve enine karın kası (enine karın kası) üzerinde durmaktadır. Ek olarak, çeşitli dengeleyici kaslar işbirliği yapar. Bunlar büyük gluteal kaslar (glutaeus maximus), hamstrings (arka uyluk), rectus femoris ve sartorius (her ikisi de ön uyluk)."
+
+			}
+		],
+		"leg-musc":
+		[
+			{
+				"name": "Barbell Romanian Deadlift",
+				"image": "img/cat/ayaq/barbell-romanian-deadlift.gif",
+				"information": "Ayaklarınızı omuz genişliğinden daha az tutun ve bir halter alın. Avuçlarınız vücudunuza bakıyor ve onları uyluklarınızın hemen dışındaki halterin üzerine yerleştiriyorsunuz. Dizlerinizi hafif bir açıyla bükün ve bu açıyı kaldırırken tuttuğunuzdan emin olun. Halterleri vücuda yakın tutun ve kollarınızı dik tutun. Çubuk dizinizin hemen altına düşene kadar kalçalarınızdan bükülerek üst bedeninizi şimdi indirin",
+				"help": "a) Dizlerinizi kaldırırken aynı açıda bükülmüş halde tutun ve sırtınızı dik tutun. Vücudunuzu daima sakince ve kontrollü bir şekilde indirin.<hr> b) Bu egzersizi normal Deadlift'ten daha az ağırlıkla yapın. <hr> c) Tekniği kontrol altına almak için yeni başlayanlar ilk önce bu egzersizi ağırlıksız daha iyi yapabilirler.",
+				"musc":"Barbell Romen deadlift ile, bacaklarda ve kalçalarda farklı kaslar ele alınır. Vurgu büyük gluteal kaslara (glutaeus maximus) ve uylukların arkasındaki çeşitli kaslaradır. Kesin olmak gerekirse, semimembranosus, semitendinosus ve biceps femoris ile ilgilidir. Bu kaslar hamstrings bir parçasıdır. Son olarak, erector spinae (arka sedye) de hafifçe eğitilmiştir."
+			},
+			{
+				"name": "Barbell Deadlift",
+				"image": "img/cat/ayaq/barbell-deadlift.gif",
+				"information": "Önünüzdeki zemine bir halter yerleştirin ve ayaklarınız omuz genişliğinde olacak şekilde önünde durun. Dizlerinizi indirin ve halterinizi karışık bir kavrama ile kavrayabilene kadar sırtınızı ve kollarınızı düz tutun. Bir avuç size doğru bakarken, diğer avuç sizden uzağa bakar. Ellerin biraz dizlerinin dışında.Kendinizi sıkı tutun ve ayağa kalkana kadar dizlerinizi ve kalçalarınızı gerin. Hareketin en yüksek noktasında omuzlarınızı kulağınıza yaklaştırın sonra  göğsünüzü öne doğru açın. Omuzlarınızı alçaltın, dizlerinizi bükün ve halterinizi yavaşça yere indirin. Halterin yere temas etmesini önleyin.",
+				"help": "a) Egzersiz boyunca sırtınızı dik tutun. Bir içbükey veya dışbükey geri kaçının.<hr>b) Başlangıçta çok fazla ağırlık alma. Önce hareketi kontrol edin, sonra yavaşça ağırlığı yükseltin.<hr>c) Egzersiz sırasında zemine bakmayın, önünüzdeki yaklaşık iki metre zemindeki bir noktaya odaklanın",
+				"musc":"Bu haraketi yaparken, büyük gluteal kaslar (glutaeus maximus) ve üst bacakların önü (vastus lateralis) ele alınır. Ek olarak, çeşitli destekleyici kaslar ele alınmaktadır. Yani, biseps femorisi (arka uyluklar), semimembranosus (arka uyluklar), semitendinosus (arka uyluklar), adductors (arka uyluklar) ve erector spinae (uzun düz sırt kasları). Kısacası: Bu, aynı anda farklı kasları eğitmek için etkili bir egzersizdir."
+			},
+			{
+				"name": "Dumbbell Squat",
+				"image": "img/cat/ayaq/dumbbell-squat.gif",
+				"information": "Dambılları alın ve ayaklarınız omuz genişliğinde durun. Dambılları vücudunuzun yanında uzanmış kolları ve avuçlarınız size dönük olacak şekilde tutun. Tüm egzersiz boyunca duvardaki bir noktaya dümdüz bir şekilde bakın. Uyluklarınız zeminde yatay olana kadar dizlerinizi bükün. Şimdi bacaklarınız tamamen uzayana kadar yavaşça tekrar yükselin.",
+				"help": "a) Bu egzersiz sırasında ileriye bakmaya devam edin.<hr>b) Topuklarınızın yerden çıkmasını önleyin. Bu durumda, indirmeyi bırakmanız gerekir.<hr>c) Halter çömelmesini sakin hareketlerle yapın. Alçalırken bacaklarınızı bükmeniz gerekmez.<hr>d) Uyluklarınızı zeminden yataydan daha yükseğe indirmeyin.",
+				"musc": "Bu haraketi yaparken  büyük gluteal kasları (glutaeus maximus), üst bacakların önünü (rectus femoris) ve kuadrisepsleri eğitmektir. Bu, üst bacakların çoğuna yayılan dört başlı uyluk kasıdır. Daha spesifik olarak, uyluk aşağıdaki kasları içerir: vastus intermedius, vastus intermedius ve vastus medialis. Dumbbell boduruyla eğitilmiş diğer kaslar üst bacaklardaki eklemlerdir. Kısacası: Bu egzersizle bacaklarda ve kalçalarda çok sayıda kası zorlarsınız."
+			},
+			{
+				"name": "Barbell Lunge",
+				"image": "img/cat/ayaq/Barbell-lunge.gif",
+				"information": "Ayakda tam dik dur. Halter boynunuzun hemen altına, sırtınızın üst kısmına yerleştirin. Halteri avuçlarınız sizden uzakta olacak şekilde omuz genişliğinden biraz fazla tutun. Tek bacakla ileri doğru büyük bir adım atın ve ayağınızı yere düz bir şekilde koyun. Parmakların öne dönük olucak. Ön dizinizi ve ardından arka dizinizi de bükün. Vücut bu hareket nedeniyle yere doğru batıyor. Arka bacak zemine yatay gelene kadar indirmeyi durdurun. Ağırlık şimdi ayağınızın üzerinde. Şimdi kendini ön bacağından geçir. Egzersizi tekrarlayın ve birkaç tekrarın ardından ayağı değiştirin.",
+				"help": "a) Halteri boynunuza değil, sadece boynunuzun altına, sırtınızın üst kısmına yerleştirmeniz önemlidir.<hr>b) Tüm egzersiz sırasında dümdüz ileri bakın.<hr>c) Gövdenin sabit bir pozisyonda olduğundan emin olun ve mümkün olduğunca az hareket ettirin.<hr>d) Her zaman iki ayağı üzerinde daima aynı yük ile çalışın.<br>",
+				"musc":"Barbell Lunge  haraketinde farklı kaslar, özellikle büyük kalça kasları ve uyluk önündeki kaslar çalıştırılır. Glutaeus maximus (büyük gluteal kaslar), indüktör magnus (büyük uyluk kasları), vastus medialis ve vastus lateralis (ön uyluk bacakları) konusunda kesin olmalıdır. Adductor brevis ve vastus intermedius (iç uyluktaki kaslar) da ele alınmaktadır. Kısacası: Barbell-lunge bacakların ve kalçaların büyük bölümleriyle mücadele eden etkili bir egzersizdir."
+			},
+			{
+				"name": "Barbell Step Up",
+				"image": "img/cat/ayaq/Barbell-step-up.gif",
+				"information": "20 ila 40 santimetre yüksekliğe sahip bir tezgah veya göğsün önünde durun. Ayaklarınızı yan yana yerleştirin ve boynunuzun hemen altına, üst sırtınızda bir halter yerleştirin. Dümdüz ileri bak ve sırtını dik tut. Şimdi bir bacağınızı yerden kaldırın ve bu bacağınızla tezgah veya göğsün üstüne çıkın. Diğer ayağını yanına koy. İlk ayağınızı tekrar hareket ettirin ve diğer ayağınızı takip edin.",
+				"help": "a) Halteri boynunuza doğru yerleştirmeyin, ancak boynunuzun hemen altına, sırtınızın üst kısmına yerleştirin. <hr>b) Halter basamağı sakin ve eşit bir hızda gerçekleştirilmelidir<hr>c) Birkaç tekrardan sonra daima ikinci bir set yapın. Şimdi diğer bacağını ilk önce kanepeye ya da göğse koy.<hr>d) Sadece bacaklarınızla hareket edin ve egzersizi düz bir sırtla yapın.<hr>e) Egzersizi ekstra ağırlıkla veya daha yüksek bir bank veya göğsüne basarak daha da zorlaştırabilirsiniz.<br>",
+				"musc":"Barbell-step-up  haraketi ile alt gövdenin büyük bir bölümünü eğitmeye başladınız. Egzersiz, büyük gluteal kaslara (glutaeus maximus), üst bacakların yan kaslarına (vastus lateralis), üst bacakların ön tarafına (vastus medialis) ve baldırlara (gastrocnemius ve soleus) odaklanır. Küçük bir bonus olarak, biceps femoris (arka uyluk) kooperatif kas olarak da yetiştirilir."
+			},
+			{
+				"name": "Dumbbell Standing Calf Raise",
+				"image": "img/cat/ayaq/dumbbell-standing-calf-raise.gif",
+				"information": "Ayaklarınızı kalın bir tahta veya basamak gibi bir platformun üzerinde durun.ayak uçlarınızı platforma üzerine öyle yerleştirin ki topuklarınız ayak uçlarına nisbeten aşağıda kalsın. Dik durun ve dumbellleri düz bir şekilde kollarınızla vücudunuz boyunca tutun. Halter, uyluklarınızın yanında bulunsun.Şimdi ayak uçlarınızın üzerine dikelin ve topuklarınız yukarı kalksın. Şimdi  topuklarınızı yükseltinin altına indirerek kendinizi mümkün olduğunca aşağı indirin.",
+				"help": "a) Bu hareket sırasında esnemeyi önleyin. Hareket, başka hareketler olmadan sakince ve kontrollü bir şekilde gerçekleştirilmelidir.<hr>b) Hareket ayaklarından gelmeli. Dizlerinizin ve kalçalarınızın düz olduğundan daima emin olun.<hr>c) Dambıl ayakta baldır yükseltmek usta, ağırlıksız bir merdiven başlayabilirsiniz. Daha sonra, elinizi merdiven korkuluğuna yerleştirerek dengelenmeyi sağlayabilirsiniz.<br>",
+				"musc": "Dumbbell Standing Calf Raise ile, baldırlarda altı kastan daha az egzersiz olmaz. Bunlar dana (soleus), uzun kavernöz fleksör (fleksör halüsis longus), uzun ayak fleksör (fleksör digitorum longus), arka tibial kas (tibialis posterior) ve taban (plantaris) altındaki yüzeyel baldır kası (gastrocnemius). Kısacası: Baldırdakı  tüm önemli kaslar bu egzersizle ele alınır."
+			},
+			{
+				"name": "Leg Press",
+				"image": "img/cat/ayaq/leg-press.gif",
+				"information": "Leg Press cihazına oturun. Kolları kavrayın. Arkanıza yaslanın ve ayaklarınızı plakaya yerleştirin. Ayaklarınız hafifçe dışa doğru yönlendirilir. Ağırlığı hafifçe yükseltmek için plakaya basınç uygulayın. Ardından güvenlik mandallarını serbest bırakın. Plakayı yavaşça ve rahatça gövdeye indirin. Bacaklarınızı tamamen uzayana kadar yavaşça yukarı itin. Ağırlığı kontrollü bir şekilde başlangıç pozisyonuna getirin.",
+				"help": "a) Yaralanmaları önlemek için, ağırlığı kontrollü bir şekilde azaltmak önemlidir.<hr>b) Maksimum sonuç için, ağırlığı mümkün olan en geniş aralıkta yukarı ve aşağı hareket ettirmek önemlidir.<hr>c) Bu alıştırmada ustalaşmak için yeni başlayanlar plakayı serinin sadece ilk çeyreğine indirebilir.<br>",
+				"musc": "Leg Press ile  bacaklarda ve kalçalarda farklı kaslar eğitilir. İlk olarak, bu egzersiz kuadriseps ve büyük gluteal kasların (glutaeus maximus) antremanına odaklanmaktadır. Ek olarak, farklı kaslar üst bacakların ön ve iç kısımlarında yoğun olarak eğitilir. Uylukların önünde bunlar vastus medialis, vastus lateralis ve vastus intermedius'tur. Üst bacakların iç kısmındaki kaslar, endüktör magnus, endüktör breviler ve endüktör longus'tur."
+			},
+			{
+				"name": "Leg Extension",
+				"image": "img/cat/ayaq/leg-extension.gif",
+				"information": "Leg-extension cihazına oturun. Dizlerinizin arkasını, koltuğun kenarına ve diz eklemlerinize, kaldırma çubuğunun üst kısmı bacaklarınız arasına yerleştirin. Kaldırma çubuğunun ucundaki makaraların ayak bileklerinizin hemen ön tarafında olduğundan emin olun. Şimdi bacağına yaslan. Düz duruncaya kadar bacaklarınızı kaldırın. Vücudunuz dik duruyor ve ayaklarınız ileriye dönük. Yavaşça (işaretli) ağırlığı başlangıç konumuna getirin.",
+				"help": "a) Bacaklarınızı çok hızlı indirmeyin ve üst vücudunuzu dik tutun. <hr>b) Bacaklarınızı tamamen dümdüz olana kadar maksimuma çıkarın. Sonra onları yavaşça tekrar indirin. <hr>c) Ayak bileği ağırlıkları yardımıyla, bu egzersiz bir cihaz olmadan da (hafif biçimde) gerçekleştirilebilir.<br>",
+				"musc":"Bu egzersizle uylukların önünde büyük bir kütle oluşturan kuadrisepslerle mücadele edilir. Kuadriseps, diz eklemini kontrol etmek için en önemli işleve sahiptir. Kuadriseps önemli bir kas kütlesi oluşturabilir, örneğin bisikletçiler, futbolcular ve patenciler bu durum böyle olabilir. Hepsi bacak uzatmasıyla ilgili dört bölümden oluşur. Özellikle eğitilmiş rektus femoris, vastus medialis, vastus lateralis ve vastus intermedius ile ilgilidir."
+			},
+			{
+				"name": "Lying Leg Curl",
+				"image": "img/cat/ayaq/lying-leg-curl.gif",
+				"information": "Lying-leg-curl cihazının üstüne yat. Dizleriniz yastığın kenarından hafifçe dışarı taşmalı ve diz eklemleriniz kaldırma çubuğunun üstüyle aynı hizada olmalıdır. Silindiri, ayak bileklerinin hemen yukarısındaki kaldırma çubuğunun arkasına yerleştirin. Bacaklarınızı mümkün olduğunca kalçalarınıza doğru hareket ettirin. Şimdi yavaşça başlangıç pozisyonuna dönün. Bu hareket iki veya üç saniye sürmelidir. Vücudunuzun daima bankayla temas halinde kaldığından emin olun.",
+				"help": "a) Ağırlığı çok hızlı bir şekilde başlangıç pozisyonuna getirmeyin.<hr>b) Kalçalar hareket sırasında çok fazla bükülmemelidir.<hr>c) Maksimum etki için bacakları olabildiğince kalçalara doğru hareket ettirin.<br>",
+				"musc":"Bu haraket  ile üst bacakların arkasındaki kaslar özellikle eğitilir. İki başlı uyluk kası (biseps femoris), yarı kaslı kas (semimembranosus) ve yarı kaslı kas (semitendinosus) ile ilgilidir. Ek olarak, terzi kasları (sartorius) uyluk dışına ve yüzeyel baldır kaslarına (gastrocnemius) hafifçe eğitilmiştir."
+			},
+			{
+				"name": "Barbell Squat",
+				"image": "img/cat/ayaq/Barbell-squat.gif",
+				"information": "Ayaklarınızı omuz genişliğinde birbirinden ayırın ve ayaklarınızı hafifçe yerleştirin. Halteri boynunuzun arkasındaki omuzların üzerine getirin ve halterin boynunuzun hemen altına, sırtınızın üstünde durmasına izin verin. Halteri iki elinizle tutun. Ellerinizi omuz genişliğinden biraz daha uzağa yerleştirin. Dümdüz ileri bak ve aşağı bakma. Egzersiz boyunca dümdüz ileri bakmaya devam edin. Dizlerini bük ve yavaşça kendini yere indir. Topuklarını daima yerde tut. Uyluklarınız yerden yatay olarak durduğunda durun. Bundan sonra bacaklarınızı başlangıç pozisyonuna kadar güçlü bir hareketle gerin.",
+				"help": "a) Barbell squat ile sırt daima düz durmalıdır. İçi boş veya dışbükey sırt yaralanmaya neden olabilir.<hr>b) Dizler yukarı doğru uzanırken hareket etmemelidir, küçük parmağının yönünü takip etmeliler.<hr>c) Halter boynunun arkasına yerleştirmeyin ve topukları daima yerde tutun.<br>",
+				"musc": "Barbell squat, alt gövdeyi güçlendirmek için daha iyi egzersizlerden biridir. Bu egzersizde birçok kas aynı anda çalıştırılır. Halter ağzı, esas olarak dört başlı uyluk kaslarına (aracı, vastus lateralis ve vastus medialis de dahil olmak üzere quadriceps vastus) ve büyük gluteal kaslara (glutaeus maximus) odaklanır. Ayrıca eğitilmiş olan kaslar hamstrings (sırt uyluk kasları) ve alt sırt kaslarıdır."
+			}
+		]
+	},
+	"az":
+	{
+		"chest-musc":
+		[
+			{
+				"name": "Dumbbell Chest Press",
+				"image": "img/cat/sine/dumbbell-chest-press.gif",
+				"information": "Divanın kənarında oturun və ştanqı dizlərinizə qoyun. Barkonu çiyinlərinizə gətirin və sonra divanda arxanızda uzanın. Dumbbellləri ovuclarınıza baxaraq sinənizin hər iki tərəfində saxlayın. bədəniniz və dirsəkləriniz bükülmüşdür Ştanqı yuxarıya doğru uzadın və dirsəklərinizi kiçik bir qövsdə uzadın, ştanqı sinənizdəki bir-birinizə yaxın tutun, ağırlıqları yavaş-yavaş başlanğıc vəziyyətinə gətirin və hiss etdikdə çiyinlərinizə çəkin.",
+				"help": "a) Hərəkəti mənimsəmək üçün yeni başlayanlar ən azı aşağı çəki ilə başlaya bilərlər. <hr> b) Dumbelllərlə yay şəklində hərəkətlər edin. Bu təsir dumbbellləri çiyin enindən aşağı və daha aşağı tutaraq əldə edilir. çiyin eni. <hr> c) Zəmində olan ştanqı məşq etməzdən əvvəl uzandığınız yerdən çıxarmayın. Bu zədələnməyə səbəb ola bilər. <hr> d) Barbellun bir-birinə toxunmasına icazə verməyin.",
+				"musc": "İlk növbədə böyük pektoralis major (pektoralis major) və çiyin bıçağının (ön deltoid) əzələlərini məşq etdirirsiniz. Ştanqı qaldırmaq üçün silahlar ümumiyyətlə yuxarı hissənin arxasındakı əzələlərə əsaslanır. qollar (triceps brachii). Bundan əlavə, dumbbell sinə mətbuatını yerinə yetirmək üçün fərqli əzələlərdən istifadə olunur. Bunlar sabitləşdirici əzələlərdir. Bu, çiyin qurşağının ön serratusudur. Arxada bunlar geniş arxa əzələdir (latissimus dorsi). və rahib əzələsi (trapezius). Üst qollarda bu qarğa sümüyü qol əzələsidir (coracobrachialis). "
+
+			},
+			{
+				"name": "Dumbbell Fly",
+				"image": "img/cat/sine/dumbbell-fly.gif",
+				"information": "Düz bir fitness skamyasından istifadə edin. Dəzgahda uzanın və bir az əyilmiş dirsəklərlə dumbbellləri tutun. Hal-hazırda dumbelllər sinələrin ortasında yüksəkdir, ovuclar bir-birinə baxır. İndi dumbbellları tərəfinizə tərəf sürün. sinə yumşaq bir hərəkətlə. Dirsəklərinizin eyni açıda bir az əyilmiş vəziyyətdə qaldığından əmin olun. Çiyinlərinizdə və sinənizdə çəkmə hissi meydana gəldikdə hərəkəti dayandırın. Sonra yavaş-yavaş dumbbellləri başlanğıc vəziyyətinə qaytarın. bir-birinə toxunmaq. ",
+				"help": "a) Ağırlığı yavaşca artırın. Son vəziyyət çiyin oynağının çox olmasını tələb etdiyi üçün çox çəki istifadə edərkən yaralanma riski var. <hr> b) Dirsəklər hər zaman eyni dərəcədə əyilmiş vəziyyətdə qalmalıdır. dumbbell qanadı kimi bucaq. həmişə çiyinlərinizdə olmalıdır. <br> ",
+				"musc": "Dumbbell milçəyi sözdə mürəkkəb bir məşqdir. Bu da fərqli əzələlərin eyni zamanda işləməsi deməkdir. Əsas göğüs əzələsi (pektoralis major) əsasən təlimlidir. Dəstəkləyən əzələlər deltoid əzələ (çiyinlər), biceps brachii (yuxarı qol), brachioradialis (alt qol aşağı tərəf) və brachialis (yuxarı qol üst tərəf). "
+
+			},
+			{
+				"name": "Dumbbell Pullover",
+				"image": "img/cat/sine/dumbbell-pullover.gif",
+				"information": "İki əlinizlə bir barbell götürün (barbellın kənarına tutun). Düz bir fitness skamyasında geri oturun. Ayaqlarınız yerə toxunur və başınız sonunda görünür. İndi qollarınızı düz yuxarıya doğru itələyin. və onları üzünüzə uzatın. İndi dumbbelli yavaşca başınızın üstünə itələyin. Göğsünüzə və çiyinlərinizə çəkildiyini hiss etdikdə hərəkəti dayandırın. Ağırlığı yavaş-yavaş başlanğıc vəziyyətinə gətirin. ",
+				"help": "a) Belinizi düz tutmaq üçün qarın əzələlərinizi dartın. Arxanız boş olmamalıdır. <hr> b) Dirsəklərinizi həmişə eyni vəziyyətdə saxlayın: yüngülcə əyilmiş və çiyinlərinizə uyğun. <hr> c) Nə qədər uzada biləcəyiniz, elastikliyinizdən asılıdır. Dartıldığını hiss etdikdə hərəkəti dayandırın. <br> ",
+				"musc": "Əsas sinə əzələləri (pektoralis major) və böyük bel əzələləri (latissimus dorsi) bu hərəkətlə ağırlıqlı olaraq təlim görmüşdür. Müxtəlif digər əzələlər məşqləri yerinə yetirməyə kömək edir və bu səbəbdən dərhal müraciət edilir. Təlim edilmiş dəstəkləyici əzələlər arasında trisepslər (yuxarı qol hissəsinin alt qolları), düz qarın əzələsi (rectus abdominis) və böyük gluteal əzələlər (glutaus maximus). Qısası: Bu çox təsirli bir məşqdir. "
+
+			},
+			{
+				"name": "Barbell Bench Press",
+				"image": "img/cat/sine/Barbell-bench-press.gif",
+				"information": "Yatay şəkildə yerləşdirilmiş bir fitness skamyasında kürəyinizlə uzanın. Ştanqı götürün və əllərinizi çiyin enindən biraz daha çox tutun. Ştanqı düz və ovuclarınızla sinənizdən yuxarı saxlayın. Nəfəs alın və dumbbellləri yavaşca aşağı salın. sinə və onun yuxarı hissəsində nəfəs alın və barbell ilə uzun müddət itələyin, qollarınız yenidən uzanana qədər. ",
+				"help": "a) Yeni başlayanlar əvvəlcə bu məşqi ağırlıq lövhəsi olmayan bir ştanqla etməlidirlər. Hərəkəti mənimsədiyiniz zaman ştanqın üzərinə əlavə ağırlıq yükləyə bilərsiniz. <hr> b) Dəzgah presi ilə daima dayağın üstündə durun beliniz düz ikən fitness skamyası. Bu, zədələnmə riskini artırır. <hr> c) Yeni başlayanlar üçün köməkçi istifadə etməsi müdrik ola bilər. Bu, ağır çəkilər istifadə edən təcrübəli idmançılara da aiddir. <hr> d) Həmişə barbell tutun birbaşa sinədə və irəli və ya geri dönməsinə icazə verməyin. <br> ",
+				"musc": "Barbell dəzgah mətbuatı ilk növbədə sinə, çiyin və qol əzələlərinin məşqinə yönəlmişdir. Bu məşqdə böyük sinə əzələsi (depectoralis major), çiyinlər ətrafındakı delta şəklində əzələ (ön deltoid) və yuxarı qol (triceps brachii) gücləndirilir. Manşetlərin və çiyin bıçaqlarının sabitləşdirici əzələləri də öyrədilir. Qısası: dəzgah presi fərqli əzələlərin hazırlanması üçün təsirli bir məşqdir. "
+
+			},
+			{
+				"name": "Cable Crossover",
+				"image": "img/cat/sine/cable-crossover.gif",
+				"information": "Silindirləri başınızdan bir az yuxarıda olacaq şəkildə düzəldin. Kasnaqlar arasında ortada durun. Avuçlarınızı aşağı tutaraq qollarınızı tutun. Çiyinləriniz içəriyə doğru döndü və itburnunuz bir az irəli əyildi. Göğüs əzələlərinizi dartın və hərəkət edin. qollarınızı aşağı və içərinizə. Dirsəklərinizi hərəkət etdirin. yavaş (nəzarətli) bir hərəkətlə başlanğıc vəziyyətinə qayıdın. ",
+				"help": "a) Yumşaq hərəkətlər edin və qollarınızı geri çəkməyin. Bu çiyin qabdan çıxmasına səbəb ola bilər. <hr> b) Bu məşq əyilmiş dirsəklərlə edilir. Buna görə göğüs əzələləri işi yerinə yetirir, yox. qol əzələləri. <hr> c) Kabel keçidi kasnaqları çiyin hündürlüyündən bir az aşağıya düzəldərək yüngülləşdirilə bilər. <br> ",
+				"musc": "Kabelin keçməsi ilə, böyük pektoralis əsas əzələləri idarə olunur. Bu işi həyata keçirmək üçün müxtəlif dəstək əzələləri də istifadə olunur və bu səbəbdən yüngül bir şəkildə öyrədilir. Bu, abs ilə əlaqədardır və ön kollarda flexor carpi ulnaris var və ekstensor carpi radialis. "
+
+			},
+			{
+				"name": "Push up",
+				"image": "img/cat/sine/push-up.gif",
+				"information": "Qarnınızı yerə qoyun. Əllərinizi çiyinlərinizin yanına qoyun, əllərinizi irəli baxın. Bədəninizi ayaq barmaqlarınızın üstündə saxlayın. Qollarınızı maksimuma qədər uzadın. Əllərinizi bükərək başlanğıc vəziyyətinə qayıdın. Yavaş-yavaş aşağı endirin. gövdənin döşəmədən biraz yuxarıda. ",
+				"help": "a) Push-up vəziyyətinə gəldiyiniz zaman bütün bədəninizi düz tutun. <hr> b) İdman zamanı çiyinlərinizi çəkməyin. Bu, qollarınızı daha az sabitləşdirir. <hr> c) Yeni başlayanlar istifadə edirlər bu məşq ayaq barmaqlarının yerinə dizlərdə. Bu vəziyyətdə kürəyinizin düz olduğundan əmin olun və budlarınızı bükməyin. Əks təqdirdə heç bir təsiri yoxdur. <br> ",
+				"musc": "Push-up ilə çox sayda əzələ həyata keçirirsiniz. Vurğu əsasən böyük sinə əzələsi (pektoralis major), çiyinlərin yuxarı tərəfi (ön ön), çiyin qurşağı (serratus anterior) , və yuxarı qolların arxası (triceps brachii) Bir sıra tarazlayıcı əzələlər məşqləri yerinə yetirməyə kömək edir.Güclü şəkildə hazırlanmasa da, stimullaşdırılır.Qollarda fərqli əzələlər var (extensor carpi radialis longus, extensor carpi Çiyinlərin arxasında, rotator manşet sabitləşdirici funksiyalara malikdir və arxa tərəfdə bu, romboid əzələlərə aiddir. "
+
+			},
+			{
+				"name": "Chest Dip",
+				"image": "img/cat/sine/chest-dip.gif",
+				"information": "Paralel çubuqlar arasında dayanın və çubuqların bel hündürlüyünə çatması üçün addımdan istifadə edin. Çubuqları iki əlinizlə tutun. Dirsəklərinizi uzadın və dizlərinizi bükün. Ayaqlarınızı pilləkəndən qaldırın. dirsəklər 90 dərəcə bir açıdadır. Özünüzü başlanğıc vəziyyətinə qaytarın. itələyin.",
+				"help": "a) Əlavə ağır alt kəmər taxmaqla idman ağırlaşa bilər. <hr> b) Böyük göğüs əzələsində və trisepslərdə çatlar əmələ gətirə biləcəyi üçün həddindən artıq çəki istifadə etməyin. <hr> c) irəli əyilmək göğüs əzələlərini yetişdirmək. üç başlı kasları durdurmaq üçün dik. <br> ",
+				"musc": "Döşün alt hərəkəti xüsusilə böyük pektoralis major və çiyinlər ətrafındakı üçbucaq əzələ (ön deltoid) hazırlayır. Üç başlı kaslar (arxa yuxarı qollar) da intensiv şəkildə məşq olunur. Bundan əlavə, bir neçə dəstəkləyici əzələ yüngül şəkildə öyrədilmişdir. Bunlar ön kollardakı aşağıdakı əzələlərdir: ekstensor carpi radialis (xarici ön kol) və ekstansor carpi ulnaris."
+			}
+		],
+
+		"arm-musc":
+		[
+		],
+		"shoulder-musc":
+		[
+		],
+
+		"back-musc":
+		[
+		],
+		"sixpack-musc":
+		[
+		],
+		"leg-musc":
+		[
+		]
+
+	},
+	"en":
+	{
+		"chest-musc":
+		[
+			{
+				"name": "Dumbbell Chest Press",
+				"image": "img/cat/sine/dumbbell-chest-press.gif",
+				"information": "Sit on the edge of the sofa and let the barbell rest on your knees. Bring the barbell to your shoulders and then lie on your back on the sofa. Hold the dumbbells on either side of your chest with your palms facing your body and your elbows bent. Press the barbell up and stretch your elbows in a small arc. . Keep the barbell on your chest close to each other. Bring the weights slowly to the starting position and pull them to your shoulders when you feel it.",
+				"help": "a) To master the movement, beginners can start with a low weight at best. <hr> b) Make bow-shaped movements with dumbbells. This effect is achieved by keeping the dumbbells lower than shoulder width and lower than shoulder width. < hr> c) Do not remove the barbell on the floor from the position you lie down before you do the exercise. This may cause injury. <hr> d) Do not let the barbell touch each other.",
+				"musc": "In the first place, you train the muscles on the sides of the large pectoralis (pectoralis major) and the shoulder blade (anterior deltoid). To lift the barbell, the arms usually rely on the muscles behind the upper arms (triceps brachii). These are the stabilizing muscles. This is the anterior serratus of the shoulder girdle. In the back, these are the broad back muscle (latissimus dorsi) and the monk muscle (trapezius). In the upper arms, this is the ravenbone arm muscle (coracobrachialis). "
+
+			},
+			{
+				"name": "Dumbbell Fly",
+				"image": "img/cat/sine/dumbbell-fly.gif",
+				"information": "Use a straight fitness bench. Lie on the bench and hold the dumbbells with slightly bent elbows. The dumbbells are now high in the middle of the chest, palms facing each other. Now move the dumbbells to the sides of your chest in a gentle motion. Make sure your elbows remain slightly bent at the same angle. When a pulling sensation occurs in front of your shoulders and chest, stop the movement. Then slowly bring the dumbbells to the starting position. Avoid the barbell contact.",
+				"help": "a) Increase the weight slowly. There is a risk of injury when using too much weight as the last position demands a lot of the shoulder joint. <hr> b) The elbows should always remain slightly bent at the same angle as the dumbbell wing. <hr> c) Your arms should always be on your shoulders. <br> ",
+				"musc": "Dumbbell fly is a so-called compound exercise. This means that different muscles work at the same time. The main pectoral muscle (pectoralis major) is mainly trained. Supporting muscles are the deltoid muscle (shoulders), biceps brachii (upper arm), brachioradialis (lower arm lower side) and brachialis (upper arm upper side). "
+
+			},
+			{
+				"name": "Dumbbell Pullover",
+				"image": "img/cat/sine/dumbbell-pullover.gif",
+				"information": "Take a barbell with both hands (hold it against the edge of the barbell). Sit back on a flat fitness bench. Your feet touch the ground and your head is visible at the end. Now push your arms straight up and stretch them over your face. Now gently push the dumbbell over your head. When you feel it pulled against your chest and shoulders, stop the movement. Bring the weight slowly to the starting position. ",
+				"help": "a) Tighten your abdominal muscles to keep your back straight. Your back should not be empty. <hr> b) Always keep your elbows in the same position: slightly bent and in line with your shoulders. <hr> c) How long you can extend depends on your flexibility. stop the movement when you feel it pulled. <br> ",
+				"musc": "The main chest muscles (pectoralis major) and large back muscles (latissimus dorsi) are predominantly trained by this movement. Various other muscles help to perform the exercise and are therefore immediately addressed. Among the trained supporting muscles, the triceps (lower arms section), flat abdominal muscle (rectus abdominis) and large gluteal muscles (glutaus maximus). In short: This is a very efficient exercise. "
+
+			},
+			{
+				"name": "Barbell Bench Press",
+				"image": "img/cat/sine/Barbell-bench-press.gif",
+				"information": "Lie with your back on a horizontally placed fitness bench. Take the barbell and hold your hands slightly more than shoulder width apart. Hold the barbell with your arms straight and palms just above your chest. Inhale and slowly lower the dumbbells to the chest and just above it Exhale and push with a barbell for a long time until your arms are stretched again. ",
+				"help": "a) Beginners should do this exercise first with a barbell without a weight plate. When you master the movement, you can add extra weight on the barbell. <hr> b) With the bench press, always stand on the fitness bench while your back is straight. This increases the risk of injury. <hr> c) It may be wise for beginners to use an assistant. This also applies to experienced athletes using heavy weights. <hr> d) Always hold the barbell directly on the chest and forward or don't let it wander back. <br> ",
+				"musc": "The barbell bench press focuses primarily on exercising the chest, shoulder and arm muscles. In this exercise, the large chest muscle (depectoralis major), the delta-shaped muscle around the shoulders (anterior deltoid) and the back of the upper arm (triceps brachii) are strengthened. The stabilizing muscles of the cuff and shoulder blade are also trained. In short: bench press is an effective exercise for training different muscles."
+
+			},
+			{
+				"name": "Cable Crossover",
+				"image": "img/cat/sine/cable-crossover.gif",
+				"information": "Adjust the rollers so that they are slightly above your head. Stand in the middle between the pulleys. Hold your arms with the palms down. Your shoulders turned inward and your hips bent slightly forward. Tighten your pectoral muscles and move your arms down and in. Move your elbows. return to the starting position in a slow (controlled) motion. ",
+				"help": "a) Make gentle movements and avoid pulling back the arms. This may cause the shoulder to protrude from the bowl. <hr> b) This exercise is done with bent elbows. Therefore the pectoral muscles do the job, not the arm muscles. <hr> c ) Cable passage can be made lighter by adjusting the pulleys slightly below shoulder height.",
+				"musc": "With the passage of the cable, the large pectoralis major muscles are handled. Various support muscles are also used to perform this exercise and are therefore lightly trained. It is related to the abs, and the forearms have flexor carpi ulnaris and extensor carpi radialis."
+
+			},
+			{
+				"name": "Push Up",
+				"image": "img/cat/sine/push-up.gif",
+				"information": "Lay your stomach on the floor. Place your hands beside your shoulders, hands facing forward. Keeping your body above your toes. Extend your arms to the maximum. Return to the starting position by bending your arms. Slowly lower your body just above the floor.",
+				"help": "a) When you come to the push-up position, keep your whole body straight. <hr> b) Do not shrug your shoulders during exercise. This makes your arms less stable. <hr> c) Beginners use this exercise on the knees instead of the toes. In this case, make sure your back is straight and avoid bending your hips. Otherwise it has no effect. <br> ",
+				"musc": "You are exercising a large number of muscles with push-up. The emphasis is mainly on the large chest muscle (pectoralis major), the upper side of the shoulders (anterior anterior), the shoulder girdle (serratus anterior), and the back of the upper arms (triceps brachii). A number of balancing muscles help to perform the exercise. Although they are not intensely trained, they are stimulated. There are different muscles in the forearms (extensor carpi radialis longus, extensor carpi radialis brevis, and extensor carpi ulnaris) .In the inner part of the upper arms this is coracobrachialis. Behind the shoulders, the rotator cuff has stabilizing functions, and on the back, this applies to the rhomboid muscles. "
+
+			},
+			{
+				"name": "Chest Dip",
+				"image": "img/cat/sine/chest-dip.gif",
+				"information": "Stand between the parallel bars and use the step to make the bars reach waist height. Grasp the bars with both hands. Extend your elbows and bend your knees. Raise your feet from the step. Now lower yourself slowly until your elbows are at a 90-degree angle. Move yourself back to the starting position. push. ",
+				"help": "a) Exercise can possibly be aggravated by wearing an extra heavy bottom belt. <hr> b) Do not use excessive weight as it can lead to cracks in the large pectoral muscle and triceps. <hr> c) leaning forward to train the pectoral muscles. upright to train the triceps. stop. <br> ",
+				"musc": "Chest bottom movement trains especially the large pectoralis major and the triangular muscle around the shoulders (anterior deltoid). The triceps brachii (hind upper arms) are also intensely trained. In addition, a few supporting muscles are lightly trained. These are the following muscles in the forearms: extensor carpi radialis (outer forearm) and extensor carpi ulnaris."
+			}
+
+		],
+
+		"arm-musc":
+		[
+
+			{
+			"name": "Dumbbell Concentration Curl",
+			"image": "img/cat/qol/dumbbell-concentration-curl.gif",
+			"information": "Sit on a fitness bench, stool or chair. Place the barbell between your feet. Hold your halter with your palms facing away from you. Raise your arm up until your palm is facing your shoulder. Lower the weight again until your arm is fully extended.",
+			"help": "a) This exercise should be done in isolation. This means that the whole body should be quiet during training, except of course the arm you are training <hr> b) Avoid turning or rising from your chest. In this case, then the weight is too heavy. <hr > c) Put your other hand on your thigh for support. <br> ",
+			"musc": "With this isolation exercise, you train three muscles in the targeted manner. In the upper arm, this is mainly the brachialis. This is a flexor muscle that passes over the elbow joint in the front. Dumbbell concentration is also in the inner part of the upper arm under the biceps brachii, which is also largely addressed in flexing. At the end you train the brachioradialis. This is the arm-covered muscle in the forearm. It is located in the upper part of the inner part of the forearms. In addition, some stabilizing muscles work with it. These are the flexor carpi radialis in the arms and the flexor carpi ulnaris. The anterior deltoid shoulder is lightly trained. "
+			},
+			{
+			"name": "Barbell Wrist Curl",
+			"image": "img/cat/qol/barbell-wrist-curl.gif",
+			"information": "Sit in the center of a fitness bench, lean forward and rest your forearms on the bench. Grasp the hip with your hand a little less than shoulder-width apart. Your palms up. Rest your wrists fully on the fitness bench. You can now turn your wrists to the floor without touching the fitness bench. . Now lower the barbell to the ground and let the bar rotate in the palm towards the fingers. ",
+			"help": "a) Keep your wrists and elbows at the same height to maintain resistance against wrist bending muscles. <hr> b) Make sure the floor surface is free. If the barbell slips out of your hand, it may slide without touching others. <hr> c) Body parts outside the hands Avoid their movements. <br> ",
+			"musc": "The Barbell wrist curl focuses primarily on training the hand flexors. These are the muscles in the forearms that allow our hands to move. To be precise, you are exercising the flexor carpi radialis, also known as the radial hand fold. This muscle crosses the right side of the forearm. You also train the flexor carpi ulnaris on the left side of the forearm. Finally, the flexor digitorum is also lightly trained. This is a muscle that helps the movement of the fingers."
+			},
+			{
+			"name": "Dumbbell Triceps Extension",
+			"image": "img/cat/qol/dumbbell-triceps-extension.gif",
+			"information": "Stand straight with your legs slightly apart and your feet slightly towards the knee. Take a barbell with both palms on one side of the barbell. Your hands are now V-shaped on the inside of the dumbbell side. Keep your elbows still and bring the barbell behind your head. Move your elbows. finally let it move a little. ",
+			"help": "a) the dumbbell triceps extension is intended to keep your back straight throughout the exercise. For this, tighten your abs. <hr> b) Lower the weight slowly and maintain a controlled movement. <hr> c) Avoid muscle failure by gaining too much weight. The weight may fall on your neck. <br> ",
+			"musc": "Many athletes tend to forget to train the triceps while their biceps (forearms) are well trained. They both need to pay attention because the triceps do the opposite job of the biceps: the triceps stretches the forearm and the biceps stretches the forearm. The triceps with the barbell triceps extension. In addition to the brachii, you can also train the flexor carpi ulnaris (below the forearms), the deltoid (above the shoulders), the pectoralis major (large pectoral muscles) and the latissimus dorsi (broad back muscles). In short, it is effective to train different muscles at the same time. an exercise. "
+			}
+			,
+			{
+			"name": "Dumbbell Kickback",
+			"image": "img/cat/qol/dumbbell-kickback.gif",
+			"information": "Lean on your hand and use your knee for stabilization. Place your other foot on the floor next to the sofa. Leave a gap between your leg and the sofa. Now extend your arm at your elbow until it is fully extended and backwards. Lower the weight slowly to the starting position.",
+			"help": "a) Do the movement by your arm. Prevent your body from helping to carry your weight. <hr> b) Make sure your elbow is always next to you. <hr> c) Look at a point from a meter in front of you during exercise. <br>",
+			"musc": "The triceps brachii are specially trained in the dumbbell kickback exercise. In addition, there are three stabilizing muscles that are trained and mean a lot of activity during a workout. The supporting muscles are the posterior deltoid (shoulders) and the extensor carpi ulnaris (inner forearm). The latissimus dorsi (broad back muscle) is also lightly trained. "
+			}
+			,
+			{
+			"name": "Barbell Biceps Curl",
+			"image": "img/cat/qol/Barbell-biceps-curl.gif",
+			"information": "Stand on a flat surface with your feet shoulder-width apart and knees slightly bent. Now lift your barbell towards your upper body until your forearms are vertical. Lower the bar slowly again until your arms are stretched again.",
+			"help": "a) Bending your biceps should be done with your elbows at your side. <hr> b) The best results are achieved by keeping the body as steady as possible. Therefore, tighten your hip and abdominal muscles to keep your body stable. <hr> c) Speeding up your body When you move too much for you, the barbell becomes overloaded. Your lower back is then loaded and this increases the risk of injury.",
+			"musc": "Barbell biceps curl movement focuses on training the forearm of the upper arms (biceps brachii), the front of the elbow joint (brachialis), and the lower arm muscle (brachioradialis). In addition, some balancing muscles in the forearm and shoulders are discussed. the diamond-shaped muscle (trapezius) on the top and the delta-shaped muscle (anterior deltoid) in the upper arm. On the inside of the forearms, these are the flexor carpi radialis and the flexor carpi ulnaris."
+			},
+			{
+			"name": "Chest Dip",
+			"image": "img/cat/qol/chest-dip.gif",
+			"information": "Stand between parallel bars and use them to reach waist height. Grasp the bars with both hands. Extend your elbows and bend your knees. Lift your feet off the step. Now lower yourself slowly until your elbows are at a 90-degree angle. Push yourself back into the starting position.",
+			"help": "a) Exercise can possibly be aggravated by wearing an extra heavy bottom belt. <hr> b) Do not use excessive weight as it can lead to cracks in the large pectoral muscle and triceps. <hr> c) leaning forward to train the pectoral muscles. stop. <br> ",
+			"musc": "Chest bottom movement trains especially the large pectoralis major and the triangular muscle around the shoulders (anterior deltoid). The triceps brachii (hind upper arms) are also intensely trained. In addition, a few supporting muscles are lightly trained. These are the following muscles in the forearms: extensor carpi radialis (outer forearm) and extensor carpi ulnaris."
+			}
+			,
+			{
+			"name": "Chin Up",
+			"image": "img/cat/qol/chin-up.gif",
+			"information": "Even if you work the back muscles at the same time, if your hand position is inside, it will work the forearm more.",
+			"help": "a) Keep your abs stiff during training. Otherwise, you will shake your body a lot. <hr> b) To avoid elbow injuries, slowly lower it back to the starting position <br>",
+			"musc": "The muscles that you actively train with this are listed below. In the back, these are the rhombus muscles and the trapezius shoulder. In the shoulders, these are the delta-shaped muscle (posterior deltoid) and the round arm muscles (main and small main strings). On the upper arms. You train the biceps brachii and brachialis, and the brachioradialis muscle in the lower arms. In addition, some other muscles are lightly trained. In the back, this is the infraspinatus, and in the shoulder, the serratus anterior belt."
+			}
+			,
+			{
+			"name": "Cable Triceps Pushdown",
+			"image": "img/cat/qol/cable-triceps-pushdown.gif",
+			"information": "Place your hands a little less than shoulder-width apart. Stretch out your arms and push the bar into the floor with your elbow at your side. Now move your arms back slowly until your arms almost touch your upper arms.",
+			"help": "a) Keep your back straight during exercise. When your back moves with you, the weight is too heavy and the triceps are not trained effectively. <hr> b) Stay close to the cable so you have sufficient endurance throughout the exercise. <hr> c ) Greater stability can be achieved by putting one foot in front of the other. <br> ",
+			"musc": "In the first place, you train the triceps brachii, which is located behind the upper arms. The cable triceps pushdown also offers a good secondary exercise to various other muscles. These are the stabilizing muscles that help to perform the exercise. These are the smooth abdominal muscles (rectus abdomini) and the outer oblique abdominal muscles (oblique externus abdomini). The large pectoralis major (pectoralis major) is also lightly trained. For forearms, hand flexors (flexor carpi radialis and flexor carpi ulnaris) perform a good secondary exercise. "
+			}
+			],
+			"shoulder-musc":
+			[
+
+			{
+			"name": "Dumbbell Shoulder Press",
+			"image": "img/cat/shoulder/dumbbell-shoulder-press.gif",
+			"information": "Sit on a fitness bench and sit firmly on the vertically positioned backrest. Separate your feet and take a barbell in each hand. Hold the barbell at ear height with the palms facing forward. Now push the dumbbells up until your arms reach the top of your head. Dumbbells. get together on your head, but don't let the barbell touch each other. Bring the barbell slowly to the starting position. ",
+			"help": "a) Avoid a curved back while doing this movement. You can prevent this by tightening your abdominal muscles. <hr> b) Do not allow the dumbbells to touch each other for maximum effect of the exercise. <hr> c) Muscle breakdown when training with heavy weights. It may be helpful to have a lookout to prevent the barbell from falling on your head while you are running. <br> ",
+			"musc": "This exercise focuses primarily on training the anterior and lateral deltoid muscles. This is located above the shoulders. Stabilized muscles, biceps brachia (upper arm upper part), triceps brachii (upper arm posterior), serratus anterior and serratus anterior (shoulder girdle. ) and the trapezius (diamond-shaped muscle on the back). In order to raise the dumbbells above the head, the balancing capacity of the trunk is also used. With the dumbbell shoulder press, the abs are also trained. "
+
+			},
+			{
+			"name": "Barbell Front Raise",
+			"image": "img/cat/shoulder/Barbell-front-raise.gif",
+			"information": "Stand straight with your feet shoulder-width apart and your feet slightly bent. Hold the barbell with your hands shoulder-width apart. Your palms are facing you. Your elbows are slightly bent straight. Now lift your arms forward and up until you reach the height of your shoulders. slowly lower it to the starting position. Prevent the barbell from touching your legs. ",
+			"help": "a) Barbell front raise should be done in a straight position. <hr> b) Protect your body from having to help while exercising. <hr> c) Exercise can also be done on the wall with your back. <hr> d) Straight forward during exercise keep looking. <hr> e) Barbell may not be higher than shoulder height. <br> ",
+			"musc": "Barbell front raise initially focuses on the training of the anterior deltoid muscles (shoulders). In addition, various other muscles are also trained. In the shoulders, these are the trapezius and the lateral deltoid. The following muscles in the forearms help to exercise: the extensor carpi radialis and the extensor carpi Ulnaris. Finally, the flat abdominal muscle (rectus abdomini) also has to cope with considerable effort."
+
+			},
+			{
+			"name": "Dumbbell Rear Fly",
+			"image": "img/cat/shoulder/dumbbell-rear-fly.gif",
+			"information": "Sit at the end of a fitness bench. You can also use a chair or chest. Lean forward and let your body rest on your thighs. Take the dumbbells by your feet. Your palms are turned in. Now raise your hands up and to the side until your elbows are at shoulder level. Bring the weight slowly to the starting position. Do not let the barbell touch your legs. ",
+			"help": "a) Don't let your elbows be higher than shoulder height. This makes no sense for exercise and may cause overload. <hr> b) Do the back of the barbell with slightly bent elbows to avoid injuries. <hr> c ) Prevent dumbbells from touching the legs and do not let them hit your legs. <br> ",
+			"musc": "In this so-called compound exercise, different muscles are trained. This means a lot of activity during just one exercise. With the dumbbell rear fly motion, the focus is on the rear deltoid on either side of the upper back, just below the shoulders. In addition, a The knee stabilizer muscles are trained: the trapezius (upper side of the upper back), the rhombus (below the trapezius), the small teeth (the outer edge of the shoulder blades) and the infraspinatus (shoulder blades) in the back and shoulders.Finally, the triceps brachii (under the upper arms). also gets training. "
+
+			}
+			],
+
+			"back-musc":
+			[
+			{
+			"name": "Barbell Shrug Back",
+			"image": "img/cat/sirt/Barbell-shrug-back.gif",
+			"information": "Stand in front of the barbell with your feet shoulder-width apart and straight knees. Take the barbell with your hands shoulder-width apart. Your palms are facing you and your elbows are straight. You stand straight with your arms outstretched. This is your starting position. Now lower your shoulders. Then, raise the barbell to your ears and straight. Slowly bring the barbell to the starting position. ",
+			"help": "a) When training with heavier weights, it is recommended to do the shrug (barbell) with the help of the rack. Inform the weightlifting about your starting position. <hr> b) You do not need to roll your shoulders during the exercise. A straight up and down movement is sufficient. . <hr> c) Always hold the dumbbells tight against your body. <br> ",
+			"musc": "The trapezius barbell is trained with a shrug. This is the diamond-shaped muscle on the upper back. The emphasis is on the upper part of the trapezius and the levator scapulae help. Other muscles to be considered are the flexor digit (back of the forearm), The flexor pollicis longus (the back of the forearm) and the erector spinae on the lower back. In short: This is an effective exercise to work different muscles at the same time."
+
+			},
+			{
+			"name": "Dumbbell Pullover",
+			"image": "img/cat/sirt/dumbbell-pullover.gif",
+			"information": "Take a barbell with both hands (hold it against the edge of the barbell). Sit back on a flat fitness bench. Your feet touch the ground and your head will appear at the end. Now push your arms straight up and stretch them over your face. Now gently push the dumbbell over your head. When you feel it pulled against your chest and shoulders, stop the movement. Bring the weight slowly to the starting position. ",
+			"help": "a) Tighten your abdominal muscles to keep your back straight. Your back should not be empty. <hr> b) Always keep your elbows in the same position: slightly bent and aligned with your shoulders. <hr> c) How long you can stretch depends on your flexibility. stop the movement when you feel it pulled. <br> ",
+			"musc": "The main chest muscles (pectoralis major) and large back muscles (latissimus dorsi) are predominantly trained by this movement. The various other muscles help to perform the exercise and are therefore immediately addressed. Among the trained supporting muscles, the triceps (lower arms section), flat abdominal muscle (rectus abdominis) and large gluteal muscles (glutaus maximus). In short: This is a very efficient exercise. "
+
+			},
+			{
+			"name": "Dumbbell Rear Fly",
+			"image": "img/cat/sirt/dumbbell-rear-fly.gif",
+			"information": "Sit at the end of a fitness bench. You can also use a chair or chest. Lean forward and let your body rest on your thighs. Take the dumbbells by your feet. Your palms are inward. Now raise your hands up and to the side until your elbows are at shoulder level. Bring the weight slowly to the starting position. Do not let the barbell touch your legs. ",
+			"help": "a) Do not allow your elbows to be higher than shoulder height. This makes no sense for exercise and may cause overload. <hr> b) Do the back of the barbell with slightly bent elbows to avoid injury. <hr> c ) Prevent dumbbells from touching the legs and do not let them hit your legs. <br> ",
+			"musc": "In this so-called compound exercise, different muscles are trained. This means a lot of activity during just one exercise. With the dumbbell rear fly motion, the focus is on the rear deltoid on either side of the upper back, just below the shoulders. In addition, a The knee stabilizer muscles have been trained: the trapezius (upper side of the upper back), the rhombus (bottom of the trapezius), the small teeth (outer edge of the shoulder blades) and the infraspinatus (shoulder blades) in the back and shoulders.Finally, the triceps brachii (under the upper arms). also gets training. "
+
+			},
+			{
+			"name": "Dumbbell Single Arm Row",
+			"image": "img/cat/sirt/dumbbell-single-arm-row.gif",
+			"information": "Use a flat fitness bench. Place your knee and your support arm hand on the edge of the fitness bench. Make sure the upper body is horizontal on the floor. Place your other foot on the floor next to the sofa. Put your foot aside for stability. Take the dumbbell with your free hand and Hold the palm facing the fitness bench. Now pull the dumbbell up until it reaches your torso. During the movement, your arm moves with you until your elbow is slightly above your waist. Now slowly bring the weight back to the starting position. Do the number of repetitions you want and then change the arm starting position. ",
+			"help": "a) During this exercise, move as little as possible with your body. The movement should come from your arm, not your upper body. <hr> b) When performing the movement, always look at a point on the floor about a meter in front of you. <hr> c) Provide the same training load for both sides. <br> ",
+			"musc": "With a barbell single arm row, the back muscles (latissimus dorsi and rhombus muscles), back shoulder muscles (deltoid muscles) and the front of the upper arms (biceps) are trained. In addition, the diamond-shaped muscle (trapezius) in the upper back, upper The muscle on the back of the arms (the main large caterpillars) and the front part on the elbow joint (brachialis) are also trained in this exercise. In short: You train different muscles at the same time in one exercise. "
+
+			},
+			{
+			"name": "Barbell-bent-over-row",
+			"image": "img/cat/sirt/Barbell-bent-over-row.gif",
+			"information": "The barbell is on the floor in front of you. Go face-to-face with the barbell. Hold the barbell with the palm toward the body and slightly more than shoulder-width apart. Place your feet shoulder-width apart and bend your knees slightly. Keep your back straight. Curl at your hips until your knees are just above the barbell. Pull the barbell so that your elbows are close to the body of the floor. Move the barbell towards your belly but do not touch it. Lower the barbell back to the starting position, but do not touch the floor. ",
+			"help": "a) The barbell on the row should be done with a straight back. Never make your back hollow or round, as this increases the risk of injury. <hr> b) During this exercise, focus your eyes on a point approximately two meters in front of you. <hr > c) Optionally, the barbell changes by moving your palms away from you. With this you attach more importance to training biceps. <br> ",
+			"musc": "In this movement, you train the muscles on the back, especially the upper back. This involves the broad back muscle (latissimus dorsi), the triangular muscle around the shoulder (posterior deltoid), the muscle in the shoulder coat (infraspinatus) and the front of the upper arms (biceps). The muscles trained in the lower back are the erector spinae and the hind leg muscles (hamstrings). "
+
+			},
+			{
+			"name": "Chin Up",
+			"image": "img/cat/sirt/chin-up.gif",
+			"information": "Grasp the bar with your hands shoulder-width apart. With your palms facing the body. Hang on the bar with slightly bent knees. Hold your head straight. Pull your body gently until your chin is on the bar. Then slowly lower your body to the starting position. With your arms fully in the starting position. lengthens. ",
+			"help": "a) Keep your abs stiff during training. Otherwise you will shake your body a lot. <hr> b) To avoid elbow injuries, slowly lower it back to the starting position <br>",
+			"musc": "The muscles that you actively train with this are listed below. In the back, these are the rhombus muscles and the trapezius shoulder. In the shoulders, these are the delta-shaped muscle (posterior deltoid) and the rounded arm muscles (main and small main strings). On the upper arms. You train the biceps brachii and brachialis, and the brachioradialis muscle in the lower arms. In addition, some other muscles are lightly trained. In the back, this is the infraspinatus, in the shoulder, the serratus anterior belt. And in the arms these are the flexor carpi ulnaris, the triceps brachii and the extensor digitorum. "
+
+			},
+			{
+			"name": "Cable Lat Pulldown",
+			"image": "img/cat/sirt/cable-lat-pulldown.gif",
+			"information": "Sit on the bench and keep your back straight. Place your thighs tightly under the rollers. Hold the bar a little more than shoulder-width apart. The palm is closed. Lower the bar under your chin and squeeze your shoulder blades. Slowly lower the weight until your arms are straight again. ",
+			"help": "a) Do not pull the bar behind your head. The tension this creates on the shoulder capsule can cause injuries. <hr> b) Do this exercise with a straight back and do not lean on your back. <hr> c) This exercise will keep your hands less than the shoulder width of the bar. and it can be made lighter by placing the palm facing you. <br> ",
+			"musc": "With this movement, you train multiple muscles during a single exercise. The emphasis is on training the large back muscle (latissimus dorsi) and the large round arm muscle (main teres main). In addition, some muscles in the upper arms are effective training. These are biceps brachii (forearm upper arm), brachialis (anterior elbow joint), brachioradialis (limb leg muscle), and posterior deltoid (triangular muscle around the shoulders) Finally, a set of stabilizing muscles work together, including the extensor digitorum. (upper forearm), different muscles in the upper back (trapezius, rhombus, rhombus main), tensor fascia lata (front hips), triceps brachii (hind upper arms), and infraspinatus (base of shoulder blade). "
+
+			}
+			],
+			"sixpack-musc":
+			[
+			{
+			"name": "Bridge Decline",
+			"image": "img/cat/karin/Bridge-decline.gif",
+			"information": "Lie on your back on the fitness mat. Put your hands next to your body. Now bend your knees against your body and place your feet flat on the floor. Tighten your abdominal and hip muscles and apply pressure to your heels. Lift your hips off the floor and lift your torso up. Make sure that you make a straight line with your body. Stay in this position for 20 to 30 seconds. When your muscles are tired, come back to the ground. Repeat the exercise. ",
+			"help": "a) Make the bridge with calm movements. Do not fall too quickly as this can cause injuries. <hr> b) Avoid a concave or convex back. Always maintain a stable straight position by tightening the abdominal and hip muscles. <hr> c ) This exercise can be trained more heavily by putting extra weight on your stomach. <br> ",
+			"musc": "The bridge primarily focuses on exercising the abs (abdominal muscles) and lower back muscles. This exercise addresses the following abdominal muscles: flat abdominal muscles (rectus abdominis), internal oblique abdominal muscles (oblique abdominus) and external oblique abdominal muscles ( In the lower back, the split back muscle (multifidus) and the back stretcher (erector spinae) are handled. Finally, the large gluteal muscles (glutaeus maximus) also receive a hard workout. "
+
+			},
+			{
+			"name": "Crunch",
+			"image": "img/cat/karin/crunch.gif",
+			"information": "Lie with your back on a sports mat. Move your feet toward your hips and lay them flat on the floor. Your legs should now form an imaginary triangle on the floor. Put your hands behind you. Your arms are directed to the side, not forward. Inhale. Now your abs Squeeze your head and lift your head, shoulders and shoulder blades with a gentle movement. Do not go too far from the floor and lower it slowly. Exhale.",
+			"help": "a) Do not make your back hollow or round, but always make sure your back is straight. <hr> b) Movement must come from the stomach. So do not raise your head with your hands behind your neck. <hr> c) Your hands will be on your shoulders The famine is alleviated by running your hands over your chest. <hr> d) Another way to make the exercise lighter is to squeeze your feet under a sofa. <br> ",
+			"musc": "Crunch primarily focuses on training the different abdominal muscles. This exercise is specifically aimed at the following abdominal muscles: flat abdominal muscle (rectus abdomini), external oblique abdominal muscle (oblique externus abdomini) and internal oblique abdominal muscle (oblique internus abdomini). the supporting muscles are the large gluteal muscles (glutaeus maximus) and the rectus femoris in the front of the thighs. "
+
+			},
+			{
+			"name": "Plank",
+			"image": "img/cat/karin/plank.gif",
+			"information": "Lay your stomach on the floor and lean on your elbows and toes. Lean on your elbows with your hands clenched in front of your shoulders. Raise your body so that it rests only on your toes and forearms. Look down and keep your back straight. This means your whole body should be straight from head to heel. Avoid a concave or convex back. Hold this position for a while. Start with 15 seconds and gradually increase the time. Optionally, perform multiple sets at short intervals.",
+			"help": "a) It is important to keep the lower back straight. <hr> b) Check your position initially. <hr> c) Beginners can also do this exercise on the knees instead of the toes. This makes it easy to do. <br> ",
+			"musc": "Plank movement is a so-called compound exercise. This means that you work different muscles in one go. With the plank movement you mainly fight a large number of important muscles. These are flat abdominal muscle (rectus abdomini), internal oblique abdominal muscle (oblique). Internus abdomini) and external oblique abdominal muscle (oblique exterus abdomini). In addition, various balancing muscles work in the shoulders, lower back and hips. "
+
+			},
+			{
+			"name": "Band Bicycle Crunch",
+			"image": "img/cat/karin/band-bicycle-crunch.gif",
+			"information": "Place the straps around your feet. Lean on the ground by pressing your back on the ground. Tighten your torso muscles. Relax your hands behind your head. Lift your knees at a 45-degree angle. Make a cycling movement with your legs. Always make a turn to hit your opposite knee with the elbow." ,
+			"help": "a) Keep the spine in a neutral position by always pulling the deep abs towards the spine. <hr> b) Avoid moving the chin to your chest. <hr> c) Provide a comfortable neck throughout the exercise. <br>",
+			"musc": "Cycling exercise is a compound exercise. This means that it targets different muscles during exercise. This exercise mainly consists of flat abdominal (rectus abdominis), internal oblique abs (oblique internus abdominal muscle), external oblique abdomen (oblique external abdomen). In addition, various stabilizing muscles cooperate: the large gluteal muscles (glutaeus maximus), hamstrings (posterior thigh), rectus femoris and sartorius (both anterior thigh). "
+
+			}
+		],
+		"leg-musc":
+		[
+		]
+
+	},
+	"ru":
+	{
+		"chest-musc":
+		[
+			{
+				"name": "Жим гантелей от груди",
+				"image": "img/cat/sine/dumbbell-Chess-press.gif",
+				"information": "Сядьте на край дивана и дайте штанге упереться в колени. Поднесите штангу к плечам, а затем лягте на спину на диван. Держите гантели по обе стороны от груди ладонями друг к другу. ваше тело и ваши локти согнуты. Нажмите на штангу вверх и вытяните локти по небольшой дуге. Держите штангу на груди близко друг к другу. Медленно переместите веса в исходное положение и потяните их к плечам, когда почувствуете это.",
+				"help": "а) Чтобы освоить движение, новички могут начать в лучшем случае с небольшим весом. <hr> б) Делайте дугообразные движения с гантелями. Этот эффект достигается за счет того, что гантели держат ниже ширины плеч и ниже на ширине плеч. <hr> c) Не снимайте штангу с пола из положения, в котором вы лежите, перед выполнением упражнения. Это может привести к травме. <hr> d) Не позволяйте штанге касаться друг друга.",
+				"musc": "В первую очередь, вы тренируете мышцы большой грудной мышцы (pectoralis major) и боковой части лопатки (передняя дельтовидная мышца). Чтобы поднять штангу, руки обычно опираются на мышцы, расположенные за верхней частью. руки (triceps brachii). Кроме того, для выполнения жима гантелей на груди используются различные мышцы. Это мышцы-стабилизаторы. Это передняя зубчатая мышца плечевого пояса. В спине это широкая мышца спины (latissimus dorsi). и мышца монаха (трапеция). В верхней части рук это мышца руки воронова кость (coracobrachialis) "
+			},
+			{
+				"name": "Полет гантелей",
+				"image": "img/cat/sine/dumbbell-fly.gif",
+				"information": "Используйте прямую скамью для фитнеса. Лягте на скамью и держите гантели, слегка согнутые в локтях. Гантели теперь находятся высоко посередине груди, ладони смотрят друг на друга. Теперь переместите гантели по бокам от себя. грудь легкими движениями. Убедитесь, что ваши локти остаются слегка согнутыми под одним и тем же углом . Когда возникает ощущение тяги перед вашими плечами и грудью, остановите движение. Затем медленно верните гантели в исходное положение. Не позволяйте штанге касаясь друг друга. ",
+				"help": "a) Увеличивайте вес медленно. Существует риск травмы при использовании слишком большого веса, так как последнее положение требует большой нагрузки на плечевой сустав. <hr> b) Локти всегда должны оставаться слегка согнутыми в одном положении. угол наклона крыла гантели. всегда должен быть у вас на плечах. <br> ",
+				"musc": "Мышка с гантелями - это так называемое комплексное упражнение. Это означает, что разные мышцы работают одновременно. В основном тренируется основная грудная мышца (большая грудная мышца). Поддерживающие мышцы - дельтовидная мышца (плечи), двуглавая мышца плеча. (плечо), brachioradialis (нижняя сторона руки) и brachialis (верхняя сторона плеча) "
+
+			},
+			{
+				"name": "Пуловер с гантелями",
+				"image": "img/cat/sine/dumbbell-pullover.gif",
+				"information": "Возьмите штангу обеими руками (прижмите ее к краю штанги). Сядьте на плоскую скамейку для фитнеса. Ваши ступни касаются земли, и ваша голова видна в конце. Теперь вытолкните руки вверх. и растяните их на лице. Теперь осторожно переместите гантель над головой. Когда вы почувствуете, что она прижата к груди и плечам, остановите движение. Медленно переместите вес в исходное положение. ",
+				"help": "а) Напрягите мышцы живота, чтобы спина была прямой. Ваша спина не должна быть пустой. <hr> б) Всегда держите локти в одном и том же положении: слегка согнутыми и на одной линии с плечами. <hr> c) Как долго вы можете растягиваться, зависит от вашей гибкости. Остановите движение, когда почувствуете его тянущее усилие. <br> ",
+				"musc": "Основные мышцы груди (большая грудная мышца) и большие мышцы спины (latissimus dorsi) преимущественно тренируются этим движением. Различные другие мышцы помогают выполнять упражнение и, следовательно, к ним сразу же обращаются. Среди тренированных поддерживающих мышц трицепс (нижняя часть верхней части рук), плоская мышца живота (rectus abdominis) и большие ягодичные мышцы (glutaus maximus). Вкратце: это очень эффективное упражнение "
+
+			},
+			{
+				"name": "Жим штанги лежа",
+				"image": "img/cat/sine/Barbell-bench-press.gif",
+				"information": "Лягте спиной на горизонтально расположенную скамейку для фитнеса. Возьмите штангу и держите руки на расстоянии чуть больше ширины плеч. Держите штангу прямо и ладонями чуть выше груди. Вдохните и медленно опустите гантели. к груди и чуть выше нее. Выдохните и надавите со штангой в течение долгого времени, пока ваши руки снова не будут вытянуты. ",
+				"help": "а) Новичкам сначала следует выполнить это упражнение со штангой без отягощения. Когда вы освоите движение, вы можете нагрузить штангу дополнительным весом. <hr> б) В жиме лежа всегда стойте на скамья для фитнеса, когда спина прямая. Это увеличивает риск травмы. <hr> c) Для новичков может быть целесообразно использовать помощника. Это также относится к опытным спортсменам, использующим тяжелые веса. <hr> d) Всегда держите штангу прямо на грудь и вперед или не позволяй ей отклоняться назад. <br> ",
+				"musc": "Жим штанги на скамье ориентирован в первую очередь на тренировку мышц груди, плеч и рук. В этом упражнении большая грудная мышца (depectoralis major), дельтовидная мышца вокруг плеч (передняя дельтовидная мышца) и задняя часть верхняя часть руки (трицепс плеча) укрепляется. Также тренируются стабилизирующие мышцы манжет и лопаток. Короче говоря, жим лежа - эффективное упражнение для тренировки различных мышц"
+
+			},
+			{
+				"name": "Кабельный кроссовер",
+				"image": "img/cat/sine/cable-crossover.gif",
+				"information": "Отрегулируйте ролики так, чтобы они были немного выше вашей головы. Встаньте посередине между шкивами. Держите руки ладонями вниз. Плечи повернуты внутрь, а бедра слегка согнуты вперед. Напрягите грудные мышцы и двигайтесь. руки вниз и внутрь. Двигайте локтями. Вернитесь в исходное положение медленным (контролируемым) движением. ",
+				"help": "a) Делайте мягкие движения и не отводите руки назад. Это может привести к тому, что плечо будет выступать из чаши. <hr> b) Это упражнение выполняется с согнутыми локтями. Следовательно, работу выполняют грудные мышцы, а не мышцы рук. <hr> c) Проход кабеля можно сделать легче, отрегулировав шкивы немного ниже уровня плеч. <br> ",
+				"musc": "При прохождении кабеля задействуются большие грудные мышцы. Для выполнения этого упражнения также используются различные поддерживающие мышцы, поэтому они легко тренируются. Оно связано с прессом, а предплечья имеют локтевой сгибатель запястья. и лучевой разгибатель запястья "
+
+			},
+			{
+				"name": "Push Up",
+				"image": "img/cat/sine/push-up.gif",
+				"information": "Положите живот на пол. Положите руки рядом с плечами, ладони смотрят вперед. Держите тело выше пальцев ног. Максимально разведите руки. Вернитесь в исходное положение, согнув руки. Медленно опустите тело чуть выше пола. ",
+				"help": "а) Когда вы приходите в позицию отжимания, держите все тело прямо. <hr> б) Не пожимайте плечами во время упражнения. Это делает ваши руки менее устойчивыми. <hr> в) Новички используют это упражнение на коленях, а не на пальцах ног. В этом случае убедитесь, что ваша спина прямая, и не сгибайте бедра. В противном случае это не даст никакого эффекта. <br> ",
+				"musc": "Вы тренируете большое количество мышц с помощью отжиманий. Упор в основном делается на большую грудную мышцу (большая грудная мышца), верхняя часть плеч (передняя передняя часть), плечевой пояс (передняя зубчатая мышца). , и задняя часть плеча (трицепс плеча). Набор уравновешивающих мышц помогает выполнять упражнение. Несмотря на то, что они не интенсивно тренируются, они стимулируются. В предплечьях есть разные мышцы (длинный разгибатель запястья, разгибатель запястья radialis brevis и локтевой разгибатель запястья). За плечами вращающая манжета выполняет стабилизирующие функции, а на спине это относится к ромбовидным мышцам "
+
+			},
+			{
+				"name": "Chest Dip",
+				"image": "img/cat/sine/Chess-dip.gif",
+				"information": "Встаньте между брусьями и используйте ступеньку, чтобы брусья достигли уровня талии. Возьмитесь за перекладины обеими руками. Вытяните руки в локтях и согните ноги в коленях. Поднимите ноги со ступеньки. Теперь медленно опускайтесь до локти под углом 90 градусов. Вернитесь в исходное положение. Толкните",
+				"help": "a) Упражнение можно усугубить, если надеть очень тяжелый нижний пояс. <hr> б) Не используйте чрезмерный вес, так как это может привести к трещинам в большой грудной мышце и трицепсе. <hr> в) наклоняться вперед для тренировки грудных мышц. вертикальное положение для тренировки трицепсов. стоп. <br> ",
+				"musc": "Движение нижней части груди тренирует особенно большую грудную мышцу и треугольную мышцу вокруг плеч (передняя дельтовидная мышца). Трёхглавая мышца плеча (задние плечи) также интенсивно тренируется. Кроме того, немного тренируются несколько поддерживающих мышц. Это следующие мышцы предплечий: лучевой разгибатель запястья (внешний край предплечья) и локтевой разгибатель запястья."
+			}
+
+
+		],
+
+		"arm-musc":
+		[
+		],
+		"shoulder-musc":
+		[
+		],
+
+		"back-musc":
+		[
+		],
+		"sixpack-musc":
+		[
+		],
+		"leg-musc":
+		[
+			{
+			"name": "Barbell Romanian Deadlift",
+			"image": "img/cat/ayaq/barbell-romanian-deadlift.gif",
+			"information": "Hold your feet less than shoulder-width apart and take a barbell. Your palms are facing your body and you place them on the barbell just outside your thighs. Bend your knees at a slight angle and make sure to hold this angle while raising. Hold the barbell close to the body and keep your arms straight. Lower your upper body now, bending at your hips until the bar is just below your knee.",
+			"help": "a) Keep your knees bent at the same angle and keep your back straight. Always lower your body calmly and in a controlled manner. <hr> b) Do this exercise with less weight than normal Deadlift. <hr> c) Technique To take control, beginners can first do this exercise better without weights. ",
+			"musc": "With the Barbell Roman deadlift, different muscles in the legs and buttocks are addressed. The emphasis is on the large gluteal muscles (glutaeus maximus) and various muscles behind the thighs. To be precise, it concerns the semimembranosus, semitendinosus, and biceps femoris. These muscles are part of the hamstrings. Finally, the erector spinae (back stretcher) is also lightly trained."
+			},
+			{
+			"name": "Barbell Deadlift",
+			"image": "img/cat/ayaq/barbell-deadlift.gif",
+			"information": "Place a barbell on the floor in front of you and stand in front of you with your feet shoulder-width apart. Lower your knees and keep your back and arms straight until you can grasp your barbell with a mixed grip. One palm is facing you, the other palm is facing away from you. Hold yourself tight and stretch your knees and hips until you stand up. At the highest point of the movement, bring your shoulders closer to your ears, then open your chest forward. Lower your shoulders, bend your knees and lower your barbell slowly. Avoid the barbell from touching the ground.",
+			"help": "a) Keep your back straight throughout the exercise. Avoid a concave or convex back. <hr> b) Don't take too much weight at the beginning. Check the movement first, then increase the weight slowly. <hr> c) Don't look at the floor while exercising. , focus on a point about two meters on the ground in front of you ",
+			"musc": "While doing this movement, the large gluteal muscles (glutaeus maximus) and the front of the upper legs (vastus lateralis) are considered. In addition, various supporting muscles are considered. Namely, the biceps femoris (back thighs), semimembranosus (back thighs). , semitendinosus (back thighs), adductors (back thighs) and erector spinae (long straight back muscles). In short: This is an effective exercise to train different muscles at the same time."
+			},
+			{
+			"name": "Dumbbell Squat",
+			"image": "img/cat/ayaq/dumbbell-squat.gif",
+			"information": "Take the dumbbells and stand with your feet shoulder-width apart. Hold the dumbbells at your side with your arms outstretched and palms facing you. Look straight ahead at a point on the wall throughout the exercise. Bend your knees until your thighs are horizontal on the floor. Now your legs are fully extended. slowly rise again. ",
+			"help": "a) Keep looking forward during this exercise. <hr> b) Keep your heels off the ground. In this case, you should stop lowering. <hr> c) Do the barbell squat with calm movements. You don't need to bend your legs while descending. <hr > d) Do not lower your thighs higher than the floor horizontal. ",
+			"musc": "This is to train the major gluteal muscles (glutaeus maximus), the front of the upper legs (rectus femoris) and the quadriceps while doing this movement. This is the four-headed thigh muscle that spreads over most of the upper legs. More specifically, the thigh includes the following muscles: vastus intermedius, vastus intermedius and vastus medialis. Other muscles trained with the dumbbell squat are the joints of the upper legs. In short: With this exercise, you strain a lot of muscles on the legs and hips. "
+			},
+			{
+			"name": "Barbell Lunge",
+			"image": "img/cat/ayaq/Barbell-lunge.gif",
+			"information": "Stand fully upright. Place the barbell on your upper back, just below your neck. Hold the barbell a little more than shoulder width apart, with your palms away from you. Take a big step forward with one leg and place your foot flat on the floor. Bend your front knee and then your back knee too. The body is sinking towards the ground due to this movement. Stop lowering until the back leg is horizontal on the floor. The weight is now on your foot. Now pass yourself on the front leg. Repeat the exercise and change the foot after a few repetitions. " ,
+			"help": "a) It is important that you place the barbell under your neck, not just under your neck, on your upper back. <hr> b) Look straight ahead during the entire exercise. <hr> c) Make sure the trunk is in a stable position and move as little as possible. <hr> d) Always work with the same load on both legs. <br> ",
+			"musc": "In the Barbell Lunge movement, different muscles, especially the large hip muscles and the muscles in front of the thigh, are worked. Glutaeus maximus (large gluteal muscles), inductor magnus (large thigh muscles), vastus medialis and vastus lateralis (front thighs) must be precise. Adductor brevis and vastus intermedius (inner thigh muscles) are also discussed. In short: Barbell-lunge is an effective exercise that combats large parts of the legs and buttocks.
+			},
+			{
+			"name": "Barbell Step Up",
+			"image": "img/cat/ayaq/Barbell-step-up.gif",
+			"information": "Stand on a bench or in front of your chest that is 20 to 40 centimeters high. Place your feet side by side and place a barbell on your upper back, just below your neck. Look straight ahead and keep your back straight. Now lift one leg off the ground and with this leg on the bench. or step on the chest. Put the other foot next to you. Move your first foot again and follow the other foot. ",
+			"help": "a) Do not place the barbell against your neck, but just below your neck, on the upper back. <hr> b) The barbell step should be performed at a calm and even pace <hr> c) Always do a second set after several repetitions. put the other leg on the sofa or chest first. <hr> d) Move only with your legs and do the exercise with a straight back. <hr> e) You can make the exercise more difficult with extra weight or by pressing a higher bench or chest. <br> " ,
+			"musc": "You have begun to train a large part of the lower body with the barbell-step-up movement. Exercise involves the large gluteal muscles (glutaeus maximus), the lateral muscles of the upper legs (vastus lateralis), the front of the upper legs (vastus medialis) and the calves ( gastrocnemius and soleus). As a small bonus, the biceps femoris (back thigh) is also grown as a cooperative muscle. "
+			},
+			{
+			"name": "Dumbbell Standing Calf Raise",
+			"image": "img/cat/ayaq/dumbbell-standing-calf-raise.gif",
+			"information": "Stand with your feet on a platform such as a thick plank or step. Place your feet on the platform in such a way that your heels are lower than the toes. Stand upright and hold the dumbbells straight across your body with your arms. The barbell is next to your thighs. Now Stand on your toes and your heels are raised. Now lower yourself as much as possible by lowering your heels under the height.",
+			"help": "a) Avoid stretching during this movement. Movement should be performed calmly and in a controlled manner, without other movements. <hr> b) Movement should come from the feet. Always make sure that your knees and hips are straight. <hr> c) Dumbbell standing To raise the calf, you can start a master, weightless ladder. Then, you can balance your hand by placing your hand on the ladder railing. <br> ",
+			"musc": "With Dumbbell Standing Calf Raise, no less than six muscles are exercised in the calves. These are calf (soleus), long cavernous flexor (flexor hallucis longus), long foot flexor (flexor digitorum longus), posterior tibial muscle (tibialis posterior). and the superficial calf muscle (gastrocnemius) below the base (plantaris). In short: All important muscles in the calf are handled with this exercise. "
+			},
+			{
+			"name": "Leg Press",
+			"image": "img/cat/ayaq/leg-press.gif",
+			"information": "Sit on the Leg Press device. Grasp the arms. Lie back and place your feet on the plate. Your feet are slightly directed outward. Apply pressure to the plate to slightly raise the weight. Then release the safety catches. Lower the plate slowly and comfortably into the body. Your legs are fully extended. Slowly push the weight up to the starting position in a controlled manner. ",
+			"help": "a) To avoid injury, it is important to reduce the weight in a controlled manner. <hr> b) For maximum results, it is important to move the weight up and down in the widest possible range. <hr> c) New to master this exercise. starters can only download the plate to the first quarter of the series. <br> ",
+			"musc": "With the Leg Press, different muscles in the legs and hips are trained. First, this exercise focuses on the training of the quadriceps and the big gluteal muscles (glutaeus maximus). In addition, the different muscles are intensively trained on the front and inner parts of the upper legs. In front of the thighs. Vastus medialis, vastus lateralis and vastus intermedius. The muscles of the inner part of the upper legs are the inductor magnus, the inductor brevies and the inductor longus."
+			},
+			{
+			"name": "Leg Extension",
+			"image": "img/cat/ayaq/leg-extension.gif",
+			"information": "Sit on the leg-extension device. Place the back of your knees on the edge of the seat and your knee joints, the upper part of the lift bar between your legs. Make sure the rollers at the end of the lift bar are just in front of your ankles. Now lean on your leg. Lift your legs until you stand straight. Your body is standing upright and your feet are facing forward. Slowly bring the (marked) weight to the starting position. ",
+			"help": "a) Do not lower your legs too quickly and keep your upper body straight. <hr> b) Raise your legs to the maximum until they are completely straight. Then lower them slowly. <hr> c) With the help of ankle weights, this exercise is a device can be performed (lightly) without it. <br> ",
+			"musc": "This exercise combats the quadriceps that form a large mass in the front of the thighs. The quadriceps has the most important function to control the knee joint. The quadriceps can form a significant muscle mass, for example cyclists, soccer players and skaters. All with leg extension. It consists of four parts. It is particularly concerned with trained rectus femoris, vastus medialis, vastus lateralis and vastus intermedius. "
+			},
+			{
+			"name": "Lying Leg Curl",
+			"image": "img/cat/ayaq/lying-leg-curl.gif",
+			"information": "Lie on top of the lying-leg-curl device. Your knees should protrude slightly from the edge of the pillow and your knee joints should be flush with the top of the lift bar. Place the roller behind the lift bar just above your ankles. Move your legs as far as possible to your hips. Now. slowly return to the starting position. This movement should last two or three seconds. Make sure your body always stays in contact with the bank. ",
+			"help": "a) Do not bring the weight to the starting position too quickly. <hr> b) The hips should not bend too much during the movement. <hr> c) Move the legs towards the hips as much as possible for maximum effect. <br>",
+			"musc": "The muscles behind the upper legs are specially trained by this movement. It concerns the bilateral thigh muscle (biceps femoris), the semi-muscular muscle (semimembranosus) and the semi-muscular muscle (semitendinosus). In addition, the tailor muscles (sartorius) are outside the thigh. And the superficial calf muscles (gastrocnemius) are lightly trained. "
+			},
+			{
+			"name": "Barbell Squat",
+			"image": "img/cat/ayaq/Barbell-squat.gif",
+			"information": "Spread your feet shoulder-width apart and place your feet lightly. Bring the barbell over the shoulders behind your neck and let the barbell rest on your back, just below your neck. Hold the barbell with both hands. Place your hands slightly more than shoulder-width apart. Look straight ahead and Do not look down. Keep looking straight ahead throughout the exercise. Bend your knees and lower yourself slowly. Keep your heels on the ground at all times. Stop when your thighs are horizontal from the ground. After that, stretch your legs in a vigorous motion to the starting position. ",
+			"help": "a) The back should always be straight with the Barbell squat. Hollow or convex back may cause injury. <hr> b) The knees should not move while reaching upwards, they should follow the direction of the little finger. <hr> c) Barbell behind the neck do not put it in place and always keep the heels on the ground. <br> ",
+			"musc": "Barbell squat is one of the better exercises to strengthen the lower body. In this exercise, many muscles are worked simultaneously. The barbell mouth mainly involves the quadriceps of the thigh muscles (including the medial, vastus lateralis and vastus medialis) and the quadriceps vastus. It focuses on the large gluteal muscles (glutaeus maximus). The muscles that are also trained are the hamstrings (thigh muscles) and lower back muscles. "
+			}
+		]
+
+	}
+	
+}

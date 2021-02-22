@@ -12,10 +12,8 @@ menuPosLeft 	= 0;
 helperPos 		= 0;
 menuWidth 		= 150;
 helperWidth 	= 300;
-
 start_x 		= 0;
 start_y 		= 0;
-
 body 			= document.querySelector('body');
 title 			= $("title");
 head_title 		= $(".head-title");
@@ -95,36 +93,6 @@ function touching(including)
 				}
 			}
 		}
-
-		if(including == 'helper')
-		{
-			
-
-			if(slider && start_y>60)
-			{
-
-				if(helper_opening)
-				{
-					moving_count++;
-					moving_x = start_x - start_x1;
-					start_x1 = start_x;
-					moving_count = helperOffset.left;
-					
-					if(moving_x < -2)
-						helperLeft -= 12;
-
-					else if(moving_x > 2)
-						helperLeft += 12;
-
-					helper_body.css("left",helperLeft);
-					if(moving_count < 20)
-						helper_body.addClass("slideOutLeft");
-					else	
-						helper_body.addClass("slideOutRight");
-				}
-			}
-		}
-
 		
 	});
 
@@ -176,6 +144,20 @@ function touching(including)
 			}
 
 			scrollTop = 0;
+		}
+
+		if(including == 'helper')
+		{
+			removing();
+			if(helper_opening)
+			{
+				if(moving > 0)
+					helper_next();					
+				else if(moving < 0)
+					helper_back();
+				
+
+			}
 		}
 	});
 

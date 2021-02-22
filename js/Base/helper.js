@@ -43,11 +43,13 @@ close.click(()=>
 
 next.click(()=>
 {
+	removing();
 	helper_next();
 });
 
 back.click(()=>
 {
+	removing();
 	helper_back();
 });
 
@@ -65,21 +67,52 @@ function helper_start()
 
 function helper_next()
 {
-	if(item_id < count_max)
-		item_id++;		
-	else
-		item_id = 0;
+	helper_body.addClass("slideOutRight");
+	helper_body.fadeOut(500);
+	
 
-	helper_start();	
+	setTimeout(()=>
+	{
+		helper_body.removeClass("slideOutRight");
+		helper_body.addClass("slideInLeft");
+		helper_body.fadeIn();
+
+		if(item_id < count_max)
+			item_id++;		
+		else
+			item_id = 0;
+
+		helper_start();	
+	},500);
 }
 function helper_back()
 {
-	if(item_id > 0)
-		item_id--;		
-	else
-		item_id = count_max;
+	helper_body.addClass("slideOutLeft");
+	helper_body.fadeOut(500);
+	
+	setTimeout(()=>
+	{
+		if(item_id > 0)
+			item_id--;		
+		else
+			item_id = count_max;
 
-	helper_start();	
+		helper_start();	
+		helper_body.removeClass("slideOutLeft");
+		helper_body.addClass("slideInRight");
+		helper_body.fadeIn();
+
+	},500);
+	
 }
+
+function removing(){
+	
+	helper_body.removeClass("slideInLeft");
+	helper_body.removeClass("slideInRight");
+	helper_body.removeClass("slideOutLeft");
+	helper_body.removeClass("slideOutRight");
+}
+
 
 touching("helper");

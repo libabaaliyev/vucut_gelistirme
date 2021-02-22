@@ -7,16 +7,16 @@ for (var i = 0; i < categories.length; i++) {
 
 
 	create = `<div class="float-left w-100 bg-dark item mb-1">
-				<div class="item-img">
+				<a class="item-img" href="training.html#`+tag+`">
 					<div class="darkness"></div>
 					<img src="`+img+`">
-				</div>
-				<div class="item-name text-center">
+				</a>
+				<a class="item-name text-center text-decoration-none" href="training.html#`+tag+`">
 					<h4 class="text-light">` + name + `</h4>
-				</div>
+				</a>
 
 				<div class="item-button rounded">
-					<a class="btn btn-warning btn-go pl-3 pr-3">
+					<a class="btn btn-warning btn-go pl-3 pr-3" href="training.html#`+tag+`">
 						`+translate_items['go']+` <i class="fas fa-angle-right"></i>
 					</a>
 				</div>
