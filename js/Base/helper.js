@@ -3,9 +3,11 @@ helper_icon 	= $(".helper-icon");
 helper_class 	= $(".help");
 helper_title 	= $(".help-title");
 helper_text 	= $(".help-txt");
+helper_body 	= $(".help .desk-body")
 close 			= $(".close-tab");
-
-
+helperLeft 		= 0;
+helperOffset 	= helper_body.offset();
+helperLeft 		= helperOffset.left;
 helper_icon.click(()=>
 {
 	menu_icon.hide();
@@ -21,7 +23,10 @@ helper_icon.click(()=>
 	if(menu_opening)
 		menu_();	
 
-	helper_opening 	= true; 
+	menu_opening 	=false;
+	helper_opening 	= true;
+	slider 			= true;
+
 	helper_start();
 });
 
@@ -45,6 +50,8 @@ back.click(()=>
 {
 	helper_back();
 });
+
+
 
 function helper_start()
 {	
@@ -74,3 +81,5 @@ function helper_back()
 
 	helper_start();	
 }
+
+touching("helper");

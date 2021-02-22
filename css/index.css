@@ -63,7 +63,7 @@ body
 {
 	position: fixed;
 	top: 52px;
-	width: 140px;
+	width: 160px;
 	left: 0;
 	height: calc(100vh - 52px);
 	display: none;
@@ -205,9 +205,9 @@ body
 
 .help .desk-body
 {
-	width: 90%;
+	width: 300px;
 	top: 20px;
-	left: 5%;
+	left: calc(50% - 150px);
 	min-height: 300px;
 	max-height: calc(100vh - 120px);
 
