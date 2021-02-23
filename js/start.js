@@ -8,6 +8,7 @@ $(document).ready(function()
 	menu 			= getDatas('menu');
 	helper 			= getDatas('helper');
 	categories 		= getDatas('categories');
+	training 		= getDatas('training');
 	const appName_ 	= 
 	{
 		"az" 	: "Vücud inkişaf rəhbəri",

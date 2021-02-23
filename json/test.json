@@ -1,4 +1,63 @@
+{
+		"chest-musc":
+		[
 
+			{
+				"name": "Dumbbell Chest Press",
+				"image": "img/cat/sine/dumbbell-chest-press.gif",
+				"information": "Kanepenin ucuna oturun ve halterlerin dizlerinize yaslanmasına izin verin. Halterleri omuzlarınıza getirin ve sonra sırtüstü koltukta uzanın. Göğsünüzün her iki tarafındaki halterleri avuçlarınız vücudunuza dönük ve dirsekleriniz bükülmüş olarak tutun. Halterleri yukarı doğru bastırın ve dirseklerinizi yay şeklinde küçük bir hareketle gerin. Göğsünüzün üstündeki halterleri birbirine yakın tutun. Ağırlıkları yavaşça başlangıç pozisyonuna getirin ve hissettiğinizde omuzlarınıza çekin.",
+				"help": "a) Harekete hakim olmak için, yeni başlayanlar en iyi ihtimalle düşük ağırlıkla başlayabilir. <hr>b) Dambıl ile yay şeklinde hareketler yapın. Bu etki, halterleri omuz genişliğinden daha düşük ve omuz genişliğinden daha düşük tutarak sağlanmıştır. <hr>c) Egzersizi yapmazdan önce zemindeki halterleri uzandığınız konumdan almayın. Bu, yaralanmalara neden olabilir. <hr>d) Halterlerin birbirine değmesine izin vermeyin. <br>",
+				"musc":"İlk etapta büyük göğüs kası (pektoralis majör) ve omuz kanadının (ön deltoid) yanlarındaki kasları çalıştırıyorsunuz. Halterleri kaldırmak için kollar genellikle üst kolların arkasındaki kaslara (triceps brachii) dayanır. Ek olarak, dambıl göğüs presini gerçekleştirmek için farklı kaslar birlikte çalışır. Bunlar dengeleyici kaslar. Bu omuz kuşağının ön serratusudur. Sırtta bunlar geniş sırt kası (latissimus dorsi) ve keşiş kasıdır (trapezius). Üst kollarda ise, bu ravenbone kol kasıdır (coracobrachialis)."
+				
+			},
+			{
+				"name": "Dumbbell Fly ",
+				"image": "img/cat/sine/dumbbell-fly.gif",
+				"information": "Düz bir  fitness tezgahı kullanın. Kondisyon tezgahına uzanın ve halterleri hafifçe bükülmüş dirseklerle tutun. Halterler artık göğsün ortasından yüksekte, avuç içi birbirine bakmaktadır. Şimdi halterleri yumuşak bir hareketle göğsünüzün yanlarına getirin. Dirseklerinizin aynı açıyla hafifçe bükülmüş kaldığından emin olun. Omuzlarınızın ve göğsünüzün önünde bir çekme hissi oluştuğunda hareketi durdurun. Ardından dambılleri yavaşça başlangıç konumuna getirin. Halterlerin birbirine temas etmesini önleyin.",
+				"help": "a) Ağırlığı yavaşça arttırın. Son pozisyon omuz ekleminden çok şey talep ettiğinden, çok fazla ağırlık kullanırken yaralanma riski vardır. <hr>b) Dirsekler daima dambıl kanadı ile aynı açıda hafifçe bükülmüş kalmalıdır. <hr>c) Kolların her zaman omuzlarının önünde olmalı. <br>",
+				"musc": "Dumbbell fly  sözde bileşik bir egzersizdir . Bu, aynı anda farklı kasların çalıştığı anlamına gelir. Ana pektoral kas (pektoralis major) esas olarak eğitilmiştir. Destekleyici kaslar deltoid kas (omuzlar), pazı brachii (üst kol üst tarafı), brachioradialis (alt kol alt tarafı) ve brachialis (üst kol üst tarafı)."
+
+			},
+			{
+				"name": "Dumbbell Pullover",
+				"image": "img/cat/sine/dumbbell-pullover.gif",
+				"information": "İki elinizle bir halter alın (halterin kenarına doğru tutun). Düz bir fitness bankında arkanıza yaslanın. Ayaklarınız yere temas eder ve başınız sonunda görünür. Şimdi kollarını dümdüz yukarı itin ve yüzünüzün üstüne uzatın. Şimdi dumbbell'i yavaşça başınızın üzerine geri getirin. Göğsünüze ve omuzlarınıza çekildiğini hissettiğinizde hareketi durdurun. Ağırlığı yavaşça başlangıç pozisyonuna getirin.",
+				"help": "a) Sırtınızı dik tutmak için karın kasınızı sıkın. Sırtın boş kalmamalı. <hr>b) Dirseklerinizi daima aynı konumda tutun: hafifçe bükülmüş ve omuzlarınızla hizalı.<hr>c) Ne kadar uzatabileceğiniz esnekliğinize bağlıdır. Göğsünüze ve omuzlarınıza çekildiğini hissettiğinizde hareketi durdurun.<br>",
+				"musc":"Ana göğüs kasları (pektoralis majör) ve geniş sırt kasları (latissimus dorsi) ağırlıklı olarak bu haraket ile eğitilir. Diğer çeşitli kaslar egzersizi gerçekleştirmeye yardımcı olur ve bu nedenle derhal ele alınır. Eğitilen destekleyici kaslar arasında triceps (üst kolların alt kısmında), düz karın kası (rektus abdominisi) ve büyük gluteal kaslar (glutaus maximus) bulunur. Kısacası: Bu, çok fazla etkinliğe sahip bir egzersizdir."
+
+			},
+			{
+				"name": "Barbell Bench Press",
+				"image": "img/cat/sine/Barbell-bench-press.gif",
+				"information": "Yatay olarak yerleştirilmiş bir fitness bankına sırtınızla uzanın. Halteri alın ve ellerinizi omuz genişliğinden biraz daha fazla tutun. Halteri kollarınız düz bir şekilde tutun ve göğsünüzün hemen üzerinde avuç içi yapın. Nefes alın ve halterleri göğse doğru yavaşça indirin ve hemen üzerinde durun. Kollarınız tekrar esnetilinceye kadar uzun süre halterle nefes verin ve itin.",
+				"help": "a) Yeni başlayanlar önce bu egzersizi ağırlık plakası olmayan bir halterle yapmalıdır. Harekete hakim olduğunuzda, halter üzerine ekstra ağırlık yükleyebilirsiniz. <hr>b) Bench press ile daima sırtınızı dik dururken fitness tezgahında kalın. Sırtınız büküldüğünde, ağırlığın çok ağır olduğu anlamına gelir. Bu yaralanma riskini arttırır.<hr>c) Yeni başlayanlar için bir yardımcı  kullanmak akıllıca olabilir. Bu aynı zamanda ağır ağırlık kullanan deneyimli sporcular için de geçerlidir.<hr>d) Halteri her zaman doğrudan göğsün üzerinde tutun ve ileri ya da geri dolaşmasına izin vermeyin.<br>",
+				"musc": "Halter bench press, öncelikle göğüs, omuz ve kol kaslarını çalıştırmaya odaklanır. Bu egzersizde, büyük göğüs kası (depectoralis major), omuzların etrafındaki delta şekilli kas (anterior deltoid) ve üst kolun arkası (triceps brachii) güçlenir. Rotator manşet ve omuz bıçağının dengeleyici kasları da eğitilmiştir. Kısacası: bench press, farklı kasları eğitmek için etkili bir egzersizdir."
+
+			},
+			{
+				"name": "Cable Crossover",
+				"image": "img/cat/sine/cable-crossover.gif",
+				"information": "Makaraları başınızın biraz üstünde olacak şekilde ayarlayın. Kasnaklar arasında ortada durun. Kolları avuç içi aşağı yatırılmış durumdayken tutun. Omuzların içe doğru döndü ve kalçaların hafifçe öne eğildi. Göğüs kaslarınızı sıkın ve kollarınızı aşağı ve içe doğru hareket ettirin. Dirseklerinizi hareket boyunca sabit bir açıda tutun. Yavaş (kontrollü) bir hareketle başlangıç pozisyonuna dönün.",
+				"help": "a) Hafif hareketler yapın ve kolların geri çekilmesini önleyin. Bu, omzun kaseden çıkmasına neden olabilir.<hr>b) Bu egzersiz bükülmüş dirseklerle yapılır. Bu nedenle göğüs kasları işi yapar, kol kaslarını değil.<hr>c) Kablo geçişi, makaraları omuz yüksekliğinin biraz altına ayarlayarak daha hafif yapılabilir. <br>",
+				"musc": "Kablo geçişi ile birlikte büyük göğüs kasları (pektoralis major) ele alınır. Bu egzersizi yapabilmek için çeşitli destek kasları da kullanılır ve bu nedenle hafifçe eğitilir. Abs ile ilgilidir ve önkollarda flexor carpi ulnaris ve extensor carpi radialis bulunur."
+
+			},
+			{
+				"name": "Push Up ",
+				"image": "img/cat/sine/push-up.gif",
+				"information": "Karnını yere yatır. Elleriniz omuzlarınızın yanına, eller öne bakacak şekilde yerleştirin. Vücudunu, ayak parmakların üstünde tutarak. Kollarınızı maksimuma uzatın. Kollarınızı bükerek başlangıç pozisyonuna dönün. Vücudu yavaşça zeminin hemen üstüne indirin.",
+				"help": "a) Push-up pozisyonuna geldiğinizde tüm vücudunuzu dik tutun.<hr>b) Egzersiz sırasında omuzlarınızı omuz silkmeyin. Bu, kollarınızı daha az stabil yapar.<hr>c) Yeni başlayanlar bu egzersizi ayak parmakları yerine dizler üzerinde de yapabilirler. Bu durumda, sırtınızın düz olduğundan emin olun ve kalçalarınızın bükülmesini önleyin. Aksi takdirde etkisi yoktur.<br>",
+				"musc": "Push-up ile çok sayıda kasları çalıştırıyorsunuz. Vurgu temel olarak büyük göğüs kası (pektoralis majör), omuzların üst tarafında (anterior anterior), omuz kuşağı (serratus anterior) ve üst kolların (triceps brachii) sırtındadır. Ek olarak, bir dizi dengeleyici kas, egzersizi gerçekleştirmeye yardımcı olur. Yoğun bir şekilde eğitilmemelerine rağmen, teşvik edilirler. Ön kollarda farklı kaslar bulunur (ekstansör carpi radialis longus, ekstansör carpi radialis brevis ve ekstansör carpi ulnaris). Üst kolların iç kısmında bu coracobrachialis'dir. Omuzların arkasında, rotator manşeti, dengeleyici işlevlere sahiptir ve sırt tarafında, bu eşkenar dörtgen kaslar için geçerlidir."
+
+			},
+			{
+				"name": "Chest Dip ",
+				"image": "img/cat/sine/chest-dip.gif",
+				"information": "Paralel çubuklarin arasinda durun ve barlarin bel yüksekligine ulasmasi için adimi kullanin.Çubuklari iki elinizle kavrayin.Dirseklerini uzat ve dizlerini bük.Ayaklarinizi basamaktan kaldirin.Simdi dirsekleriniz 90 derecelik bir açiya gelene kadar kendinizi yavasça indirin.Kendinizi tekrar baslangiç pozisyonuna dogru itin.",
+				"help": "a) Egzersiz muhtemelen ekstra ağırlıkta bir dip kemer takılarak ağırlaştırılabilir.<hr>b) Büyük göğüs kası ve trisepsinde çatlaklara yol açabileceğinden aşırı kilo kullanmayın.<hr>c) Göğüs kaslarını eğitmek için öne eğilmek. tricepsleri eğitmek için dik durun.<br>",
+				"musc": "Chest dip haraketi  ile özellikle büyük göğüs kası (pektoralis major) ve omuzların etrafındaki üçgen kası (anterior deltoid) eğitilir. Triceps brachii (arka üst kollar) da yoğun bir şekilde eğitilmiştir. Ek olarak, birkaç destekleyici kas hafifçe eğitilmiştir. Bunlar önkollardaki şu kaslardır: ekstansör carpi radialis (önkol dış) ve ekstansör carpi ulnaris."
+			}
+		],
 		"arm-musc":
 		[
 
@@ -260,3 +319,4 @@
 				"musc": "Barbell squat, alt gövdeyi güçlendirmek için daha iyi egzersizlerden biridir. Bu egzersizde birçok kas aynı anda çalıştırılır. Halter ağzı, esas olarak dört başlı uyluk kaslarına (aracı, vastus lateralis ve vastus medialis de dahil olmak üzere quadriceps vastus) ve büyük gluteal kaslara (glutaeus maximus) odaklanır. Ayrıca eğitilmiş olan kaslar hamstrings (sırt uyluk kasları) ve alt sırt kaslarıdır."
 			}
 		]
+}

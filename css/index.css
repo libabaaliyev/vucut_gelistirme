@@ -285,3 +285,49 @@ body
 	min-height: 130px;
 	object-fit: cover;
 }
+.trainings
+{
+	margin-top: 52px;
+}
+.trainings ul
+{
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+	margin: 10px 0;
+	padding: 0;
+}
+.trainings ul li
+{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin: 5px 0;
+	height: 100px;
+	overflow: hidden;
+	line-height: 0;
+	border-bottom: 1px solid #ddd;
+}
+.trainings h4 
+{
+	display: inline-block;
+	float: left;	
+	width: calc(100% - 150px);
+	text-align: left;
+	font-size: 16px;
+	padding: 20px;
+	margin: 0;
+	color: #000;
+	z-index: 103;
+	line-height: 20px;
+}
+
+.trainings ul li img 
+{
+	display: inline-block;
+	float: right;
+	width: auto;
+	height: 100px;
+	object-fit: cover;
+}

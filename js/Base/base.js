@@ -2,7 +2,9 @@ menu 			= JSON.parse(localStorage.menu);
 lang 			= JSON.parse(localStorage.lang);
 words 			= JSON.parse(localStorage.words);
 categories 		= JSON.parse(localStorage.categories);
+trainings 		= JSON.parse(localStorage.training);
 translate_items = words[lang];
+training 		= trainings[lang];
 
 menu_opening 	= false;
 helper_opening 	= false; 

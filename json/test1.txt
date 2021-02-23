@@ -1,0 +1,73 @@
+"leg-musc":
+		[
+			{
+				"name": "Barbell Romanian Deadlift",
+				"image": "img/cat/ayaq/barbell-romanian-deadlift.gif",
+				"information": "Ayaklarınızı omuz genişliğinden daha az tutun ve bir halter alın. Avuçlarınız vücudunuza bakıyor ve onları uyluklarınızın hemen dışındaki halterin üzerine yerleştiriyorsunuz. Dizlerinizi hafif bir açıyla bükün ve bu açıyı kaldırırken tuttuğunuzdan emin olun. Halterleri vücuda yakın tutun ve kollarınızı dik tutun. Çubuk dizinizin hemen altına düşene kadar kalçalarınızdan bükülerek üst bedeninizi şimdi indirin",
+				"help": "a) Dizlerinizi kaldırırken aynı açıda bükülmüş halde tutun ve sırtınızı dik tutun. Vücudunuzu daima sakince ve kontrollü bir şekilde indirin.<hr> b) Bu egzersizi normal Deadlift'ten daha az ağırlıkla yapın. <hr> c) Tekniği kontrol altına almak için yeni başlayanlar ilk önce bu egzersizi ağırlıksız daha iyi yapabilirler.",
+				"musc":"Barbell Romen deadlift ile, bacaklarda ve kalçalarda farklı kaslar ele alınır. Vurgu büyük gluteal kaslara (glutaeus maximus) ve uylukların arkasındaki çeşitli kaslaradır. Kesin olmak gerekirse, semimembranosus, semitendinosus ve biceps femoris ile ilgilidir. Bu kaslar hamstrings bir parçasıdır. Son olarak, erector spinae (arka sedye) de hafifçe eğitilmiştir."
+			},
+			{
+				"name": "Barbell Deadlift",
+				"image": "img/cat/ayaq/barbell-deadlift.gif",
+				"information": "Önünüzdeki zemine bir halter yerleştirin ve ayaklarınız omuz genişliğinde olacak şekilde önünde durun. Dizlerinizi indirin ve halterinizi karışık bir kavrama ile kavrayabilene kadar sırtınızı ve kollarınızı düz tutun. Bir avuç size doğru bakarken, diğer avuç sizden uzağa bakar. Ellerin biraz dizlerinin dışında.Kendinizi sıkı tutun ve ayağa kalkana kadar dizlerinizi ve kalçalarınızı gerin. Hareketin en yüksek noktasında omuzlarınızı kulağınıza yaklaştırın sonra  göğsünüzü öne doğru açın. Omuzlarınızı alçaltın, dizlerinizi bükün ve halterinizi yavaşça yere indirin. Halterin yere temas etmesini önleyin.",
+				"help": "a) Egzersiz boyunca sırtınızı dik tutun. Bir içbükey veya dışbükey geri kaçının.<hr>b) Başlangıçta çok fazla ağırlık alma. Önce hareketi kontrol edin, sonra yavaşça ağırlığı yükseltin.<hr>c) Egzersiz sırasında zemine bakmayın, önünüzdeki yaklaşık iki metre zemindeki bir noktaya odaklanın",
+				"musc":"Bu haraketi yaparken, büyük gluteal kaslar (glutaeus maximus) ve üst bacakların önü (vastus lateralis) ele alınır. Ek olarak, çeşitli destekleyici kaslar ele alınmaktadır. Yani, biseps femorisi (arka uyluklar), semimembranosus (arka uyluklar), semitendinosus (arka uyluklar), adductors (arka uyluklar) ve erector spinae (uzun düz sırt kasları). Kısacası: Bu, aynı anda farklı kasları eğitmek için etkili bir egzersizdir."
+			},
+			{
+				"name": "Dumbbell Squat",
+				"image": "img/cat/ayaq/dumbbell-squat.gif",
+				"information": "Dambılları alın ve ayaklarınız omuz genişliğinde durun. Dambılları vücudunuzun yanında uzanmış kolları ve avuçlarınız size dönük olacak şekilde tutun. Tüm egzersiz boyunca duvardaki bir noktaya dümdüz bir şekilde bakın. Uyluklarınız zeminde yatay olana kadar dizlerinizi bükün. Şimdi bacaklarınız tamamen uzayana kadar yavaşça tekrar yükselin.",
+				"help": "a) Bu egzersiz sırasında ileriye bakmaya devam edin.<hr>b) Topuklarınızın yerden çıkmasını önleyin. Bu durumda, indirmeyi bırakmanız gerekir.<hr>c) Halter çömelmesini sakin hareketlerle yapın. Alçalırken bacaklarınızı bükmeniz gerekmez.<hr>d) Uyluklarınızı zeminden yataydan daha yükseğe indirmeyin.",
+				"musc": "Bu haraketi yaparken  büyük gluteal kasları (glutaeus maximus), üst bacakların önünü (rectus femoris) ve kuadrisepsleri eğitmektir. Bu, üst bacakların çoğuna yayılan dört başlı uyluk kasıdır. Daha spesifik olarak, uyluk aşağıdaki kasları içerir: vastus intermedius, vastus intermedius ve vastus medialis. Dumbbell boduruyla eğitilmiş diğer kaslar üst bacaklardaki eklemlerdir. Kısacası: Bu egzersizle bacaklarda ve kalçalarda çok sayıda kası zorlarsınız."
+			},
+			{
+				"name": "Barbell Lunge",
+				"image": "img/cat/ayaq/Barbell-lunge.gif",
+				"information": "Ayakda tam dik dur. Halter boynunuzun hemen altına, sırtınızın üst kısmına yerleştirin. Halteri avuçlarınız sizden uzakta olacak şekilde omuz genişliğinden biraz fazla tutun. Tek bacakla ileri doğru büyük bir adım atın ve ayağınızı yere düz bir şekilde koyun. Parmakların öne dönük olucak. Ön dizinizi ve ardından arka dizinizi de bükün. Vücut bu hareket nedeniyle yere doğru batıyor. Arka bacak zemine yatay gelene kadar indirmeyi durdurun. Ağırlık şimdi ayağınızın üzerinde. Şimdi kendini ön bacağından geçir. Egzersizi tekrarlayın ve birkaç tekrarın ardından ayağı değiştirin.",
+				"help": "a) Halteri boynunuza değil, sadece boynunuzun altına, sırtınızın üst kısmına yerleştirmeniz önemlidir.<hr>b) Tüm egzersiz sırasında dümdüz ileri bakın.<hr>c) Gövdenin sabit bir pozisyonda olduğundan emin olun ve mümkün olduğunca az hareket ettirin.<hr>d) Her zaman iki ayağı üzerinde daima aynı yük ile çalışın.<br>",
+				"musc":"Barbell Lunge  haraketinde farklı kaslar, özellikle büyük kalça kasları ve uyluk önündeki kaslar çalıştırılır. Glutaeus maximus (büyük gluteal kaslar), indüktör magnus (büyük uyluk kasları), vastus medialis ve vastus lateralis (ön uyluk bacakları) konusunda kesin olmalıdır. Adductor brevis ve vastus intermedius (iç uyluktaki kaslar) da ele alınmaktadır. Kısacası: Barbell-lunge bacakların ve kalçaların büyük bölümleriyle mücadele eden etkili bir egzersizdir."
+			},
+			{
+				"name": "Barbell Step Up",
+				"image": "img/cat/ayaq/Barbell-step-up.gif",
+				"information": "20 ila 40 santimetre yüksekliğe sahip bir tezgah veya göğsün önünde durun. Ayaklarınızı yan yana yerleştirin ve boynunuzun hemen altına, üst sırtınızda bir halter yerleştirin. Dümdüz ileri bak ve sırtını dik tut. Şimdi bir bacağınızı yerden kaldırın ve bu bacağınızla tezgah veya göğsün üstüne çıkın. Diğer ayağını yanına koy. İlk ayağınızı tekrar hareket ettirin ve diğer ayağınızı takip edin.",
+				"help": "a) Halteri boynunuza doğru yerleştirmeyin, ancak boynunuzun hemen altına, sırtınızın üst kısmına yerleştirin. <hr>b) Halter basamağı sakin ve eşit bir hızda gerçekleştirilmelidir<hr>c) Birkaç tekrardan sonra daima ikinci bir set yapın. Şimdi diğer bacağını ilk önce kanepeye ya da göğse koy.<hr>d) Sadece bacaklarınızla hareket edin ve egzersizi düz bir sırtla yapın.<hr>e) Egzersizi ekstra ağırlıkla veya daha yüksek bir bank veya göğsüne basarak daha da zorlaştırabilirsiniz.<br>",
+				"musc":"Barbell-step-up  haraketi ile alt gövdenin büyük bir bölümünü eğitmeye başladınız. Egzersiz, büyük gluteal kaslara (glutaeus maximus), üst bacakların yan kaslarına (vastus lateralis), üst bacakların ön tarafına (vastus medialis) ve baldırlara (gastrocnemius ve soleus) odaklanır. Küçük bir bonus olarak, biceps femoris (arka uyluk) kooperatif kas olarak da yetiştirilir."
+			},
+			{
+				"name": "Dumbbell Standing Calf Raise",
+				"image": "img/cat/ayaq/dumbbell-standing-calf-raise.gif",
+				"information": "Ayaklarınızı kalın bir tahta veya basamak gibi bir platformun üzerinde durun.ayak uçlarınızı platforma üzerine öyle yerleştirin ki topuklarınız ayak uçlarına nisbeten aşağıda kalsın. Dik durun ve dumbellleri düz bir şekilde kollarınızla vücudunuz boyunca tutun. Halter, uyluklarınızın yanında bulunsun.Şimdi ayak uçlarınızın üzerine dikelin ve topuklarınız yukarı kalksın. Şimdi  topuklarınızı yükseltinin altına indirerek kendinizi mümkün olduğunca aşağı indirin.",
+				"help": "a) Bu hareket sırasında esnemeyi önleyin. Hareket, başka hareketler olmadan sakince ve kontrollü bir şekilde gerçekleştirilmelidir.<hr>b) Hareket ayaklarından gelmeli. Dizlerinizin ve kalçalarınızın düz olduğundan daima emin olun.<hr>c) Dambıl ayakta baldır yükseltmek usta, ağırlıksız bir merdiven başlayabilirsiniz. Daha sonra, elinizi merdiven korkuluğuna yerleştirerek dengelenmeyi sağlayabilirsiniz.<br>",
+				"musc": "Dumbbell Standing Calf Raise ile, baldırlarda altı kastan daha az egzersiz olmaz. Bunlar dana (soleus), uzun kavernöz fleksör (fleksör halüsis longus), uzun ayak fleksör (fleksör digitorum longus), arka tibial kas (tibialis posterior) ve taban (plantaris) altındaki yüzeyel baldır kası (gastrocnemius). Kısacası: Baldırdakı  tüm önemli kaslar bu egzersizle ele alınır."
+			},
+			{
+				"name": "Leg Press",
+				"image": "img/cat/ayaq/leg-press.gif",
+				"information": "Leg Press cihazına oturun. Kolları kavrayın. Arkanıza yaslanın ve ayaklarınızı plakaya yerleştirin. Ayaklarınız hafifçe dışa doğru yönlendirilir. Ağırlığı hafifçe yükseltmek için plakaya basınç uygulayın. Ardından güvenlik mandallarını serbest bırakın. Plakayı yavaşça ve rahatça gövdeye indirin. Bacaklarınızı tamamen uzayana kadar yavaşça yukarı itin. Ağırlığı kontrollü bir şekilde başlangıç pozisyonuna getirin.",
+				"help": "a) Yaralanmaları önlemek için, ağırlığı kontrollü bir şekilde azaltmak önemlidir.<hr>b) Maksimum sonuç için, ağırlığı mümkün olan en geniş aralıkta yukarı ve aşağı hareket ettirmek önemlidir.<hr>c) Bu alıştırmada ustalaşmak için yeni başlayanlar plakayı serinin sadece ilk çeyreğine indirebilir.<br>",
+				"musc": "Leg Press ile  bacaklarda ve kalçalarda farklı kaslar eğitilir. İlk olarak, bu egzersiz kuadriseps ve büyük gluteal kasların (glutaeus maximus) antremanına odaklanmaktadır. Ek olarak, farklı kaslar üst bacakların ön ve iç kısımlarında yoğun olarak eğitilir. Uylukların önünde bunlar vastus medialis, vastus lateralis ve vastus intermedius'tur. Üst bacakların iç kısmındaki kaslar, endüktör magnus, endüktör breviler ve endüktör longus'tur."
+			},
+			{
+				"name": "Leg Extension",
+				"image": "img/cat/ayaq/leg-extension.gif",
+				"information": "Leg-extension cihazına oturun. Dizlerinizin arkasını, koltuğun kenarına ve diz eklemlerinize, kaldırma çubuğunun üst kısmı bacaklarınız arasına yerleştirin. Kaldırma çubuğunun ucundaki makaraların ayak bileklerinizin hemen ön tarafında olduğundan emin olun. Şimdi bacağına yaslan. Düz duruncaya kadar bacaklarınızı kaldırın. Vücudunuz dik duruyor ve ayaklarınız ileriye dönük. Yavaşça (işaretli) ağırlığı başlangıç konumuna getirin.",
+				"help": "a) Bacaklarınızı çok hızlı indirmeyin ve üst vücudunuzu dik tutun. <hr>b) Bacaklarınızı tamamen dümdüz olana kadar maksimuma çıkarın. Sonra onları yavaşça tekrar indirin. <hr>c) Ayak bileği ağırlıkları yardımıyla, bu egzersiz bir cihaz olmadan da (hafif biçimde) gerçekleştirilebilir.<br>",
+				"musc":"Bu egzersizle uylukların önünde büyük bir kütle oluşturan kuadrisepslerle mücadele edilir. Kuadriseps, diz eklemini kontrol etmek için en önemli işleve sahiptir. Kuadriseps önemli bir kas kütlesi oluşturabilir, örneğin bisikletçiler, futbolcular ve patenciler bu durum böyle olabilir. Hepsi bacak uzatmasıyla ilgili dört bölümden oluşur. Özellikle eğitilmiş rektus femoris, vastus medialis, vastus lateralis ve vastus intermedius ile ilgilidir."
+			},
+			{
+				"name": "Lying Leg Curl",
+				"image": "img/cat/ayaq/lying-leg-curl.gif",
+				"information": "Lying-leg-curl cihazının üstüne yat. Dizleriniz yastığın kenarından hafifçe dışarı taşmalı ve diz eklemleriniz kaldırma çubuğunun üstüyle aynı hizada olmalıdır. Silindiri, ayak bileklerinin hemen yukarısındaki kaldırma çubuğunun arkasına yerleştirin. Bacaklarınızı mümkün olduğunca kalçalarınıza doğru hareket ettirin. Şimdi yavaşça başlangıç pozisyonuna dönün. Bu hareket iki veya üç saniye sürmelidir. Vücudunuzun daima bankayla temas halinde kaldığından emin olun.",
+				"help": "a) Ağırlığı çok hızlı bir şekilde başlangıç pozisyonuna getirmeyin.<hr>b) Kalçalar hareket sırasında çok fazla bükülmemelidir.<hr>c) Maksimum etki için bacakları olabildiğince kalçalara doğru hareket ettirin.<br>",
+				"musc":"Bu haraket  ile üst bacakların arkasındaki kaslar özellikle eğitilir. İki başlı uyluk kası (biseps femoris), yarı kaslı kas (semimembranosus) ve yarı kaslı kas (semitendinosus) ile ilgilidir. Ek olarak, terzi kasları (sartorius) uyluk dışına ve yüzeyel baldır kaslarına (gastrocnemius) hafifçe eğitilmiştir."
+			},
+			{
+				"name": "Barbell Squat",
+				"image": "img/cat/ayaq/Barbell-squat.gif",
+				"information": "Ayaklarınızı omuz genişliğinde birbirinden ayırın ve ayaklarınızı hafifçe yerleştirin. Halteri boynunuzun arkasındaki omuzların üzerine getirin ve halterin boynunuzun hemen altına, sırtınızın üstünde durmasına izin verin. Halteri iki elinizle tutun. Ellerinizi omuz genişliğinden biraz daha uzağa yerleştirin. Dümdüz ileri bak ve aşağı bakma. Egzersiz boyunca dümdüz ileri bakmaya devam edin. Dizlerini bük ve yavaşça kendini yere indir. Topuklarını daima yerde tut. Uyluklarınız yerden yatay olarak durduğunda durun. Bundan sonra bacaklarınızı başlangıç pozisyonuna kadar güçlü bir hareketle gerin.",
+				"help": "a) Barbell squat ile sırt daima düz durmalıdır. İçi boş veya dışbükey sırt yaralanmaya neden olabilir.<hr>b) Dizler yukarı doğru uzanırken hareket etmemelidir, küçük parmağının yönünü takip etmeliler.<hr>c) Halter boynunun arkasına yerleştirmeyin ve topukları daima yerde tutun.<br>",
+				"musc": "Barbell squat, alt gövdeyi güçlendirmek için daha iyi egzersizlerden biridir. Bu egzersizde birçok kas aynı anda çalıştırılır. Halter ağzı, esas olarak dört başlı uyluk kaslarına (aracı, vastus lateralis ve vastus medialis de dahil olmak üzere quadriceps vastus) ve büyük gluteal kaslara (glutaeus maximus) odaklanır. Ayrıca eğitilmiş olan kaslar hamstrings (sırt uyluk kasları) ve alt sırt kaslarıdır."
+			}
+		]
