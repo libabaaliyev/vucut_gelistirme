@@ -4,6 +4,7 @@ $(document).ready(function()
 	base_menu		= "Base/menu";
 	base_helper 	= "Base/helper";
 	base_training 	= "Front/training";
+	base_translate 	= "Front/translate";
 	hash 			= location.hash.substr(1);
 
 	jQuery.ajaxSetup({async:false});
@@ -15,6 +16,8 @@ $(document).ready(function()
 	include(base_helper);
 
 	include(base_training,"training_data",hash);
+
+	include(base_translate,"translate_words");
 
 	loading.hide();
 

@@ -16,7 +16,11 @@
 		"back-musc"		: "Kürək əzələsi",
 		"sixpack-musc"	: "Qarın əzələsi",
 		"leg-musc" 		: "Ayaq əzələsi",
-		"go"			: "Bax"
+		"go"			: "Bax",
+		"home-title"	: "Hərəkət",
+		"musc-title" 	: "İşləyən əzələ",
+		"how-title" 	: "Necə etməli?",
+		"help-title" 	: "Köməkçi"
 
 	},
 	"en":
@@ -36,7 +40,11 @@
 		"back-musc"		: "Back muscle",
 		"sixpack-musc"	: "Sixpack",
 		"leg-musc" 		: "Leg",
-		"go"			: "Go"		
+		"go"			: "Go",
+		"home-title": "Action",
+		"musc-title": "Working muscle",
+		"how-title": "How to do it?",
+		"help-title": "Helper"
 
 	},
 	"ru":
@@ -56,7 +64,11 @@
 		"back-musc"		: "Мышцы спины",
 		"sixpack-musc"	: "Шесть пакетов",
 		"leg-musc" 		: "Нога",
-		"go"			: "идти"
+		"go"			: "идти",
+		"home-title": "Действие",
+		"musc-title": "Работающие мышцы",
+		"how-title": "Как сделать?",
+		"help-title": "Помощник"
 
 	},
 	"tr":
@@ -76,7 +88,11 @@
 		"back-musc"		: "Sırt",
 		"sixpack-musc"	: "Karın Kası",
 		"leg-musc" 		: "Bacak",
-		"go"			: "Git"
+		"go"			: "Git",
+		"home-title"	: "Hareket",
+		"musc-title" 	: "Çalışan kaslar",
+		"how-title" 	: "Nasıl yapılır?",
+		"help-title" 	: "İpucu"
 		
 	}
 

@@ -383,7 +383,7 @@
 		[
 			{
 			"name": "Dumbbell Concentration Curl",
-			"image": "img/cat/qol/dumbbell-concent-curl.gif",
+			"image": "img/cat/qol/dumbbell-concentration-curl.gif",
 			"information": "Fitness salonunda, taburetdə və ya stulda oturun. Ştanqı ayaqlarınızın arasına qoyun. Avuçlarınızla üzünüzə baxaraq dayağınızı saxlayın. Avucunuz çiyninizə baxana qədər qolunuzu yuxarı qaldırın. Ağırlığı yenidən endirin. qolunuz tamamilə uzanır. ",
 			"help": "a) Bu məşq ayrı-ayrılıqda edilməlidir. Bu o deməkdir ki, məşq zamanı bütün bədən sakit olmalıdır, əlbəttə ki, məşq etdiyiniz qol <hr> b) Dönməyin və ya sinənizdən qalxmayın. Bu vəziyyətdə bu halda çəki çox ağırdır. <hr> c) Dəstək üçün digər əlinizi budunuza qoyun. <br> ",
 			"musc": "Bu təcrid idmanı ilə üç əzələ hədəflənmiş şəkildə işlədirsiniz. Üst qolda bu əsasən brachialisdir. Bu, ön tərəfdəki dirsək oynağının üstündən keçən bir əyici əzələdir. Dumbbell konsentrasiyası da böyük ölçüdədir brachii altındakı yuxarı qolun daxili hissəsindəki bisepslərin əyilmələrində müraciət olunur. sonunda brachioradialis'i məşq etdirirsiniz.Bu, qolun ön hissəsindəki qolla örtülmüş əzələdir.sahənin daxili hissəsinin yuxarı hissəsində yerləşir. ön kollar. Bundan əlavə, bəzi stabilizator əzələlər onunla işləyir. Bunlar flexor carpi radialis və qollardakı flexor carpi ulnarisdir. Ön deltoid çiyin hissəsində bir qədər məşq edilmişdir. "
@@ -442,7 +442,7 @@
 		[
 			{
 			"name": "Dumbbell Shoulder Press",
-			"image": "img/cat/omuz/dumbbell-omuz-press.gif",
+			"image": "img/cat/omuz/dumbbell-shoulder-press.gif",
 			"information": "Bir fitness salonunda oturun və şaquli vəziyyətdə dayanan arxada möhkəm oturun. Ayaqlarınızı ayırın və hər tərəfdən bir barbell alın. Barmaqları ovuclarınız qabağa baxaraq qulaq hündürlüyündə saxlayın. İndi dumbbellləri qollarınıza qədər yuxarı itələyin. başınızın zirvəsinə çatın. Dambıllar. başınızın üstündə bir araya gəlin, lakin ştanqın bir-birinə toxunmasına icazə verməyin. Ştanqı yavaş-yavaş başlanğıc vəziyyətinə gətirin. ",
 			"help": "a) Bu hərəkəti edərkən arxa tərəfin əyilməsindən çəkinin. Qarın əzələlərini dartaraq bunun qarşısını ala bilərsiniz. <hr> b) Məşqdən maksimum effekt əldə etmək üçün dumbbellların bir-birinə toxunmasına icazə verməyin. <hr> c) Ağır çəkilərlə məşq edərkən əzələ parçalanması. Çalışarkən ştanqın başınıza düşməməsi üçün bir gözətçiyə sahib olmaq faydalı ola bilər. <br> ",
 			"musc": "Bu məşq ilk növbədə ön və yanal deltoid əzələlərin hazırlanmasına yönəldilir. Bu çiyinlərin üstündə yerləşir. Stabilizə olunmuş əzələlər, biceps brakiya (yuxarı qolun yuxarı hissəsi), üç başlı kaslar (yuxarı qollar arxa), serratus ön və serratus anterior (çiyin qurşağı.) və trapezius (arxadakı almaz şəkilli əzələ) .Dumbellləri başın üstünə qaldırmaq üçün gövdənin tarazlaşdırma qabiliyyətindən də istifadə olunur. Dumbbell çiyin basması ilə abs də öyrədilir. "
@@ -450,7 +450,7 @@
 			},
 			{
 			"name": "Barbell Front Raise",
-			"image": "img/cat/omuz/Barbell-front-lift.gif",
+			"image": "img/cat/omuz/Barbell-front-raise.gif",
 			"information": "Ayaqlarınız çiyin enində və ayaqlarınız biraz əyilmiş vəziyyətdə düz durun. Ştanqı əllərinizlə çiyin enində tutun. Avuçlarınız sizə baxır. Dirsəkləriniz bir az düz əyilir. İndi qollarınızı irəli qaldırın. və çiyinlərinizin hündürlüyünə çatana qədər yuxarı. yavaş-yavaş başlanğıc vəziyyətinə endirin. Barkonun ayaqlarınıza toxunmasının qarşısını alın. ",
 			"help": "a) Barbell ön qaldırma gövdəsi düz bir vəziyyətdə edilməlidir. <hr> b) Bədəninizi idman edərkən kömək etməkdən qoruyun. <hr> c) Dəst də arxada divar üzərində edilə bilər. . <hr> d) İdman zamanı düz irəli baxın. <hr> e) Barbell çiyin hündürlüyündən yüksək olmaya bilər. <br> ",
 			"musc": "Barbell ön qaldırılması əvvəlcə ön deltoid əzələlərin (çiyinlərin) məşqinə yönəldilir. Bununla yanaşı, digər müxtəlif əzələlər də məşq olunur. Çiyinlərdə bunlar trapez və lateral deltoiddir. Aşağıdakı əzələlər ön qollar həyata keçirməyə kömək edir: ekstensor carpi radialis və ekstansor carpi Ulnaris. Nəhayət, düz qarın əzələsi (qarın rektusu) da böyük səylərin öhdəsindən gəlməlidir. "
@@ -529,7 +529,7 @@
 		[
 			{
 			"name": "Bridge Decline",
-			"image": "img/cat/karin/Bridge-drop.gif",
+			"image": "img/cat/karin/Bridge-decline.gif",
 			"information": "Fitness döşəyində arxanızda uzanın. Əllərinizi bədəninizin yanına qoyun. İndi dizlərinizi bədəninizə bükün və ayaqları yerə düz qoyun. Qarın və kalça əzələlərinizi dartın və dabanlarınıza təzyiq edin. Budlarınızı yerdən qaldırın və gövdənizi yuxarıya qaldırın. Bədəninizlə düz bir xətt düzəltdiyinizə əmin olun. Bu vəziyyətdə 20-30 saniyə qalın. Əzələləriniz yorulduqda yerə qayıdın. idman. ",
 			"help": "a) Körpünü sakit hərəkətlərlə düzəldin. Zədələnməyə səbəb ola biləcəyi üçün çox sürətlə düşməyin. <hr> b) Konkav və ya qabarıq arxadan çəkinin. Həmişə qarın və kalça əzələlərini dartaraq sabit bir düz mövqe saxlayın. . <hr> c) Bu məşq qarnınıza əlavə çəki qoymaqla daha ağır bir şəkildə öyrədilə bilər. <br> ",
 			"musc": "Körpü ilk növbədə abs (qarın əzələləri) və bel əzələlərinin hərəkətinə yönəlmişdir. Bu məşq aşağıdakı qarın əzələlərini əhatə edir: düz qarın əzələləri (qarın rektusu), daxili oblik qarın əzələləri (oblique abdominus) və xarici oblique qarın əzələlər (Arxa bölgədə, bölünmüş arxa əzələ (multifidus) və arxa sedye (düzəldici spinae) idarə olunur. Nəhayət, böyük gluteal əzələlər (glutaeus maximus)) da ağır bir məşq alırlar. "
@@ -599,7 +599,7 @@
 			},
 			{
 			"name": "Dumbbell Standing Calf Raise",
-			"image": "img/cat/ayaq/dumbbell-standing-buzf-lift.gif",
+			"image": "img/cat/ayaq/dumbbell-standing-calf-raise.gif",
 			"information": "Ayaqlarınızla qalın bir taxta və ya pilləkən kimi bir platformada durun. Ayaqlarınızı platformaya elə qoyun ki, dabanlarınız ayaq barmaqlarınızdan aşağı olsun. Dik durun və dumbbellləri bədəninizlə düz tutun. qollarınız. Ştanq budlarınızın yanındadır. İndi ayaqlarınızın üstündə durun və dabanlarınız qaldırıldı. İndi dabanlarınızı yüksəkliyin altına endirərək özünüzü mümkün qədər aşağı salın. ",
 			"help": "a) Bu hərəkət əsnasında uzanmaqdan çəkinin. Hərəkət başqa hərəkətlər etmədən sakit və idarəedici bir şəkildə həyata keçirilməlidir. <hr> b) Hərəkət ayaqlardan olmalıdır. Həmişə dizlərinizin və itburnu düzdür. <hr> c) Dumbbell ayağı. Dana qaldırmaq üçün usta, çəkisiz bir nərdivan başlaya bilərsiniz. Sonra əlinizi nərdivan korkuluklarına qoyaraq tarazlaşa bilərsiniz. <br> ",
 			"musc": "Dumbbell Ayaqda Dana qaldırmaqla, buzovlarda ən az altı əzələ istifadə olunur. Bunlar buzov (soleus), uzun kavernöz fleksor (flexor hallucis longus), uzun ayaq fleksoru (flexor digitorum longus), posterior tibial əzələdir. (tibialis posterior). və bazanın (plantaris) altındakı səthi buzov əzələsi (gastrocnemius). Qısası: Dana içindəki bütün vacib əzələlər bu məşqlə idarə olunur. "
@@ -620,7 +620,7 @@
 			},
 			{
 			"name": "Lying Leg Curl",
-			"image": "img/cat/ayaq/yatan ayaq-curl.gif",
+			"image": "img/cat/ayaq/lying-leg-curl.gif",
 			"information": "Yalançı-qıvrım cihazının üstündə uzanın. Dizləriniz yastığın kənarından azca çıxsın və diz oynaqlarınız qaldırıcı çubuğun üst hissəsi ilə bir yerdə olmalıdır. Silindiri qaldırıcı çubuğun arxasına qoyun. ayaq biləklərinizin üstündə. Ayaqlarınızı mümkün qədər uzaqlaşdırın. İndi. yavaş-yavaş başlanğıc vəziyyətinə qayıdın. Bu hərəkət iki və ya üç saniyə davam etməlidir. Vücudunuzun daima bankla təmasda olmasına əmin olun. ",
 			"help": "a) Ağırlığı başlanğıc mövqeyinə çox tez gətirməyin. <hr> b) Hərəkət zamanı kalçalar çox əyilməməlidir. <hr> c) Ayaqları mümkün qədər kalçaya doğru aparın. maksimum təsir üçün. ",
 			"musc": "Üst ayaqların arxasındakı əzələlər bu hərəkətlə xüsusi olaraq öyrədilmişdir. Bu, ikitərəfli bud əzələsi (biceps femoris), yarı əzələ əzələsi (semimembranosus) və yarı əzələ əzələsi (semitendinosus) ilə əlaqədardır. dərzi əzələləri (sartorius) budun xaricindədir və səthi buzov əzələləri (gastrocnemius) yüngül şəkildə öyrədilmişdir."
@@ -882,7 +882,7 @@
 
 			{
 			"name": "Dumbbell Shoulder Press",
-			"image": "img/cat/shoulder/dumbbell-shoulder-press.gif",
+			"image": "img/cat/omuz/dumbbell-shoulder-press.gif",
 			"information": "Sit on a fitness bench and sit firmly on the vertically positioned backrest. Separate your feet and take a barbell in each hand. Hold the barbell at ear height with the palms facing forward. Now push the dumbbells up until your arms reach the top of your head. Dumbbells. get together on your head, but don't let the barbell touch each other. Bring the barbell slowly to the starting position. ",
 			"help": "a) Avoid a curved back while doing this movement. You can prevent this by tightening your abdominal muscles. <hr> b) Do not allow the dumbbells to touch each other for maximum effect of the exercise. <hr> c) Muscle breakdown when training with heavy weights. It may be helpful to have a lookout to prevent the barbell from falling on your head while you are running. <br> ",
 			"musc": "This exercise focuses primarily on training the anterior and lateral deltoid muscles. This is located above the shoulders. Stabilized muscles, biceps brachia (upper arm upper part), triceps brachii (upper arm posterior), serratus anterior and serratus anterior (shoulder girdle. ) and the trapezius (diamond-shaped muscle on the back). In order to raise the dumbbells above the head, the balancing capacity of the trunk is also used. With the dumbbell shoulder press, the abs are also trained. "
@@ -890,7 +890,7 @@
 			},
 			{
 			"name": "Barbell Front Raise",
-			"image": "img/cat/shoulder/Barbell-front-raise.gif",
+			"image": "img/cat/omuz/Barbell-front-raise.gif",
 			"information": "Stand straight with your feet shoulder-width apart and your feet slightly bent. Hold the barbell with your hands shoulder-width apart. Your palms are facing you. Your elbows are slightly bent straight. Now lift your arms forward and up until you reach the height of your shoulders. slowly lower it to the starting position. Prevent the barbell from touching your legs. ",
 			"help": "a) Barbell front raise should be done in a straight position. <hr> b) Protect your body from having to help while exercising. <hr> c) Exercise can also be done on the wall with your back. <hr> d) Straight forward during exercise keep looking. <hr> e) Barbell may not be higher than shoulder height. <br> ",
 			"musc": "Barbell front raise initially focuses on the training of the anterior deltoid muscles (shoulders). In addition, various other muscles are also trained. In the shoulders, these are the trapezius and the lateral deltoid. The following muscles in the forearms help to exercise: the extensor carpi radialis and the extensor carpi Ulnaris. Finally, the flat abdominal muscle (rectus abdomini) also has to cope with considerable effort."
@@ -898,7 +898,7 @@
 			},
 			{
 			"name": "Dumbbell Rear Fly",
-			"image": "img/cat/shoulder/dumbbell-rear-fly.gif",
+			"image": "img/cat/omuz/dumbbell-rear-fly.gif",
 			"information": "Sit at the end of a fitness bench. You can also use a chair or chest. Lean forward and let your body rest on your thighs. Take the dumbbells by your feet. Your palms are inward. Now raise your hands up and to the side until your elbows are at shoulder level. Bring the weight slowly to the starting position. Do not let the barbell touch your legs. ",
 			"help": "a) Do not allow your elbows to be higher than shoulder height. This makes no sense for exercise and may cause overload. <hr> b) Do the back of the barbell with slightly bent elbows to avoid injury. <hr> c ) Prevent dumbbells from touching the legs and do not let them hit your legs. <br> ",
 			"musc": "In this so-called compound exercise, different muscles are trained. This means a lot of activity during just one exercise. With the dumbbell rear fly motion, the focus is on the rear deltoid on either side of the upper back, just below the shoulders. In addition, a The knee stabilizer muscles have been trained: the trapezius (upper side of the upper back), the rhombus (bottom of the trapezius), the small teeth (outer edge of the shoulder blades) and the infraspinatus (shoulder blades) in the back and shoulders.Finally, the triceps brachii (under the upper arms). also gets training. "
@@ -1080,7 +1080,7 @@
 		[
 			{
 				"name": "Dumbbell Chest Press",
-				"image": "img/cat/sine/dumbbell-Chess-press.gif",
+				"image": "img/cat/sine/dumbbell-chest-press.gif",
 				"information": "Сядьте на край дивана и дайте штанге упереться в колени. Поднесите штангу к плечам, а затем лягте на спину на диван. Держите гантели по обе стороны от груди ладонями друг к другу. ваше тело и ваши локти согнуты. Нажмите на штангу вверх и вытяните локти по небольшой дуге. Держите штангу на груди близко друг к другу. Медленно переместите веса в исходное положение и потяните их к плечам, когда почувствуете это.",
 				"help": "а) Чтобы освоить движение, новички могут начать в лучшем случае с небольшим весом. <hr> б) Делайте дугообразные движения с гантелями. Этот эффект достигается за счет того, что гантели держат ниже ширины плеч и ниже на ширине плеч. <hr> c) Не снимайте штангу с пола из положения, в котором вы лежите, перед выполнением упражнения. Это может привести к травме. <hr> d) Не позволяйте штанге касаться друг друга.",
 				"musc": "В первую очередь, вы тренируете мышцы большой грудной мышцы (pectoralis major) и боковой части лопатки (передняя дельтовидная мышца). Чтобы поднять штангу, руки обычно опираются на мышцы, расположенные за верхней частью. руки (triceps brachii). Кроме того, для выполнения жима гантелей на груди используются различные мышцы. Это мышцы-стабилизаторы. Это передняя зубчатая мышца плечевого пояса. В спине это широкая мышца спины (latissimus dorsi). и мышца монаха (трапеция). В верхней части рук это мышца руки воронова кость (coracobrachialis) "
@@ -1127,7 +1127,7 @@
 			},
 			{
 				"name": "Chest Dip",
-				"image": "img/cat/sine/Chess-dip.gif",
+				"image": "img/cat/sine/Chest-dip.gif",
 				"information": "Встаньте между брусьями и используйте ступеньку, чтобы брусья достигли уровня талии. Возьмитесь за перекладины обеими руками. Вытяните руки в локтях и согните ноги в коленях. Поднимите ноги со ступеньки. Теперь медленно опускайтесь до локти под углом 90 градусов. Вернитесь в исходное положение. Толкните",
 				"help": "a) Упражнение можно усугубить, если надеть очень тяжелый нижний пояс. <hr> б) Не используйте чрезмерный вес, так как это может привести к трещинам в большой грудной мышце и трицепсе. <hr> в) наклоняться вперед для тренировки грудных мышц. вертикальное положение для тренировки трицепсов. стоп. <br> ",
 				"musc": "Движение нижней части груди тренирует особенно большую грудную мышцу и треугольную мышцу вокруг плеч (передняя дельтовидная мышца). Трёхглавая мышца плеча (задние плечи) также интенсивно тренируется. Кроме того, немного тренируются несколько поддерживающих мышц. Это следующие мышцы предплечий: лучевой разгибатель запястья (внешний край предплечья) и локтевой разгибатель запястья."
@@ -1138,7 +1138,7 @@
 
 			{
 			"name": "Dumbbell Concentration Curl",
-			"image": "img/cat/qol/dumbbell-configuration-curl.gif",
+			"image": "img/cat/qol/dumbbell-concentration-curl.gif",
 			"information": "Сядьте на фитнес-скамейку, табурет или стул. Поместите штангу между ступнями. Держите недоуздок ладонями от себя. Поднимите руку так, чтобы ладонь была обращена к плечу. Опускайте вес снова, пока ваша рука полностью вытянута. ",
 			"help": "a) Это упражнение должно выполняться изолированно. Это означает, что все тело должно быть в спокойном состоянии во время тренировки, за исключением, конечно, руки, которую вы тренируете <hr> b) Не поворачивайтесь и не поднимайтесь с груди. При этом В этом случае вес слишком велик. <hr> c) Положите другую руку на бедро для поддержки. <br> ",
 			"musc": "С помощью этого изолирующего упражнения вы целенаправленно прорабатываете три мышцы. В верхней части руки, это в основном плечевая мышца. Это мышца-сгибатель, которая проходит над локтевым суставом спереди. адресовано в изгибах двуглавой мышцы во внутренней части плеча под плечами. В конце вы тренируете brachioradialis. Это мышца предплечья, охватывающая руку. Она расположена в верхней части внутренней части плеча. предплечья. Кроме того, с ним работают некоторые стабилизирующие мышцы. Это лучевой сгибатель запястья и локтевой сгибатель запястья в руках. Передняя дельтовидная мышца слегка тренируется в плече "
@@ -1173,7 +1173,7 @@
 			},
 			{
 			"name": "Chest Dip",
-			"image": "img/cat/qol/Chess-dip.gif",
+			"image": "img/cat/qol/Chest-dip.gif",
 			"information": "Встаньте между брусьями и используйте их, чтобы достичь уровня талии. Возьмитесь за перекладины обеими руками. Вытяните руки в локтях и согните ноги в коленях. Отрывайте ступни от ступеньки. Теперь медленно опускайтесь, пока ваши локти не окажутся под углом 90 °. -градус. Вернитесь в исходное положение. ",
 			"help": "a) Упражнение можно усугубить, если надеть очень тяжелый нижний пояс. <hr> б) Не используйте чрезмерный вес, так как это может вызвать трещины в большой грудной мышце и трицепсе. <hr> в) Наклон вперед для тренировки грудных мышц. В вертикальном положении для тренировки трицепсов. стоп. <br> ",
 			"musc": "Движение нижней части груди тренирует особенно большую грудную мышцу и треугольную мышцу вокруг плеч (передняя дельтовидная мышца). Трёхглавая мышца плеча (задние плечи) также интенсивно тренируется. Кроме того, немного тренируются несколько поддерживающих мышц. Это следующие мышцы предплечий: лучевой разгибатель запястья (внешний край предплечья) и локтевой разгибатель запястья."
@@ -1197,7 +1197,7 @@
 		[
 			{
 				"name": "Dumbbell Shoulder Press",
-				"image": "img/cat/плечо/гантель-плечо-press.gif",
+				"image": "img/cat/omuz/dumbbell-shoulder-press.gif",
 				"information": "Сядьте на скамейку для фитнеса и прочно сядьте на вертикально расположенную спинку. Разведите ноги и возьмите штангу в каждую руку. Держите штангу на уровне ушей ладонями вперед. Теперь поднимите гантели вверх, пока не получите руки. дотянитесь до макушки головы. Гантели. Сложите вместе над головой, но не позволяйте штанге касаться друг друга. Медленно переведите штангу в исходное положение. ",
 				"help": "a) Избегайте изогнутой спины при выполнении этого движения. Вы можете предотвратить это, напрягая мышцы живота. <hr> б) Не позволяйте гантелям касаться друг друга для максимального эффекта от упражнения. <hr> c) Нарушение мышц при тренировке с тяжелыми весами. Может быть полезно следить за тем, чтобы штанга не упала вам на голову во время бега. <br> ",
 				"musc": "Это упражнение в первую очередь направлено на тренировку передних и боковых дельтовидных мышц. Они расположены над плечами. Стабилизированные мышцы, двуглавая мышца плеча (верхняя часть плеча), трехглавая мышца плеча (задняя часть плеча), передняя зубчатая мышца и передняя зубчатая мышца. (плечевой пояс.) и трапеции (ромбовидная мышца спины). Чтобы поднять гантели над головой, также используется балансирующая способность туловища. С жимом гантелей плечами тренируется также пресс. "
@@ -1205,7 +1205,7 @@
 			},
 			{
 				"name": "Barbell Front Raise",
-				"image": "img/cat/плечо/Barbell-front-rise.gif",
+				"image": "img/cat/omuz/Barbell-front-raise.gif",
 				"information": "Встаньте прямо, ноги на ширине плеч, а ступни слегка согнуты. Держите штангу, руки на ширине плеч. Ладони обращены к вам. Слегка согнуты в локтях. Теперь поднимите руки вперед. и вверх, пока не достигнете уровня плеч. Медленно опустите его в исходное положение. Не допускайте, чтобы штанга касалась ваших ног. ",
 				"help": "a) Подъем тела со штангой вперед должен выполняться в прямом положении. <hr> б) Защищайте свое тело от необходимости помогать во время тренировки. <hr> в) Упражнение также можно делать на стене спиной. . <hr> г) Во время упражнения прямо вперед продолжайте смотреть. <hr> д) Штанга не может быть выше уровня плеч. <br> ",
 				"musc": "Подъем штанги впереди изначально направлен на тренировку передних дельтовидных мышц (плеч). Кроме того, тренируются также различные другие мышцы. В плечах это трапеция и латеральная дельтовидная мышца. предплечья помогают выполнять упражнения: лучевой разгибатель запястья и локтевой разгибатель запястья. Наконец, плоская мышца живота (прямая мышца живота) также должна выдерживать значительные усилия "
@@ -1213,7 +1213,7 @@
 			},
 			{
 				"name": "Dumbbell Rear Fly",
-				"image": "img/cat/плечо/гантель-сзади-fly.gif",
+				"image": "img/cat/omuz/dumbbell-rear-fly.gif",
 				"information": "Сядьте в конец скамейки для фитнеса. Вы также можете использовать стул или сундук. Наклонитесь вперед и позвольте телу опираться на бедра. Возьмите гантели за ступни. Ладони повернуты внутрь. Теперь поднимите руки вверх и в стороны, пока ваши локти не окажутся на уровне плеч. Медленно переместите вес в исходное положение. Не позволяйте штанге касаться ваших ног. ",
 				"help": "a) Не позволяйте локтям быть выше уровня плеч. Это не имеет смысла для упражнений и может вызвать перегрузку. <hr> б) Выполняйте упражнение со штангой сзади со слегка согнутыми локтями, чтобы избежать травм. < hr> c) Не позволяйте гантелям касаться ног и не позволяйте им касаться ваших ног. <br> ",
 				"musc": "В этом так называемом составном упражнении тренируются разные мышцы. Это означает, что во время одного упражнения требуется много активности. При движении гантелей назад, акцент делается на задних дельтовидных мышцах по обе стороны от верхней части спины. , чуть ниже плеч. Кроме того, тренируются мышцы-стабилизаторы колена: трапеция (верхняя часть верхней части спины), ромб (нижняя часть трапеции), мелкие зубы (внешний край лопаток) и инфраспинатус (лопатки) в спине и плечах. Наконец, трицепс плеча (под плечами) тоже тренируется "
@@ -1284,7 +1284,7 @@
 		[
 			{
 			"name": "Bridge Decline",
-			"image": "img/cat/karin/Bridge-reduce.gif",
+			"image": "img/cat/karin/Bridge-decline.gif",
 			"information": "Лягте на спину на коврик для фитнеса. Положите руки рядом с телом. Теперь согните колени и поставьте ступни на пол. Напрягите мышцы живота и бедер и надавите на пятки. . Поднимите бедра от пола и поднимите туловище вверх. Убедитесь, что вы делаете прямую линию с вашим телом. Оставайтесь в этом положении в течение 20–30 секунд. Когда ваши мышцы устают, вернитесь на землю. Повторите упражнение. ",
 			"help": "a) Сделайте мост спокойными движениями. Не падайте слишком быстро, это может привести к травмам. <hr> b) Избегайте вогнутой или выпуклой спины. Всегда сохраняйте устойчивое прямое положение, напрягая мышцы живота и бедер . <hr> c) Это упражнение можно тренировать с большей нагрузкой, положив лишний вес на живот. <br> ",
 			"musc": "Мост в первую очередь направлен на тренировку пресса (мышцы живота) и мышц нижней части спины. Это упражнение затрагивает следующие мышцы живота: плоские мышцы живота (rectus abdominis), внутренние косые мышцы живота (косые мышцы живота) и внешние косые мышцы живота. мышцы (в нижней части спины задействуются разделенная мышца спины (мультифидус) и растяжка спины (выпрямитель позвоночника). Наконец, большие ягодичные мышцы (glutaeus maximus) также подвергаются тяжелой тренировке "
@@ -1308,7 +1308,7 @@
 			},
 			{
 			"name": "Band Bicycle Crunch",
-			"image": "img/cat/karin/band-bike-crunch.gif",
+			"image": "img/cat/karin/band-bicycle-crunch.gif",
 			"information": "Оберните ремни вокруг ступней. Опирайтесь на землю, надавливая на спину. Напрягите мышцы туловища. Расслабьте руки за голову. Поднимите колени под углом 45 градусов. Сделайте круговое движение ногами. . Всегда делайте поворот, чтобы ударить локтем в противоположное колено. ",
 			"help": "а) Держите позвоночник в нейтральном положении, всегда подтягивая глубокий пресс к позвоночнику. <hr> б) Избегайте перемещения подбородка к груди. <hr> в) Обеспечьте удобную шею на протяжении всего упражнения. <br> ",
 			"musc": "Велосипедное упражнение - это сложное упражнение. Это означает, что оно нацелено на разные мышцы во время упражнения. Это упражнение в основном состоит из плоского живота (прямая мышца живота), внутреннего косого пресса (косая внутренняя мышца живота), внешнего косого живота (косого внешнего Кроме того, взаимодействуют различные стабилизирующие мышцы: большие ягодичные мышцы (glutaeus maximus), подколенные сухожилия (задняя часть бедра), прямые мышцы бедра и портняжник (оба передних бедра) "
@@ -1375,7 +1375,7 @@
 			},
 			{
 			"name": "Lying Leg Curl",
-			"image": "img/cat/ayaq/лежа-leg-curl.gif",
+			"image": "img/cat/ayaq/lying-leg-curl.gif",
 			"information": "Лягте на устройство для сгибания ног лежа. Ваши колени должны немного выступать за край подушки, а коленные суставы должны находиться на одном уровне с верхней частью подъемной перекладины. Поместите ролик за подъемную перекладину. чуть выше лодыжек. Переместите ноги как можно дальше к бедрам. Теперь медленно вернитесь в исходное положение. Это движение должно длиться две или три секунды. Убедитесь, что ваше тело всегда находится в контакте с берегом. ",
 			"help": "а) Не переводите вес в исходное положение слишком быстро. <hr> б) Бедра не должны слишком сильно сгибаться во время движения. <hr> в) Максимально приближайте ноги к бедрам. для максимального эффекта. <br> ",
 			"musc": "Этим движением специально тренируются мышцы за верхними частями ног. Это касается двусторонней мышцы бедра (двуглавой мышцы бедра), полумышечной мышцы (полумембранозная мышца) и полумышечной мышцы (полусухожильная мышца). портняжные мышцы (портняжная мышца) находятся за пределами бедра, а поверхностные икроножные мышцы (икроножные мышцы) слабо тренируются"

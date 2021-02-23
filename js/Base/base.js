@@ -23,6 +23,12 @@ next 			= $(".next");
 back 			= $(".back");
 loading			= $(".loading");
 
+home_title 		= $("#home-title");
+musc_title 		= $("#musc-title");
+how_title 		= $("#how-title");
+help_title 		= $("#help-title");
+
+
 screenWidth 	= $("body").width();
 scrollTop 		= 0;
 
