@@ -1,4 +1,6 @@
 
+
+
 $(document).on('click', '.training-items', function()
 {
 	let tag 	= $(this).data("tag");
@@ -14,21 +16,43 @@ $(document).on('click', '.training-items', function()
 	head_title	.html(name);
 
 	$("#musc p").html(muscle);
-	$("#how p").html(info);
 	$("#help p").html(help);
-	$("#home img").attr("src",img);
+	$("#img-training").attr("src",img);
+	$("#how-txt").html(info);
 
-	$(".tabs").show();
+	menu_icon.hide();
+	helper_icon.find("i").hide();
 	$(".trainings").hide();
+	back_tab.show();
+	back_tab.show();
+	$(".tabs").show();
+
+	
 
 });
 
+back_tab.click(()=>
+{
+	$(".tabs").hide();
+	back_tab.hide();
+	helper_icon.find("i").show();
+	menu_icon.show();
+	$(".trainings").show();
+	
+	if(menu_opening)
+		menu_();
+
+	title 		.html(training_name);
+	head_title	.html(training_name);
+
+})
+
 function training_data(tag) {
 	
-	let name 	= translate_items[tag];
-	let data 	= training[tag];
-	title 		.html(name);
-	head_title	.html(name);
+	training_name 	= translate_items[tag];
+	let data 		= training[tag];
+	title 		.html(training_name);
+	head_title	.html(training_name);
 	
 
 	for (var i = 0; i < data.length; i++) {

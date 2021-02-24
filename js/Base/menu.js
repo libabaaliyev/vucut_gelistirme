@@ -64,7 +64,8 @@ function menu_start(e)
 							</a>
 						</li>`;
 
-		$(createMenu).appendTo("#menu-collapse");
+		if(menu[i]['active'] == true)
+			$(createMenu).appendTo("#menu-collapse");
 
 
 	}

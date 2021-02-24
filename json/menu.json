@@ -2,36 +2,42 @@
 	{
 		"name" 	: "training",
 		"url" 	: "main.html",
-		"icon" 	: "fas fa-dumbbell"
+		"icon" 	: "fas fa-dumbbell",
+		"active": true
 	},
 
 	{
-		"name" 	: "discovery",
-		"url" 	: "discovery.html",
-		"icon" 	: "fas fa-compass"
+		"name" 	: "blog",
+		"url" 	: "blog.html",
+		"icon" 	: "fas fa-compass",
+		"active": false
 	},
 
 	{
 		"name" 	: "program",
-		"url" 	: "program.html",
-		"icon" 	: "fas fa-bolt"
+		"url" 	: "programs.html",
+		"icon" 	: "fas fa-bolt",
+		"active": true
 	},
 
 	{
 		"name" 	: "motivation",
 		"url" 	: "motivation.html",
-		"icon" 	: "fas fa-child"
+		"icon" 	: "fas fa-child",
+		"active": true
 	},
 
 	{
-		"name" 	: "reset",
-		"url" 	: "#reset",
-		"icon" 	: "fas fa-redo-alt"
+		"name" 	: "setting",
+		"url" 	: "setting.html",
+		"icon" 	: "fas fa-cog",
+		"active": true
 	},
 
 	{
 		"name" 	: "share",
 		"url" 	: "#share",
-		"icon" 	: "fas fa-share-alt"
+		"icon" 	: "fas fa-share-alt",
+		"active": true
 	}
 ]

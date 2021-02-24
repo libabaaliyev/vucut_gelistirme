@@ -1,5 +1,6 @@
 menu 			= JSON.parse(localStorage.menu);
 lang 			= JSON.parse(localStorage.lang);
+sound 			= JSON.parse(localStorage.sound);
 words 			= JSON.parse(localStorage.words);
 categories 		= JSON.parse(localStorage.categories);
 trainings 		= JSON.parse(localStorage.training);
@@ -27,7 +28,17 @@ home_title 		= $("#home-title");
 musc_title 		= $("#musc-title");
 how_title 		= $("#how-title");
 help_title 		= $("#help-title");
+back_tab 		= $(".back-tab");
 
+set_open_txt	= $("#open");
+set_close_txt	= $("#close");
+set_lang_txt	= $(".language");
+set_sound_txt	= $(".sound");
+set_confirm_txt	= $(".confirm");
+set_reset_txt	= $(".reset");
+
+language_input 	= $(".language-input");
+sound_input 	= $(".sound-input");
 
 screenWidth 	= $("body").width();
 scrollTop 		= 0;

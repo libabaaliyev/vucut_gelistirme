@@ -5,11 +5,21 @@ $(document).ready(function()
 	base_helper 	= "Base/helper";
 	base_training 	= "Front/training";
 	base_translate 	= "Front/translate";
+	front_ 			= "Front/view";
 	hash 			= location.hash.substr(1);
+
+	if(!hash)
+		window.location = "main.html";
 
 	jQuery.ajaxSetup({async:false});
 
+	include(front_,"import_topbar");
+
 	include(base_);	
+
+	import_menu();
+	
+	import_helper();
 
 	include(base_menu,	"menu_start","training");
 

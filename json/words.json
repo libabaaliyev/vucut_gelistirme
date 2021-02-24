@@ -3,10 +3,10 @@
 	{
 		"app-name" 		: "Vücud inkişaf rəhbəri",
 		"training" 		: "Məşqlər",
-		"discovery" 	: "Kəşf et",
+		"blog" 			: "Blog",
 		"program" 		: "Proqram",
 		"motivation" 	: "Motivasiya",
-		"reset" 		: "Sıfırla",
+		"setting" 		: "Tənzimləmə",
 		"share" 		: "Paylaş",
 		"helper"		: "Faydalı bilgilər",
 		
@@ -20,17 +20,24 @@
 		"home-title"	: "Hərəkət",
 		"musc-title" 	: "İşləyən əzələ",
 		"how-title" 	: "Necə etməli?",
-		"help-title" 	: "Köməkçi"
+		"help-title" 	: "Köməkçi",
+		"open"			: "Açıq",
+		"close"			: "Bağlı",
+		"language"		: "Dil",
+		"sound"			: "Səs",
+		"confirm"		: "Təsdiqlə",
+		"reset"			: "Sıfırla",
+		"followus"		: "Bizi izləyin"
 
 	},
 	"en":
 	{
 		"app-name" 		: "Bodybuilding guide",
 		"training" 		: "Exercises",
-		"discovery" 	: "Discover",
+		"blog" 			: "Blog",
 		"program" 		: "Program",
 		"motivation" 	: "Motivation",
-		"reset" 		: "Reset",
+		"setting" 		: "Settings",
 		"share" 		: "Share",
 		"helper"		: "Useful information",
 
@@ -44,17 +51,24 @@
 		"home-title": "Action",
 		"musc-title": "Working muscle",
 		"how-title": "How to do it?",
-		"help-title": "Helper"
+		"help-title": "Helper",
+		"open"			: "Open",
+		"close"			: "Close",
+		"language"		: "Language",
+		"sound"			: "Sound",
+		"confirm"		: "Confirm",
+		"reset"			: "Reset",
+		"followus"		: "Follow Us"
 
 	},
 	"ru":
 	{
 		"app-name" 		: "Гид по бодибилдингу",
 		"training" 		: "Упражнения",
-		"discovery" 	: "Обнаружить",
+		"blog" 			: "Блог",
 		"program" 		: "Программа",
 		"motivation" 	: "Мотивация",
-		"reset" 		: "Перезагрузить",
+		"setting" 		: "Настройки",
 		"share" 		: "",
 		"helper"		: "Полезная информация",
 
@@ -65,20 +79,27 @@
 		"sixpack-musc"	: "Шесть пакетов",
 		"leg-musc" 		: "Нога",
 		"go"			: "идти",
-		"home-title": "Действие",
-		"musc-title": "Работающие мышцы",
-		"how-title": "Как сделать?",
-		"help-title": "Помощник"
+		"home-title"	: "Действие",
+		"musc-title"	: "Работающие мышцы",
+		"how-title"		: "Как сделать?",
+		"help-title"	: "Помощник",
+		"open"			: "Открыть",
+		"close"			: "Закрывать",
+		"language"		: "Язык",
+		"sound"			: "Звук",
+		"confirm"		: "Подтверждать",
+		"reset"			: "Перезагрузить",
+		"followus"		: "Подписывайтесь на нас"
 
 	},
 	"tr":
 	{
 		"app-name" 		: "Vücut geliştirme rehberi",
 		"training" 		: "Antremanlar",
-		"discovery" 	: "Keşfet",
+		"blog" 			: "Blog",
 		"program" 		: "Program",
 		"motivation" 	: "Motivasyon",
-		"reset" 		: "Sıfırla",
+		"setting" 		: "Ayarlar",
 		"share" 		: "Paylaş",
 		"helper"		: "Yararlı bilgiler",
 
@@ -92,7 +113,14 @@
 		"home-title"	: "Hareket",
 		"musc-title" 	: "Çalışan kaslar",
 		"how-title" 	: "Nasıl yapılır?",
-		"help-title" 	: "İpucu"
+		"help-title" 	: "İpucu",
+		"open"			: "Açık",
+		"close"			: "Kapalı",
+		"language"		: "Dil",
+		"sound"			: "Ses",
+		"confirm"		: "Onayla",
+		"reset"			: "Sıfırla",
+		"followus"		: "Takib edin"
 		
 	}
 

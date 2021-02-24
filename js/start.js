@@ -60,6 +60,7 @@ $(document).ready(function()
 			    return new Promise((resolve) => {
 			      if (value) {
 			      	localStorage.lang 		= JSON.stringify(value);
+			      	localStorage.sound 		= JSON.stringify("open");
 			      	lang 					= localStorage.lang;
 			      	
 			      	appName 				= appName_[lang];

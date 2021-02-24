@@ -11,12 +11,8 @@ $(document).ready(function()
 
 	include(front_,"import_topbar");
 	
-	include(base_);
-
-	include(adsense_);	
+	include(base_);	
 	
-	include(base_categories,"view_categories");
-
 	import_menu();
 	
 	import_helper();	
@@ -25,7 +21,6 @@ $(document).ready(function()
 
 	include(base_helper);
 
-	
 
 	loading.hide();
 
