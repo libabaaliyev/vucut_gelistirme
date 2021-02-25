@@ -1,11 +1,28 @@
-menu 			= JSON.parse(localStorage.menu);
 lang 			= JSON.parse(localStorage.lang);
+notifications	= JSON.parse(localStorage.notifications);
+notfs 			= notifications[lang];
+menu 			= JSON.parse(localStorage.menu);
 sound 			= JSON.parse(localStorage.sound);
 words 			= JSON.parse(localStorage.words);
 categories 		= JSON.parse(localStorage.categories);
 trainings 		= JSON.parse(localStorage.training);
+
 translate_items = words[lang];
 training 		= trainings[lang];
+
+weight 			= 0;
+height 			= 0;
+bodyType 		= '';
+
+if(localStorage.bodyType)
+{
+	weight 		= JSON.parse(localStorage.weight);
+	height 		= JSON.parse(localStorage.height);
+	bodyType 	= localStorage.bodyType;
+}
+
+
+
 
 menu_opening 	= false;
 helper_opening 	= false; 
@@ -42,6 +59,20 @@ sound_input 	= $(".sound-input");
 
 screenWidth 	= $("body").width();
 scrollTop 		= 0;
+
+information_txt	= $(".information-txt");
+weight_txt		= $(".weight-txt");
+height_txt		= $(".height-txt");
+day_txt			= $(".day-txt");
+
+weightHTML 		= $(".weight");
+heightHTML 		= $(".height");
+
+form_body_txt 	= $(".form-body-txt");
+add_info_txt 	= $(".add-info-notf");
+body_info_txt 	= $(".form-body-info-txt");
+add_info 		= $(".add-info");
+week_txt 		= $(".week-txt");
 
 $(window).scroll(function(e) {
   scrollTop = $(window).scrollTop();

@@ -27,7 +27,25 @@
 		"sound"			: "Səs",
 		"confirm"		: "Təsdiqlə",
 		"reset"			: "Sıfırla",
-		"followus"		: "Bizi izləyin"
+		"followus"		: "Bizi izləyin",
+		"information"	: "Bilgilər",
+		"weight-txt"	: "Çəki",
+		"height-txt"	: "Boy",
+		"day-txt"		: "Gün",
+		"form-body"		: "Bədən tipi",
+		"weak"			: "Zəif",
+		"normal-body"	: "Normal vücud",
+		"fat"			: "Yağlı vücud",
+
+		"add-info-notf"	: "Məlumatlarınızı daxil edin",
+
+		"not-info"		: "Bilgilər əlavə olunmayıb.",
+
+		"next"			: "Növbəti",
+
+		"kg"			: "kq",
+		"sm"			: "sm",
+		"week-txt"		: "Həftəlik Proqram"
 
 	},
 	"en":
@@ -58,7 +76,25 @@
 		"sound"			: "Sound",
 		"confirm"		: "Confirm",
 		"reset"			: "Reset",
-		"followus"		: "Follow Us"
+		"followus"		: "Follow Us",
+		"information"	: "Information",
+		"weight-txt"	: "Weight",
+		"height-txt"	: "Height",
+		"day-txt"		: "Day",
+		"form-body"		: "Body type",
+		"weak"			: "Weak",
+		"normal-body"	: "Normal body",
+		"fat"			: "Fat body",
+
+		"add-info-notf"	: "Enter your information",
+
+		"not-info"		: "No information added.",
+
+		"next"			: "Next",
+
+		"kg"			: "kg",
+		"sm"			: "sm",
+		"week-txt"		: "Weekly program"
 
 	},
 	"ru":
@@ -89,7 +125,25 @@
 		"sound"			: "Звук",
 		"confirm"		: "Подтверждать",
 		"reset"			: "Перезагрузить",
-		"followus"		: "Подписывайтесь на нас"
+		"followus"		: "Подписывайтесь на нас",
+		"information"	: "Информация",
+		"weight-txt"	: "Масса",
+		"height-txt"	: "Высота",
+		"day-txt"		: "День",
+		"form-body"		: "Телосложение",
+		"weak"			: "Слабый",
+		"normal-body"	: "Нормальное тело",
+		"fat"			: "Толстое тело",
+
+		"add-info-notf"	: "Введите вашу информацию",
+
+		"not-info"		: "Никакой информации не добавлено",
+
+		"next"			: "Cледующий",
+
+		"kg"			: "кг",
+		"sm"			: "см",
+		"week-txt"		: "Еженедельная программа"
 
 	},
 	"tr":
@@ -120,7 +174,25 @@
 		"sound"			: "Ses",
 		"confirm"		: "Onayla",
 		"reset"			: "Sıfırla",
-		"followus"		: "Takib edin"
+		"followus"		: "Takib edin",
+		"information"	: "Bilgiler",
+		"weight-txt"	: "Kilo",
+		"height-txt"	: "Boy",
+		"day-txt"		: "Gün",
+		"form-body"		: "Vücut tipi",
+		"weak"			: "Zayıf",
+		"normal-body"	: "Normal vücut",
+		"fat"			: "Yağlı vücut",
+
+		"add-info-notf"	: "Bilgilerinizi girin",
+
+		"not-info"		: "Bilgiler eklenmedi",
+
+		"next"			: "Sıradaki",
+
+		"kg"			: "kg",
+		"sm"			: "sm",
+		"week-txt"		: "Haftalık Program"
 		
 	}
 

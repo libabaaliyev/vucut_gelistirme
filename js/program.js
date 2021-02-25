@@ -4,8 +4,12 @@ $(document).ready(function()
 	base_menu		= "Base/menu";
 	base_helper 	= "Base/helper";
 	base_categories = "Front/categories";
+	base_program	= "Base/program";
 	front_ 			= "Front/view";
 	adsense_ 		= "Front/adsense"
+	translate_ 		= "Front/translate";
+	notification_ 	= "Front/notification";
+
 
 	jQuery.ajaxSetup({async:false});
 
@@ -17,9 +21,17 @@ $(document).ready(function()
 	
 	import_helper();	
 
-	include(base_menu,	"menu_start","training");
+	include(base_menu,	"menu_start","program");
+
+	include(translate_,"translate_words");
 
 	include(base_helper);
+
+	include(notification_);
+
+	include(base_categories);
+
+	include(base_program,"setting_programs");
 
 
 	loading.hide();

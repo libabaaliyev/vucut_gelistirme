@@ -7,6 +7,8 @@ $(document).ready(function()
 	front_ 			= "Front/view";
 	adsense_ 		= "Front/adsense";
 	translate_ 		= "Front/translate";
+	notification_ 	= "Front/notification";
+
 
 
 	jQuery.ajaxSetup({async:false});
@@ -17,9 +19,11 @@ $(document).ready(function()
 
 	include(translate_,"translate_words");
 
-	include(base_setting);
+	include(notification_);
 
 	include(adsense_);
+
+	include(base_setting);
 
 	import_menu();
 	

@@ -18,6 +18,9 @@ set_confirm_txt.click(()=>
 
 set_reset_txt.click(()=>
 {
-	console.log("reset");
+	localStorage.removeItem("weight");
+	localStorage.removeItem("height");
+	localStorage.removeItem("bodyType");
 
+	notification("success-reset"); 
 });

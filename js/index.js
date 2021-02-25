@@ -15,7 +15,7 @@ $(document).ready(function()
 
 	include(adsense_);	
 	
-	include(base_categories,"view_categories");
+	include(base_categories,"view_categories","training");
 
 	import_menu();
 	

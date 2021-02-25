@@ -11,4 +11,21 @@ function translate_words() {
 	set_reset_txt			.html(translate_items['reset']);
 
 	$(".followus")			.html(translate_items['followus']);
+
+
+	information_txt 		.html(translate_items['information']);
+	weight_txt				.html(translate_items['weight-txt']);
+	height_txt				.html(translate_items['height-txt']);
+	day_txt					.html(translate_items['day-txt']);
+
+	week_txt				.html(translate_items['week-txt']);
+
+	form_body_txt			.html(translate_items['form-body']);
+
+	if(!bodyType)
+		body_info_txt 		.html(translate_items['not-info']);
+	else
+		body_info_txt 		.html(translate_items[bodyType]);
+	
+	add_info_txt			.html(translate_items['add-info-notf']); 
 }

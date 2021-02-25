@@ -7,7 +7,18 @@
 
 		"confirmDelete"		: "Yes, delete it!",		
 
-		"pro-ok"			: {"message"	: "Congratulations, you've switched to PRO!", "info": "info"}
+		"pro-ok"			: {"message"	: "Congratulations, you've switched to PRO!", "info": "info"},
+
+		"empty-field"		: {"message" 	: "Fill in all the fields.", "info": "error"},
+
+		"success-add-info"	: {"message"	: "Body information has been successfully saved. Your body type:", "info": "success"},
+
+		"wrong-weight"		: {"message" 	: "Please enter your weight correctly.", "info": "error"},
+
+		"wrong-height"		: {"message" 	: "Please enter your height correctly and make sure you do not write sm.", "info": "error"},
+
+		"success-reset"		: {"message"	: "Everything has been reset successfully", "info": "success"}
+
 
 	},
 	"tr":
@@ -18,7 +29,17 @@
 
 		"confirmDelete"		: "Eminim, sil!",		
 
-		"pro-ok"			: {"message"	: "Tebrikler,pro-a geçtiniz!", "info": "info"}
+		"pro-ok"			: {"message"	: "Tebrikler,pro-a geçtiniz!", "info": "info"},
+
+		"empty-field"		: {"message" 	: "Tüm alanları doldurun", "info": "error"},
+
+		"success-add-info"	: {"message"	: "Vücut bilgilerin başarıyla kaydedildi. Sizin vücut tipiniz: ", "info": "success"},
+
+		"wrong-weight"		: {"message" 	: "Lütfen kilonuzu doğru girin.", "info": "error"},
+
+		"wrong-height"		: {"message" 	: "Lütfen boyunuzu doğru girin ve sm ile yazıb yazmamanızdan emin olun.", "info": "error"},
+
+		"success-reset"		: {"message"	: "Her şey başarıyla sıfırlandı", "info": "success"}
 
 	},
 	"az":
@@ -29,7 +50,17 @@
 
 		"confirmDelete"		: "Əminəm, sil!",
 		
-		"pro-ok"			: {"message"	: "Təbriklər,pro versiyaya keçdiniz!", "info": "info"}
+		"pro-ok"			: {"message"	: "Təbriklər,pro versiyaya keçdiniz!", "info": "info"},
+
+		"empty-field"		: {"message" 	: "Bütün xanaları doldurun", "info": "error"},
+
+		"success-add-info"	: {"message"	: "Vücud bilgilərin uğurla qeyd edildi. Sizin vücud tipiniz: ", "info": "success"},
+
+		"wrong-weight"		: {"message" 	: "Çəkinizi düzgün qeyd edin.", "info": "error"},
+
+		"wrong-height"		: {"message" 	: "Boyunuzu daxil edin və ya sm ilə yazdığınızdan əmin olun.", "info": "error"},
+
+		"success-reset"		: {"message"	: "Hər şey uğurla sıfırlandı", "info": "success"}
 
 	},
 	"ru":
@@ -37,7 +68,17 @@
 		"confirmText"		: "ОК",
 		"cancel"			: "Отмена",
 		"confirmDelete"		: "Да удалите!",
-		"pro-ok"			: {"message"	: "Поздравляем, вы перешли на PRO!", "info": "info"}
+		"pro-ok"			: {"message"	: "Поздравляем, вы перешли на PRO!", "info": "info"},
+
+		"empty-field"		: {"message" 	: "Заполните все поля.", "info": "error"},
+
+		"success-add-info"	: {"message"	: "Информация о теле успешно сохранена. Ваш тип телосложения:", "info": "success"},
+
+		"wrong-weight"		: {"message" 	: "Пожалуйста, введите свой вес правильно.", "info": "error"},
+
+		"wrong-height"		: {"message" 	: "Пожалуйста, введите свой рост правильно и убедитесь, что вы не пишете sm.", "info": "error"},
+
+		"success-reset"		: {"message"	: "Все было успешно сброшено", "info": "success"}
 
 	}
 
