@@ -18,11 +18,13 @@ if(localStorage.bodyType)
 {
 	weight 		= JSON.parse(localStorage.weight);
 	height 		= JSON.parse(localStorage.height);
-	bodyType 	= localStorage.bodyType;
+	bodyType 	= localStorage.bodyType;	
 }
 
-
-
+contries 		= 
+{
+	"az" : "Azerbaijan"
+}
 
 menu_opening 	= false;
 helper_opening 	= false; 
@@ -73,6 +75,12 @@ add_info_txt 	= $(".add-info-notf");
 body_info_txt 	= $(".form-body-info-txt");
 add_info 		= $(".add-info");
 week_txt 		= $(".week-txt");
+
+pr_count_txt	= $(".pr-count-txt");
+time_count_txt	= $(".time-count-txt");
+start_txt		= $(".start-txt");
+
+training_info 	= $(".info-txt");
 
 $(window).scroll(function(e) {
   scrollTop = $(window).scrollTop();
@@ -211,6 +219,19 @@ function touching(including)
 		}
 	});
 
+}
+
+function speechText(text)
+{
+	xM = random_number(0,10);
+	let person;
+
+	if(xM % 2 == 0)
+		person = country + ' Female';
+	else
+		person = country + ' Male';
+	
+	responsiveVoice.speak(e, person);
 }
 
 function random_number(min,max)

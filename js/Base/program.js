@@ -1,9 +1,56 @@
+program_current = $(".current");
+simple_program 	= $(".simple-program");
+start_program 	= $(".start-program");
+tr_program		= $(".training-program");
+s_img_program 	= $(".s-img-program");
+pr_count_html 	= $(".pr-count");
+time_count_html	= $(".time-count");
+start_tr_btn 	= $(".start-training-btn");
+training_panel 	= $(".training");
+start_plan 		= 'program';
+
 add_info.click(()=>
 {
 	setting_info();
 });
 
+$(document).on('click', '.categories .item', function()
+{
+	tag 		= $(this).data("tag");
+	start_plan	= 'open-plan';
+	open_program(tag);
+});
 
+back_tab.click(()=>
+{
+	if(start_plan == 'open-plan')
+	{
+		menu_start("program");
+		back_tab			.hide();
+		back_tab			.hide();
+		simple_program		.hide();
+
+		menu_icon			.show();
+		helper_icon			.find("i").show();
+		program_current		.show();	
+		
+	}
+	else if(start_plan == "start-training")
+	{
+		training_panel.hide();
+		simple_program.show();
+		
+		start_plan = 'open-plan';
+	}
+	
+
+});
+
+start_tr_btn.click(()=>
+{
+	start_plan = 'start-training';
+	start_training();
+});
 
 function setting_info()
 {
@@ -12,8 +59,9 @@ function setting_info()
 		position				: 'center',
 		title					: translate_items['weight-txt']+"("+translate_items['kg']+")",
 		input					: 'number',
+		showCancelButton		: false,
 		confirmButtonText		: translate_items['next'] + ' &rarr;',
-		showCancelButton		: true,	
+			
 		inputValidator: (value) => {
 		    return new Promise((resolve) => {
 		    	if(value){
@@ -27,7 +75,7 @@ function setting_info()
 							title					: translate_items['height-txt']+"("+translate_items['sm']+")",
 							input					: 'number',
 							confirmButtonText		: translate_items['next'] + ' &rarr;',
-							showCancelButton		: true,	
+							showCancelButton		: false,	
 							inputValidator: (value) => {
 							    return new Promise((resolve) => {
 							    	if(value){
@@ -52,7 +100,7 @@ function setting_info()
 											localStorage.bodyType 	= bodyType;
 
 											setting_programs();
-											translate_words();
+											translate_words("program");
 								    		notification('success-add-info',bodyType);
 
 							    		}
@@ -86,9 +134,18 @@ function setting_programs()
 	{
 		weightHTML.html(weight);
 		heightHTML.html(height);
+
+		if(bodyType == 'weak')
+			bodyIndex = 8;
+		else if(bodyType == 'normal-body')
+			bodyIndex = 10;
+		else
+			bodyIndex = 12;
+
+
 		$(".add-info-block").hide();
 
-		view_categories("program",'without-button');
+		view_categories("programs",'without-button');
 
 		$(".program").show();
 
@@ -97,8 +154,79 @@ function setting_programs()
 		$(".program").hide();
 		$(".add-info-block").show();
 	}
-	
 
+}
+
+function open_program(tag)
+{
+	
+	
+	let data 			= training[tag];
+	let data_c 			= find_categories(tag);
+	let img 			= data_c['image_0'];
+	training_name 		= translate_items[tag];
+	menu_icon			.hide();
+	helper_icon			.find("i").hide();
+	program_current		.hide();
+	
+	back_tab			.show();
+	back_tab			.show();
+	simple_program		.show();	
+
+	title 				.html(training_name);
+	head_title			.html(training_name);
+	s_img_program 		.attr("src",img);
+	pr_count_html 		.html(data.length);
+
+	time_training 		= data.length * bodyIndex;	
+	let modul 			= time_training % 60;
+	let floor 			= Math.floor(time_training / 60);
+	
+	if(time_training > 60){
+		if(floor<10)
+			x_floor = "0"+floor;
+		else
+			x_floor = floor;
+
+		if(modul < 10)
+			x_modul = "0"+modul;
+		else
+			x_modul = modul;
+
+		time_count_html 	.html(x_floor + " : " + x_modul + " : 00");
+
+	}
+	else
+		time_count_html 	.html(time_training + " : 00");
+
+}
+training_que = 0;
+function start_training()
+{
+	let data 	= training[tag][training_que];
+	let img 	= data['image'];
+	let name 	= data['name'];
+	let info 	= data['information'];
+
+	head_title 	.html(name);
+	training_info.html(info);
+
+	simple_program.hide();
+	training_panel.show();
+}
+
+function find_categories(tag)
+{
+	for (var i = 0; i < categories.length; i++) {
+		
+		if(tag == categories[i]['name']){
+			return categories[i];
+			break;
+		}
+		else
+			if(i == ( categories.length - 1 ))
+				notification("error-something");
+	}
 }
 
 function calculate_fat(w,h)

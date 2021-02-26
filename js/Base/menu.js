@@ -45,6 +45,8 @@ function menu_()
 
 function menu_start(e)
 {
+	$("#menu-collapse").html("");
+	
 	for (var i = 0; i < menu.length; i++) {
 		
 		let active 	= '';

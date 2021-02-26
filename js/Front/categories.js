@@ -12,7 +12,7 @@ function view_categories(link,wb)
 		if(wb == "without-button")
 			btnCss = 'd-none';
 
-		create = `<div class="float-left w-100 bg-dark item mb-1">
+		create = `<div class="float-left w-100 bg-dark item mb-1" data-tag="`+ tag +`">
 					<a class="item-img" href="`+ link +`.html#`+tag+`">
 						<div class="darkness"></div>
 						<img src="`+img+`">

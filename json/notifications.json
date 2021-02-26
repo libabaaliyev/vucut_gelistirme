@@ -17,7 +17,9 @@
 
 		"wrong-height"		: {"message" 	: "Please enter your height correctly and make sure you do not write sm.", "info": "error"},
 
-		"success-reset"		: {"message"	: "Everything has been reset successfully", "info": "success"}
+		"success-reset"		: {"message"	: "Everything has been reset successfully", "info": "success"},
+
+		"error-something"	: {"message" 	: "Oops. Something went wrong", "info": "error"}
 
 
 	},
@@ -39,7 +41,9 @@
 
 		"wrong-height"		: {"message" 	: "Lütfen boyunuzu doğru girin ve sm ile yazıb yazmamanızdan emin olun.", "info": "error"},
 
-		"success-reset"		: {"message"	: "Her şey başarıyla sıfırlandı", "info": "success"}
+		"success-reset"		: {"message"	: "Her şey başarıyla sıfırlandı", "info": "success"},
+
+		"error-something"	: {"message" 	: "Ups. Bir şeyler ters gitti", "info": "error"}
 
 	},
 	"az":
@@ -60,7 +64,9 @@
 
 		"wrong-height"		: {"message" 	: "Boyunuzu daxil edin və ya sm ilə yazdığınızdan əmin olun.", "info": "error"},
 
-		"success-reset"		: {"message"	: "Hər şey uğurla sıfırlandı", "info": "success"}
+		"success-reset"		: {"message"	: "Hər şey uğurla sıfırlandı", "info": "success"},
+
+		"error-something"	: {"message" 	: "Ups. Bir şeylər tərs getdi", "info": "error"}
 
 	},
 	"ru":
@@ -78,7 +84,9 @@
 
 		"wrong-height"		: {"message" 	: "Пожалуйста, введите свой рост правильно и убедитесь, что вы не пишете sm.", "info": "error"},
 
-		"success-reset"		: {"message"	: "Все было успешно сброшено", "info": "success"}
+		"success-reset"		: {"message"	: "Все было успешно сброшено", "info": "success"},
+
+		"error-something"	: {"message" 	: "Ой. Что-то пошло не так", "info": "error"}
 
 	}
 

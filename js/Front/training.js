@@ -1,6 +1,3 @@
-
-
-
 $(document).on('click', '.training-items', function()
 {
 	let tag 	= $(this).data("tag");
@@ -27,7 +24,6 @@ $(document).on('click', '.training-items', function()
 	back_tab.show();
 	$(".tabs").show();
 
-	
 
 });
 

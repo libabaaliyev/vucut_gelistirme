@@ -45,7 +45,11 @@
 
 		"kg"			: "kq",
 		"sm"			: "sm",
-		"week-txt"		: "Həftəlik Proqram"
+		"week-txt"		: "Həftəlik Proqram",
+
+		"pr-count"		: "Məşq sayı :",
+		"time-count"	: "Vaxt :",
+		"start"			: "Başla"
 
 	},
 	"en":
@@ -94,7 +98,11 @@
 
 		"kg"			: "kg",
 		"sm"			: "sm",
-		"week-txt"		: "Weekly program"
+		"week-txt"		: "Weekly program",
+
+		"pr-count"		: "Exercises count :",
+		"time-count"	: "Time :",
+		"start"			: "Start"
 
 	},
 	"ru":
@@ -143,7 +151,11 @@
 
 		"kg"			: "кг",
 		"sm"			: "см",
-		"week-txt"		: "Еженедельная программа"
+		"week-txt"		: "Еженедельная программа",
+
+		"pr-count"		: "Количество упражнений :",
+		"time-count"	: "Время :",
+		"start"			: "Начинать"
 
 	},
 	"tr":
@@ -192,7 +204,11 @@
 
 		"kg"			: "kg",
 		"sm"			: "sm",
-		"week-txt"		: "Haftalık Program"
+		"week-txt"		: "Haftalık Program",
+
+		"pr-count"		: "Egzersiz sayı :",
+		"time-count"	: "Süre :",
+		"start"			: "Başla"
 		
 	}
 

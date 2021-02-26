@@ -17,7 +17,7 @@ $(document).ready(function()
 	
 	include(base_);
 
-	include(translate_,"translate_words");
+	include(translate_,"translate_words","setting");
 
 	include(notification_);
 

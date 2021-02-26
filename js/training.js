@@ -27,7 +27,7 @@ $(document).ready(function()
 
 	include(base_training,"training_data",hash);
 
-	include(base_translate,"translate_words");
+	include(base_translate,"translate_words","training");
 
 	loading.hide();
 

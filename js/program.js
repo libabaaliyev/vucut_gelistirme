@@ -9,7 +9,7 @@ $(document).ready(function()
 	adsense_ 		= "Front/adsense"
 	translate_ 		= "Front/translate";
 	notification_ 	= "Front/notification";
-
+	plan_ 			= "Base/plan";
 
 	jQuery.ajaxSetup({async:false});
 
@@ -23,7 +23,7 @@ $(document).ready(function()
 
 	include(base_menu,	"menu_start","program");
 
-	include(translate_,"translate_words");
+	include(translate_,"translate_words","program");
 
 	include(base_helper);
 
@@ -31,7 +31,10 @@ $(document).ready(function()
 
 	include(base_categories);
 
+	include(plan_);
+
 	include(base_program,"setting_programs");
+
 
 
 	loading.hide();
