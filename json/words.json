@@ -49,7 +49,9 @@
 
 		"pr-count"		: "Məşq sayı :",
 		"time-count"	: "Vaxt :",
-		"start"			: "Başla"
+		"start"			: "Başla",
+		"skip-txt"		: "Keç",
+		"minute"		: "dəqiqə"
 
 	},
 	"en":
@@ -102,7 +104,8 @@
 
 		"pr-count"		: "Exercises count :",
 		"time-count"	: "Time :",
-		"start"			: "Start"
+		"start"			: "Start",
+		"minute"		: "minutes"
 
 	},
 	"ru":
@@ -155,7 +158,8 @@
 
 		"pr-count"		: "Количество упражнений :",
 		"time-count"	: "Время :",
-		"start"			: "Начинать"
+		"start"			: "Начинать",
+		"minute"		: "минут"
 
 	},
 	"tr":
@@ -201,6 +205,8 @@
 		"not-info"		: "Bilgiler eklenmedi",
 
 		"next"			: "Sıradaki",
+		
+		"start"			: "Başla",
 
 		"kg"			: "kg",
 		"sm"			: "sm",
@@ -208,7 +214,7 @@
 
 		"pr-count"		: "Egzersiz sayı :",
 		"time-count"	: "Süre :",
-		"start"			: "Başla"
+		"minute"		: "dakika"
 		
 	}
 

@@ -6,9 +6,18 @@ s_img_program 	= $(".s-img-program");
 pr_count_html 	= $(".pr-count");
 time_count_html	= $(".time-count");
 start_tr_btn 	= $(".start-training-btn");
+start_tr_ 		= $(".training-btn");
 training_panel 	= $(".training");
-start_plan 		= 'program';
+controlClass 	= $(".controling");
+timerClass		= $(".timer");
+timer_txt 		= $(".timer-txt");
+timer_percent 	= $(".timer-percent");
 
+start_plan 		= 'program';
+training_que 	= 0;
+timer 			= 0;
+timeFull 		= 0;
+percent 		= 0;
 add_info.click(()=>
 {
 	setting_info();
@@ -41,9 +50,41 @@ back_tab.click(()=>
 		simple_program.show();
 		
 		start_plan = 'open-plan';
+		title 				.html(training_name);
+		head_title			.html(training_name);
 	}
-	
+	else if(start_plan == "start-timer")
+	{
+		clearTimeout(timerV);
+		timerClass 		.hide();
+		controlClass	.show();
+		start_plan = 'start-training';
+	}
 
+});
+
+next_txt.click(()=>
+{
+	timer 			= 0;
+	percent 		= 0;
+	start_txt		.html(translate_items['start']);
+	
+	if(training_que == (training[tag].length - 1))
+		finish();
+	else
+	{
+		training_que ++;
+		start_training();
+	}
+
+});
+
+start_tr_.click(()=>
+{
+	controlClass.hide();
+	timerClass.show();
+	start_plan = 'start-timer';
+	start_timer();
 });
 
 start_tr_btn.click(()=>
@@ -54,7 +95,6 @@ start_tr_btn.click(()=>
 
 function setting_info()
 {
-
 	Swal.fire({
 		position				: 'center',
 		title					: translate_items['weight-txt']+"("+translate_items['kg']+")",
@@ -143,6 +183,7 @@ function setting_programs()
 			bodyIndex = 12;
 
 
+		timeFull = bodyIndex * 60;
 		$(".add-info-block").hide();
 
 		view_categories("programs",'without-button');
@@ -159,7 +200,6 @@ function setting_programs()
 
 function open_program(tag)
 {
-	
 	
 	let data 			= training[tag];
 	let data_c 			= find_categories(tag);
@@ -200,7 +240,7 @@ function open_program(tag)
 		time_count_html 	.html(time_training + " : 00");
 
 }
-training_que = 0;
+
 function start_training()
 {
 	let data 	= training[tag][training_que];
@@ -210,6 +250,7 @@ function start_training()
 
 	head_title 	.html(name);
 	training_info.html(info);
+	$(".training-img").attr("src",img);
 
 	simple_program.hide();
 	training_panel.show();
@@ -227,6 +268,26 @@ function find_categories(tag)
 			if(i == ( categories.length - 1 ))
 				notification("error-something");
 	}
+}
+
+function start_timer()
+{
+	
+	timerV = setTimeout(()=>{
+
+		timer++;
+		percent 		= (timer/timeFull) * 100;
+		let timerTxt 	=  timer + "/" + timeFull+"("+bodyIndex+" " + translate_items['minute'] + ")";
+		timer_percent	.css("width",percent+"%");
+
+		timer_txt		.html(timerTxt);
+		start_timer();
+	},1000);
+}
+
+function finish()
+{
+	console.log("bitdi");
 }
 
 function calculate_fat(w,h)

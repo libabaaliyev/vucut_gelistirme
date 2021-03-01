@@ -36,6 +36,8 @@ function translate_words(e) {
 
 		pr_count_txt			.html(translate_items['pr-count']);
 		time_count_txt			.html(translate_items['time-count']);
+		console.log(translate_items['start'])
 		start_txt				.html(translate_items['start']);
+		next_txt				.html(translate_items['next']);
 	}
 }

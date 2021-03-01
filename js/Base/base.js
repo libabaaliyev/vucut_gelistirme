@@ -79,6 +79,8 @@ week_txt 		= $(".week-txt");
 pr_count_txt	= $(".pr-count-txt");
 time_count_txt	= $(".time-count-txt");
 start_txt		= $(".start-txt");
+next_txt		= $(".next-txt");
+
 
 training_info 	= $(".info-txt");
 
