@@ -15,8 +15,9 @@ for (var i = 0; i < alarms.length; i++) {
 
 $(".alarm-input").change(function()
 {
-    let value = $(this).val();
-    start_alarm(value);
+	let value = $(this).val();
+	start_alarm(0,"stop");
+	start_alarm(value,"play");    
 
 });
 

@@ -39,6 +39,8 @@
 
 		"add-info-notf"	: "Məlumatlarınızı daxil edin",
 
+		"share-message"	: "Vücud inkişaf rəhbəri mükəmməl nəticələr əldə etməyinizə yardımçı olacaq.",
+
 		"not-info"		: "Bilgilər əlavə olunmayıb.",
 
 		"next"			: "Növbəti",
@@ -96,6 +98,8 @@
 
 		"not-info"		: "No information added.",
 
+		"share-message"	: "Bodybuilding Guide will help you achieve great results.",
+
 		"next"			: "Next",
 
 		"kg"			: "kg",
@@ -146,6 +150,8 @@
 		"normal-body"	: "Нормальное тело",
 		"fat"			: "Толстое тело",
 
+		"share-message"	: "Гид по бодибилдингу поможет вам добиться отличных результатов.",
+
 		"add-info-notf"	: "Введите вашу информацию",
 
 		"not-info"		: "Никакой информации не добавлено",
@@ -172,6 +178,8 @@
 		"setting" 		: "Ayarlar",
 		"share" 		: "Paylaş",
 		"helper"		: "Yararlı bilgiler",
+
+		"share-message"	: "Vücut Geliştirme Rehberi mükemmel sonuçlar elde etmenize yardımcı olacak.",
 
 		"chest-musc"	: "Göğüs Kası",
 		"arm-musc" 		: "Kol Kasları",

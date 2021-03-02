@@ -294,7 +294,7 @@ function start_timer()
 		}
 		else{
 
-			start_alarm(alarm);
+			start_alarm(alarm,"play");
 			next_training();
 			back_func(start_plan);
 		}

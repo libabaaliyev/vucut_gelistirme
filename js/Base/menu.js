@@ -15,6 +15,12 @@ menu_darkness.click(function()
 	menu_();
 });
 
+$(document).on('click', '#share', function()
+{
+	share_func();
+
+});
+
 
 function menu_()
 {
@@ -50,6 +56,7 @@ function menu_start(e)
 	for (var i = 0; i < menu.length; i++) {
 		
 		let active 	= '';
+		let sharing = '';
 		name 		= menu[i]['name'];
 		name_title 	= translate_items[e];
 		head_title.	html(name_title);
@@ -59,7 +66,10 @@ function menu_start(e)
 			active = 'active';
 
 
-		createMenu = 	`<li class="`+active+`">
+		if(name == 'share')
+			sharing = 'share';
+
+		createMenu = 	`<li class="`+active+`" id="`+ sharing +`">
 							<a href="` + menu[i]['url'] + `">
 								<i class="` + menu[i]['icon'] + `"></i>
 								<label>` + translate_items[name] + `</label>
@@ -72,5 +82,26 @@ function menu_start(e)
 
 	}
 }
+
+function share_func()
+{
+	console.log("share");
+
+	var options = {
+        message: translate_items['share-message'], 
+        subject: translate_items['app-name'], 
+        files: ['', ''],
+        url: 'https://play.google.com/store/apps/details?id=com.alibabastudio.bodybuilding',
+        chooserTitle: translate_items['app-name']
+    }
+    var onSuccess = function (result) {
+        
+        }
+    var onError = function (msg) {
+        /*alert("Paylaşım Hatası :" + msg);*/
+    }
+    window.plugins.socialsharing.shareWithOptions(options, onSuccess, onError);
+}
+
 
 touching("menu");

@@ -3,7 +3,7 @@ addgem				= new Audio("sounds/adding.wav");
 error 				= new Audio("sounds/error.wav");
 success 			= new Audio("sounds/success.mp3");
 info 				= new Audio("sounds/info.mp3");
-
+alarmX 				= new Audio();
 alarms = 
 [
 	{
@@ -30,17 +30,19 @@ alarms =
 		"name"	: "One blast whistle alarm clock",
 		"url" 	: "one-blast-whistle.wav"
 	}
-
 ]
 
 
-function start_alarm(e)
+function start_alarm(e,action)
 {
-	let alarmX = new Audio("sounds/alarms/" + e);
-	
-	if(sound == "open")
-		alarmX.play();
-		
+	if(action == "play")
+	{
+		alarmX = new Audio("sounds/alarms/" + e);
+		if(sound == "open")
+			alarmX.play();
+	}
+	else
+		alarmX.pause();
 }
 
 function soundManager(e)
