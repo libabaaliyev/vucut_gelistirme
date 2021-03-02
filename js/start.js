@@ -61,6 +61,7 @@ $(document).ready(function()
 			      if (value) {
 			      	localStorage.lang 		= JSON.stringify(value);
 			      	localStorage.sound 		= JSON.stringify("open");
+			      	localStorage.alarm 		= JSON.stringify("analog-alarm-clock.wav");
 			      	lang 					= localStorage.lang;
 			      	
 			      	appName 				= appName_[lang];

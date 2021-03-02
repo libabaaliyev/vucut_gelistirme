@@ -18,6 +18,7 @@ training_que 	= 0;
 timer 			= 0;
 timeFull 		= 0;
 percent 		= 0;
+cancel_training = 0;
 add_info.click(()=>
 {
 	setting_info();
@@ -32,51 +33,14 @@ $(document).on('click', '.categories .item', function()
 
 back_tab.click(()=>
 {
-	if(start_plan == 'open-plan')
-	{
-		menu_start("program");
-		back_tab			.hide();
-		back_tab			.hide();
-		simple_program		.hide();
-
-		menu_icon			.show();
-		helper_icon			.find("i").show();
-		program_current		.show();	
-		
-	}
-	else if(start_plan == "start-training")
-	{
-		training_panel.hide();
-		simple_program.show();
-		
-		start_plan = 'open-plan';
-		title 				.html(training_name);
-		head_title			.html(training_name);
-	}
-	else if(start_plan == "start-timer")
-	{
-		clearTimeout(timerV);
-		timerClass 		.hide();
-		controlClass	.show();
-		start_plan = 'start-training';
-	}
+	back_func(start_plan);
 
 });
 
+
 next_txt.click(()=>
 {
-	timer 			= 0;
-	percent 		= 0;
-	start_txt		.html(translate_items['start']);
-	
-	if(training_que == (training[tag].length - 1))
-		finish();
-	else
-	{
-		training_que ++;
-		start_training();
-	}
-
+	next_training("cancel-next");
 });
 
 start_tr_.click(()=>
@@ -90,6 +54,7 @@ start_tr_.click(()=>
 start_tr_btn.click(()=>
 {
 	start_plan = 'start-training';
+	controlClass.show();
 	start_training();
 });
 
@@ -166,6 +131,48 @@ function setting_info()
 		}
 	});
 
+}
+
+function back_func(plan)
+{console.log("back_func"+"-"+plan)
+	if(plan == 'open-plan')
+	{
+		menu_start("program");
+		back_tab			.hide();
+		back_tab			.hide();
+		simple_program		.hide();
+		controlClass		.hide();
+		timerClass			.hide();
+		training_panel 		.hide();
+
+		menu_icon			.show();
+		helper_icon			.find("i").show();
+		program_current		.show();
+		start_plan 			= 'program';
+		training_que 		= 0;
+		timer 				= 0;
+		timeFull 			= 0;
+		percent 			= 0;
+		cancel_training 	= 0;
+				
+	}
+	else if(plan == "start-training")
+	{
+		training_panel.hide();
+		simple_program.show();
+		
+		start_plan 			= 'open-plan';
+		title 				.html(training_name);
+		head_title			.html(training_name);
+	}
+	else if(plan == "start-timer")
+	{
+		clearTimeout(timerV);
+		timerClass 		.hide();
+		controlClass	.show();		
+		timer_percent	.css("width",0);
+		start_plan 		= 'start-training';
+	}
 }
 
 function setting_programs()
@@ -275,19 +282,54 @@ function start_timer()
 	
 	timerV = setTimeout(()=>{
 
-		timer++;
+		timer+=150;
 		percent 		= (timer/timeFull) * 100;
-		let timerTxt 	=  timer + "/" + timeFull+"("+bodyIndex+" " + translate_items['minute'] + ")";
-		timer_percent	.css("width",percent+"%");
+		if(percent<=100)
+		{
+			let timerTxt 	=  timer + "/" + timeFull+"("+bodyIndex+" " + translate_items['minute'] + ")";
+			timer_percent	.css("width",percent+"%");
 
-		timer_txt		.html(timerTxt);
-		start_timer();
+			timer_txt		.html(timerTxt);
+			start_timer();
+		}
+		else{
+
+			start_alarm(alarm);
+			next_training();
+			back_func(start_plan);
+		}
 	},1000);
 }
 
-function finish()
+function next_training(e)
 {
-	console.log("bitdi");
+	timer 			= 0;
+	percent 		= 0;
+	start_txt		.html(translate_items['start']);
+	if(e == "cancel-next")
+		cancel_training ++;
+
+	if(training_que == (training[tag].length - 1))
+		finish(cancel_training);
+	else
+	{
+		training_que ++;
+		start_training();
+		
+	}
+}
+
+
+function finish(count)
+{
+	back_func("open-plan");
+
+	if(training[tag].length == count)
+		notification("do-not-training");
+	else
+		notification("success-training");
+	
+	
 }
 
 function calculate_fat(w,h)

@@ -3,6 +3,7 @@ notifications	= JSON.parse(localStorage.notifications);
 notfs 			= notifications[lang];
 menu 			= JSON.parse(localStorage.menu);
 sound 			= JSON.parse(localStorage.sound);
+alarm 			= JSON.parse(localStorage.alarm);
 words 			= JSON.parse(localStorage.words);
 categories 		= JSON.parse(localStorage.categories);
 trainings 		= JSON.parse(localStorage.training);
@@ -58,6 +59,7 @@ set_reset_txt	= $(".reset");
 
 language_input 	= $(".language-input");
 sound_input 	= $(".sound-input");
+alarm_input 	= $(".alarm-input");
 
 screenWidth 	= $("body").width();
 scrollTop 		= 0;

@@ -19,7 +19,11 @@
 
 		"success-reset"		: {"message"	: "Everything has been reset successfully", "info": "success"},
 
-		"error-something"	: {"message" 	: "Oops. Something went wrong", "info": "error"}
+		"error-something"	: {"message" 	: "Oops. Something went wrong", "info": "error"},
+
+		"do-not-training"	: {"message" 	: "You have never trained", "info": "error"},
+
+		"success-training"	: {"message" 	: "You have finished the workouts. Congratulations", "info": "success"}
 
 
 	},
@@ -43,7 +47,11 @@
 
 		"success-reset"		: {"message"	: "Her şey başarıyla sıfırlandı", "info": "success"},
 
-		"error-something"	: {"message" 	: "Ups. Bir şeyler ters gitti", "info": "error"}
+		"error-something"	: {"message" 	: "Ups. Bir şeyler ters gitti", "info": "error"},
+
+		"do-not-training"	: {"message" 	: "Hiç antrenman yapmadınız", "info": "error"},
+
+		"success-training"	: {"message" 	: "Antrenmanları bitirdiniz. Tebrikler", "info": "success"}
 
 	},
 	"az":
@@ -66,7 +74,11 @@
 
 		"success-reset"		: {"message"	: "Hər şey uğurla sıfırlandı", "info": "success"},
 
-		"error-something"	: {"message" 	: "Ups. Bir şeylər tərs getdi", "info": "error"}
+		"error-something"	: {"message" 	: "Ups. Bir şeylər tərs getdi", "info": "error"},
+
+		"do-not-training"	: {"message" 	: "heç məşq etmədiniz.", "info": "error"},
+
+		"success-training"	: {"message" 	: "Təbriklər,məşqi bitirdiniz", "info": "success"}
 
 	},
 	"ru":
@@ -86,7 +98,11 @@
 
 		"success-reset"		: {"message"	: "Все было успешно сброшено", "info": "success"},
 
-		"error-something"	: {"message" 	: "Ой. Что-то пошло не так", "info": "error"}
+		"error-something"	: {"message" 	: "Ой. Что-то пошло не так", "info": "error"},
+
+		"do-not-training"	: {"message" 	: "Ты никогда не тренировался", "info": "error"},
+
+		"success-training"	: {"message" 	: "Вы закончили тренировки. Поздравления", "info": "success"}
 
 	}
 

@@ -8,6 +8,7 @@ $(document).ready(function()
 	adsense_ 		= "Front/adsense";
 	translate_ 		= "Front/translate";
 	notification_ 	= "Front/notification";
+	sound_ 			= "Front/sound";
 
 
 
@@ -16,6 +17,8 @@ $(document).ready(function()
 	include(front_,"import_topbar");
 	
 	include(base_);
+	
+	include(sound_);
 
 	include(translate_,"translate_words","setting");
 

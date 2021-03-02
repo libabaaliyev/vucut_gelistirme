@@ -4,7 +4,7 @@ function notification(event,e1)
 	if(e1)
 		messageTxt = messageTxt + "<br>" + translate_items[e1];
 
-	//soundManager(notfs[event]['info']);
+	soundManager(notfs[event]['info']);
 
 	Swal.fire(
 	{

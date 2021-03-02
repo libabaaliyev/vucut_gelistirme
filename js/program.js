@@ -10,6 +10,7 @@ $(document).ready(function()
 	translate_ 		= "Front/translate";
 	notification_ 	= "Front/notification";
 	plan_ 			= "Base/plan";
+	sound_ 			= "Front/sound";
 
 	jQuery.ajaxSetup({async:false});
 
@@ -20,6 +21,8 @@ $(document).ready(function()
 	import_menu();
 	
 	import_helper();	
+
+	include(sound_);	
 
 	include(base_menu,	"menu_start","program");
 
