@@ -9,6 +9,7 @@ $(document).ready(function()
 	helper 			= getDatas('helper');
 	categories 		= getDatas('categories');
 	training 		= getDatas('training');
+	weekplan 		= getDatas('weekplan');
 	const appName_ 	= 
 	{
 		"az" 	: "Vücud inkişaf rəhbəri",
@@ -16,6 +17,99 @@ $(document).ready(function()
 		"en" 	: "Bodybuilding guide",
 		"ru" 	: "Гид по бодибилдингу"
 	}
+
+	date  			= new Date();	
+	currentYear		= date.getFullYear();
+	currentMonth 	= date.getMonth();
+
+	const calendar = 
+	[
+		{
+			"name" : "Jan",
+			"days": {
+
+					},
+			"count": 31
+		},
+		{
+			"name" : "Feb",
+			"days": {
+
+					},
+			"count": 28
+		},
+		{
+			"name" : "Mar",
+			"days": {
+
+					},
+			"count": 31
+		},
+		{
+			"name" : "Apr",
+			"days": {
+
+					},
+			"count": 30
+		},
+		{
+			"name" : "May",
+			"days": {
+
+					},
+			"count": 31
+		},
+		{
+			"name" : "Jun",
+			"days": {
+
+					},
+			"count": 30
+		},
+		{
+			"name" : "Jul",
+			"days": {
+
+					},
+			"count": 31
+		},
+		{
+			"name" : "Aug",
+			"days": {
+
+					},
+			"count": 31
+		},
+		{
+			"name" : "Sep",
+			"days": {
+
+					},
+			"count": 30
+		},
+		{
+			"name" : "Oct",
+			"days": {
+
+					},
+			"count": 31
+		},
+		{
+			"name" : "Nov",
+			"days": {
+
+					},
+			"count": 30
+		},
+		{
+			"name" : "Dec",
+			"days": {
+
+					},
+			"count": 31
+		}
+
+	]
 
 	if(localStorage.getItem("lang") === null){
 		lang 		= 'az';
@@ -40,7 +134,13 @@ $(document).ready(function()
 
 		if(!starting)
 		{
-			const { value: language } = Swal.fire({
+			if(!calendar[currentMonth]['days'][currentYear]){
+				calendar[currentMonth]['days'][currentYear] = {};
+			}
+
+			localStorage.calendar 		= JSON.stringify(calendar);
+			
+			const { value: language } 	= Swal.fire({
 			  title: 				'Select language',
 			  input: 				'select',
 			  backdrop: 			true,

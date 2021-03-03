@@ -5,11 +5,12 @@ $(document).ready(function()
 	base_helper 	= "Base/helper";
 	base_categories = "Front/categories";
 	base_program	= "Base/program";
+	front_program	= "Front/program";
 	front_ 			= "Front/view";
 	adsense_ 		= "Front/adsense"
 	translate_ 		= "Front/translate";
 	notification_ 	= "Front/notification";
-	plan_ 			= "Base/plan";
+	time_ 			= "Base/time";
 	sound_ 			= "Front/sound";
 
 	jQuery.ajaxSetup({async:false});
@@ -18,6 +19,8 @@ $(document).ready(function()
 	
 	include(base_);	
 	
+	include(time_);	
+
 	import_menu();
 	
 	import_helper();	
@@ -34,8 +37,6 @@ $(document).ready(function()
 
 	include(base_categories);
 
-	include(plan_);
-
 	include(base_program,"setting_programs");
 
 
@@ -51,7 +52,5 @@ $(document).ready(function()
 				window[func](funcData,funcData_1);
 		});
 	}
-
-	//console.log( window.performance.timing.domContentLoadedEventEnd- window.performance.timing.navigationStart);
 
 });

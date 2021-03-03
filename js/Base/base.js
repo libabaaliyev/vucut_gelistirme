@@ -1,19 +1,72 @@
 lang 			= JSON.parse(localStorage.lang);
 notifications	= JSON.parse(localStorage.notifications);
-notfs 			= notifications[lang];
 menu 			= JSON.parse(localStorage.menu);
 sound 			= JSON.parse(localStorage.sound);
 alarm 			= JSON.parse(localStorage.alarm);
 words 			= JSON.parse(localStorage.words);
 categories 		= JSON.parse(localStorage.categories);
 trainings 		= JSON.parse(localStorage.training);
+calendar 		= JSON.parse(localStorage.calendar);
+weekplan 		= JSON.parse(localStorage.weekplan);
 
+notfs 			= notifications[lang];
 translate_items = words[lang];
 training 		= trainings[lang];
-
 weight 			= 0;
 height 			= 0;
 bodyType 		= '';
+
+//console.log(Object.keys(calendar[currentMonth - 1]['days'][currentYear]).length);
+
+menu_opening 	= false;
+helper_opening 	= false; 
+slider 			= true;
+menuPosLeft 	= 0;
+helperPos 		= 0;
+menuWidth 		= 150;
+helperWidth 	= 300;
+start_x 		= 0;
+start_y 		= 0;
+scrollTop 		= 0;
+body 			= document.querySelector('body');
+title 			= $("title");
+head_title 		= $(".head-title");
+next 			= $(".next");
+back 			= $(".back");
+loading			= $(".loading");
+home_title 		= $("#home-title");
+musc_title 		= $("#musc-title");
+how_title 		= $("#how-title");
+help_title 		= $("#help-title");
+back_tab 		= $(".back-tab");
+set_open_txt	= $("#open");
+set_close_txt	= $("#close");
+set_lang_txt	= $(".language");
+set_sound_txt	= $(".sound");
+set_confirm_txt	= $(".confirm");
+set_reset_txt	= $(".reset");
+language_input 	= $(".language-input");
+sound_input 	= $(".sound-input");
+alarm_input 	= $(".alarm-input");
+screenWidth 	= $("body").width();
+information_txt	= $(".information-txt");
+weight_txt		= $(".weight-txt");
+height_txt		= $(".height-txt");
+day_txt			= $(".day-txt");
+weightHTML 		= $(".weight");
+heightHTML 		= $(".height");
+daysHTML 		= $(".days");
+form_body_txt 	= $(".form-body-txt");
+add_info_txt 	= $(".add-info-notf");
+body_info_txt 	= $(".form-body-info-txt");
+add_info 		= $(".add-info");
+week_txt 		= $(".week-txt");
+pr_count_txt	= $(".pr-count-txt");
+time_count_txt	= $(".time-count-txt");
+start_txt		= $(".start-txt");
+next_txt		= $(".next-txt");
+training_info 	= $(".info-txt");
+
 
 if(localStorage.bodyType)
 {
@@ -21,70 +74,6 @@ if(localStorage.bodyType)
 	height 		= JSON.parse(localStorage.height);
 	bodyType 	= localStorage.bodyType;	
 }
-
-contries 		= 
-{
-	"az" : "Azerbaijan"
-}
-
-menu_opening 	= false;
-helper_opening 	= false; 
-slider 			= true;
-
-menuPosLeft 	= 0;
-helperPos 		= 0;
-menuWidth 		= 150;
-helperWidth 	= 300;
-start_x 		= 0;
-start_y 		= 0;
-body 			= document.querySelector('body');
-title 			= $("title");
-head_title 		= $(".head-title");
-next 			= $(".next");
-back 			= $(".back");
-loading			= $(".loading");
-
-home_title 		= $("#home-title");
-musc_title 		= $("#musc-title");
-how_title 		= $("#how-title");
-help_title 		= $("#help-title");
-back_tab 		= $(".back-tab");
-
-set_open_txt	= $("#open");
-set_close_txt	= $("#close");
-set_lang_txt	= $(".language");
-set_sound_txt	= $(".sound");
-set_confirm_txt	= $(".confirm");
-set_reset_txt	= $(".reset");
-
-language_input 	= $(".language-input");
-sound_input 	= $(".sound-input");
-alarm_input 	= $(".alarm-input");
-
-screenWidth 	= $("body").width();
-scrollTop 		= 0;
-
-information_txt	= $(".information-txt");
-weight_txt		= $(".weight-txt");
-height_txt		= $(".height-txt");
-day_txt			= $(".day-txt");
-
-weightHTML 		= $(".weight");
-heightHTML 		= $(".height");
-
-form_body_txt 	= $(".form-body-txt");
-add_info_txt 	= $(".add-info-notf");
-body_info_txt 	= $(".form-body-info-txt");
-add_info 		= $(".add-info");
-week_txt 		= $(".week-txt");
-
-pr_count_txt	= $(".pr-count-txt");
-time_count_txt	= $(".time-count-txt");
-start_txt		= $(".start-txt");
-next_txt		= $(".next-txt");
-
-
-training_info 	= $(".info-txt");
 
 $(window).scroll(function(e) {
   scrollTop = $(window).scrollTop();
@@ -225,20 +214,12 @@ function touching(including)
 
 }
 
-function speechText(text)
-{
-	xM = random_number(0,10);
-	let person;
-
-	if(xM % 2 == 0)
-		person = country + ' Female';
-	else
-		person = country + ' Male';
-	
-	responsiveVoice.speak(e, person);
-}
-
 function random_number(min,max)
 {
 	return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+function save()
+{
+	localStorage.calendar = JSON.stringify(calendar);
 }

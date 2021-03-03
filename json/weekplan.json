@@ -1,0 +1,135 @@
+{
+	"day-0": 
+	[
+		{
+			"name"			: "leg-musc",
+			"weak"			: 3,
+			"normal-body" 	: 5,
+			"fat"			: 6
+		},
+		{
+			"name"			: "chest-musc",
+			"weak"			: 3,
+			"normal-body" 	: 4,
+			"fat"			: 6
+		},
+		{
+			"name"			: "arm-musc",
+			"weak"			: 4,
+			"normal-body" 	: 6,
+			"fat"			: 8
+		}
+
+	],
+	"day-1": 
+	[
+		{
+			"name"			: "leg-musc",
+			"weak"			: 4,
+			"normal-body" 	: 5,
+			"fat"			: 8
+		},
+		{
+			"name"			: "back-musc",
+			"weak"			: 2,
+			"normal-body" 	: 4,
+			"fat"			: 6
+		},
+		{
+			"name"			: "sixpack-musc",
+			"weak"			: 3,
+			"normal-body" 	: 5,
+			"fat"			: 7
+		}
+
+	],
+	"day-2": 
+	[
+		{
+			"name"			: "chest-musc",
+			"weak"			: 4,
+			"normal-body" 	: 6,
+			"fat"			: 8
+		},
+		{
+			"name"			: "arm-musc",
+			"weak"			: 3,
+			"normal-body" 	: 5,
+			"fat"			: 6
+		},
+		{
+			"name"			: "shoulder-musc",
+			"weak"			: 3,
+			"normal-body" 	: 4,
+			"fat"			: 6
+		}
+
+	],
+	"day-3": 
+	[
+		{
+			"name"			: "back-musc",
+			"weak"			: 5,
+			"normal-body" 	: 7,
+			"fat"			: 8
+		},
+		{
+			"name"			: "sixpack-musc",
+			"weak"			: 3,
+			"normal-body" 	: 4,
+			"fat"			: 5
+		},
+		{
+			"name"			: "shoulder-musc",
+			"weak"			: 2,
+			"normal-body" 	: 3,
+			"fat"			: 9
+		}
+
+	],
+	"day-4": 
+	[
+		{
+			"name"			: "chest-musc",
+			"weak"			: 2,
+			"normal-body" 	: 5,
+			"fat"			: 7
+		},
+		{
+			"name"			: "sixpack-musc",
+			"weak"			: 4,
+			"normal-body" 	: 5,
+			"fat"			: 9
+		},
+		{
+			"name"			: "back-musc",
+			"weak"			: 3,
+			"normal-body" 	: 5,
+			"fat"			: 5
+		}
+
+	],
+	"day-5": 
+	[
+		{
+			"name"			: "leg-musc",
+			"weak"			: 3,
+			"normal-body" 	: 5,
+			"fat"			: 6
+		},
+		{
+			"name"			: "arm-musc",
+			"weak"			: 3,
+			"normal-body" 	: 4,
+			"fat"			: 6
+		},
+		{
+			"name"			: "shoulder-musc",
+			"weak"			: 4,
+			"normal-body" 	: 6,
+			"fat"			: 8
+		}
+
+	]
+
+}

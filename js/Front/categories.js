@@ -1,12 +1,23 @@
-function view_categories(link,wb)
+
+function view_categories(link,wb,bs)
 {
 	$(".categories").html("");
+	append = 'categories';
 
-	for (var i = 0; i < categories.length; i++) {
+	if(bs)
+	{
+		categoriesX = bs;
+		append 		= 'plan-categories';
+	}
+	else
+		categoriesX = categories;
+
+
+	for (var i = 0; i < categoriesX.length; i++) {
 
 		let r_n 	= random_number(0,3);	
-		let img 	= categories[i]['image_' + r_n];
-		let tag 	= categories[i]['name'];
+		let img 	= categoriesX[i]['image_' + r_n];
+		let tag 	= categoriesX[i]['name'];
 		let name 	= translate_items[tag];
 		let btnCss 	= '';
 		if(wb == "without-button")
@@ -28,7 +39,7 @@ function view_categories(link,wb)
 					</div>
 
 				</div>`;
-		$(create).appendTo(".categories");
+		$(create).appendTo("."+append);
 
 	}
 }

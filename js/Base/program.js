@@ -1,17 +1,21 @@
-program_current = $(".current");
-simple_program 	= $(".simple-program");
-start_program 	= $(".start-program");
-tr_program		= $(".training-program");
-s_img_program 	= $(".s-img-program");
-pr_count_html 	= $(".pr-count");
-time_count_html	= $(".time-count");
-start_tr_btn 	= $(".start-training-btn");
-start_tr_ 		= $(".training-btn");
-training_panel 	= $(".training");
-controlClass 	= $(".controling");
-timerClass		= $(".timer");
-timer_txt 		= $(".timer-txt");
-timer_percent 	= $(".timer-percent");
+
+program_current 		= $(".current");
+simple_program 			= $(".simple-program");
+start_program 			= $(".start-program");
+tr_program				= $(".training-program");
+s_img_program 			= $(".s-img-program");
+pr_count_html 			= $(".pr-count");
+time_count_html			= $(".time-count");
+start_tr_btn 			= $(".start-training-btn");
+start_tr_ 				= $(".training-btn");
+training_panel 			= $(".training");
+controlClass 			= $(".controling");
+timerClass				= $(".timer");
+timer_txt 				= $(".timer-txt");
+timer_percent 			= $(".timer-percent");
+weekClass 				= $(".week");
+weekProgramList 		= $(".week-program-list");
+openWeek 				= false;
 
 start_plan 		= 'program';
 training_que 	= 0;
@@ -19,6 +23,15 @@ timer 			= 0;
 timeFull 		= 0;
 percent 		= 0;
 cancel_training = 0;
+training_count 	= 0;
+
+weekClass.click(()=>
+{
+	openWeek 	= true;
+	setting_week_info();
+});
+
+
 add_info.click(()=>
 {
 	setting_info();
@@ -26,8 +39,10 @@ add_info.click(()=>
 
 $(document).on('click', '.categories .item', function()
 {
-	tag 		= $(this).data("tag");
-	start_plan	= 'open-plan';
+	tag 				= $(this).data("tag");
+	start_plan			= 'open-plan';
+	training_count 		= 0;
+
 	open_program(tag);
 });
 
@@ -57,6 +72,114 @@ start_tr_btn.click(()=>
 	controlClass.show();
 	start_training();
 });
+
+
+
+
+
+function start_training()
+{
+	let data 	= training[tag][training_que];
+	let img 	= data['image'];
+	let name 	= data['name'];
+	let info 	= data['information'];
+
+	head_title 	.html(name);
+	training_info.html(info);
+	$(".training-img").attr("src",img);
+
+	simple_program.hide();
+	training_panel.show();
+}
+
+function find_categories(tag)
+{
+	for (var i = 0; i < categories.length; i++) {
+		
+		if(tag == categories[i]['name']){
+			return categories[i];
+			break;
+		}
+		else
+			if(i == ( categories.length - 1 ))
+				notification("error-something");
+	}
+}
+
+function start_timer()
+{
+	
+	timerV = setTimeout(()=>{
+
+		timer+=150;
+		console.log(timer)
+		percent 		= (timer/timeFull) * 100;
+		if(percent<=100)
+		{
+			let timerTxt 	=  timer + "/" + timeFull+"("+bodyIndex+" " + translate_items['minute'] + ")";
+			timer_percent	.css("width",percent+"%");
+
+			timer_txt		.html(timerTxt);
+			start_timer();
+		}
+		else{
+			timer 		= 0;
+			percent 	= 0;
+			training_count++;
+			next_training();
+			back_func(start_plan);
+		}
+	},1000);
+}
+
+function next_training(e)
+{
+	timer 			= 0;
+	percent 		= 0;
+	start_txt		.html(translate_items['start']);
+	if(e == "cancel-next")
+		cancel_training ++;
+
+	if(training_que == (training[tag].length - 1))
+		finish(cancel_training);
+	else
+	{
+		start_alarm(alarm,"play");
+		training_que ++;
+		start_training();
+		
+	}
+}
+
+function setting_week_info()
+{
+	program_current		.hide();
+	menu_icon			.hide();
+	helper_icon			.find("i").hide();
+	program_current		.hide();
+	
+	back_tab			.show();
+	back_tab			.show();
+	weekProgramList		.show();
+
+	training_name 		= translate_items['week-txt'];
+	title 				.html(training_name);
+	head_title			.html(training_name);
+	newData 			= [];
+	wtxt 				= 'day-' + weekTraining;
+	
+	for (var i = 0; i < weekplan[wtxt].length; i++) {
+		
+		let tag 	= weekplan[wtxt][i]['name'];
+		
+		items 		= find_categories(tag);
+		newData.push(items);
+
+	}
+	console.log(newData)
+
+	view_categories("programs",'without-button',newData);
+}
 
 function setting_info()
 {
@@ -134,27 +257,36 @@ function setting_info()
 }
 
 function back_func(plan)
-{console.log("back_func"+"-"+plan)
+{
 	if(plan == 'open-plan')
 	{
-		menu_start("program");
-		back_tab			.hide();
-		back_tab			.hide();
-		simple_program		.hide();
-		controlClass		.hide();
-		timerClass			.hide();
-		training_panel 		.hide();
+		if(!openWeek)
+		{
+			menu_start("program");
+			back_tab			.hide();
+			back_tab			.hide();
+			simple_program		.hide();
+			controlClass		.hide();
+			timerClass			.hide();
+			training_panel 		.hide();
 
-		menu_icon			.show();
-		helper_icon			.find("i").show();
-		program_current		.show();
-		start_plan 			= 'program';
-		training_que 		= 0;
-		timer 				= 0;
-		timeFull 			= 0;
-		percent 			= 0;
-		cancel_training 	= 0;
-				
+			menu_icon			.show();
+			helper_icon			.find("i").show();
+			program_current		.show();
+			start_plan 			= 'program';
+			training_que 		= 0;
+			timer 				= 0;		
+			percent 			= 0;
+			cancel_training 	= 0;		
+			setting_programs();
+		}
+		else
+		{
+			weekProgramList		.show();
+			training_name 		= translate_items['week-txt'];
+			title 				.html(training_name);
+			head_title			.html(training_name);
+		}
 	}
 	else if(plan == "start-training")
 	{
@@ -173,14 +305,25 @@ function back_func(plan)
 		timer_percent	.css("width",0);
 		start_plan 		= 'start-training';
 	}
+	else if(plan == "program")
+	{
+		if(openWeek)
+		{
+			openWeek 	= false;
+			start_plan 	= 'open-plan';
+			back_func (start_plan);
+		}
+	}
 }
 
 function setting_programs()
 {
 	if(bodyType)
 	{
-		weightHTML.html(weight);
-		heightHTML.html(height);
+		weightHTML	.html(weight);
+		heightHTML	.html(height);
+
+		daysHTML 	.html(traningDays + "/" + calendarMonLength);
 
 		if(bodyType == 'weak')
 			bodyIndex = 8;
@@ -211,7 +354,9 @@ function open_program(tag)
 	let data 			= training[tag];
 	let data_c 			= find_categories(tag);
 	let img 			= data_c['image_0'];
+
 	training_name 		= translate_items[tag];
+	
 	menu_icon			.hide();
 	helper_icon			.find("i").hide();
 	program_current		.hide();
@@ -248,76 +393,6 @@ function open_program(tag)
 
 }
 
-function start_training()
-{
-	let data 	= training[tag][training_que];
-	let img 	= data['image'];
-	let name 	= data['name'];
-	let info 	= data['information'];
-
-	head_title 	.html(name);
-	training_info.html(info);
-	$(".training-img").attr("src",img);
-
-	simple_program.hide();
-	training_panel.show();
-}
-
-function find_categories(tag)
-{
-	for (var i = 0; i < categories.length; i++) {
-		
-		if(tag == categories[i]['name']){
-			return categories[i];
-			break;
-		}
-		else
-			if(i == ( categories.length - 1 ))
-				notification("error-something");
-	}
-}
-
-function start_timer()
-{
-	
-	timerV = setTimeout(()=>{
-
-		timer+=150;
-		percent 		= (timer/timeFull) * 100;
-		if(percent<=100)
-		{
-			let timerTxt 	=  timer + "/" + timeFull+"("+bodyIndex+" " + translate_items['minute'] + ")";
-			timer_percent	.css("width",percent+"%");
-
-			timer_txt		.html(timerTxt);
-			start_timer();
-		}
-		else{
-
-			start_alarm(alarm,"play");
-			next_training();
-			back_func(start_plan);
-		}
-	},1000);
-}
-
-function next_training(e)
-{
-	timer 			= 0;
-	percent 		= 0;
-	start_txt		.html(translate_items['start']);
-	if(e == "cancel-next")
-		cancel_training ++;
-
-	if(training_que == (training[tag].length - 1))
-		finish(cancel_training);
-	else
-	{
-		training_que ++;
-		start_training();
-		
-	}
-}
 
 
 function finish(count)
@@ -326,8 +401,10 @@ function finish(count)
 
 	if(training[tag].length == count)
 		notification("do-not-training");
-	else
+	else{
+		add_day();
 		notification("success-training");
+	}
 	
 	
 }

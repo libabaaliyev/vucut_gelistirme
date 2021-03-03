@@ -10,24 +10,22 @@ $(document).ready(function()
 	jQuery.ajaxSetup({async:false});
 
 	include(front_,"import_topbar");
-	
+
 	include(base_);
 
-	include(adsense_);	
-	
-	include(base_categories,"view_categories","training");
+	include(base_categories,"view_categories","training");	
 
 	import_menu();
-	
-	import_helper();	
 
 	include(base_menu,	"menu_start","training");
 
-	include(base_helper);
-
+	import_helper();
 	
+	include(base_helper);	
 
 	loading.hide();
+
+	include(adsense_);	
 
 	function include(loc,func,funcData,funcData_1)
 	{
@@ -39,6 +37,6 @@ $(document).ready(function()
 		});
 	}
 
-	//console.log( window.performance.timing.domContentLoadedEventEnd- window.performance.timing.navigationStart);
+	console.log( window.performance.timing.domContentLoadedEventEnd- window.performance.timing.navigationStart);
 
 });
