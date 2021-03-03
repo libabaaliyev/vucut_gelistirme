@@ -37,7 +37,9 @@ $(document).ready(function()
 
 	include(base_categories);
 
-	include(base_program,"setting_programs");
+	include(front_program,"setting_programs");
+
+	include(base_program);
 
 
 

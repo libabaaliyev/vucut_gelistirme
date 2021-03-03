@@ -1,7 +1,22 @@
 
+function find_categories(tag)
+{
+	for (var i = 0; i < categories.length; i++) {
+		
+		if(tag == categories[i]['name']){
+			return categories[i];
+			break;
+		}
+		else
+			if(i == ( categories.length - 1 ))
+				notification("error-something");
+	}
+}
+
+
 function view_categories(link,wb,bs)
 {
-	$(".categories").html("");
+	
 	append = 'categories';
 
 	if(bs)
@@ -12,6 +27,8 @@ function view_categories(link,wb,bs)
 	else
 		categoriesX = categories;
 
+
+	$("."+append).html("");
 
 	for (var i = 0; i < categoriesX.length; i++) {
 

@@ -12,9 +12,7 @@ weekplan 		= JSON.parse(localStorage.weekplan);
 notfs 			= notifications[lang];
 translate_items = words[lang];
 training 		= trainings[lang];
-weight 			= 0;
-height 			= 0;
-bodyType 		= '';
+
 
 //console.log(Object.keys(calendar[currentMonth - 1]['days'][currentYear]).length);
 
@@ -73,6 +71,12 @@ if(localStorage.bodyType)
 	weight 		= JSON.parse(localStorage.weight);
 	height 		= JSON.parse(localStorage.height);
 	bodyType 	= localStorage.bodyType;	
+}
+else
+{
+	weight 			= 0;
+	height 			= 0;
+	bodyType 		= '';
 }
 
 $(window).scroll(function(e) {

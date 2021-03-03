@@ -1,22 +1,3 @@
-
-program_current 		= $(".current");
-simple_program 			= $(".simple-program");
-start_program 			= $(".start-program");
-tr_program				= $(".training-program");
-s_img_program 			= $(".s-img-program");
-pr_count_html 			= $(".pr-count");
-time_count_html			= $(".time-count");
-start_tr_btn 			= $(".start-training-btn");
-start_tr_ 				= $(".training-btn");
-training_panel 			= $(".training");
-controlClass 			= $(".controling");
-timerClass				= $(".timer");
-timer_txt 				= $(".timer-txt");
-timer_percent 			= $(".timer-percent");
-weekClass 				= $(".week");
-weekProgramList 		= $(".week-program-list");
-openWeek 				= false;
-
 start_plan 		= 'program';
 training_que 	= 0;
 timer 			= 0;
@@ -30,7 +11,6 @@ weekClass.click(()=>
 	openWeek 	= true;
 	setting_week_info();
 });
-
 
 add_info.click(()=>
 {
@@ -75,8 +55,6 @@ start_tr_btn.click(()=>
 
 
 
-
-
 function start_training()
 {
 	let data 	= training[tag][training_que];
@@ -90,20 +68,6 @@ function start_training()
 
 	simple_program.hide();
 	training_panel.show();
-}
-
-function find_categories(tag)
-{
-	for (var i = 0; i < categories.length; i++) {
-		
-		if(tag == categories[i]['name']){
-			return categories[i];
-			break;
-		}
-		else
-			if(i == ( categories.length - 1 ))
-				notification("error-something");
-	}
 }
 
 function start_timer()
@@ -151,133 +115,33 @@ function next_training(e)
 	}
 }
 
-function setting_week_info()
-{
-	program_current		.hide();
-	menu_icon			.hide();
-	helper_icon			.find("i").hide();
-	program_current		.hide();
-	
-	back_tab			.show();
-	back_tab			.show();
-	weekProgramList		.show();
-
-	training_name 		= translate_items['week-txt'];
-	title 				.html(training_name);
-	head_title			.html(training_name);
-	newData 			= [];
-	wtxt 				= 'day-' + weekTraining;
-	
-	for (var i = 0; i < weekplan[wtxt].length; i++) {
-		
-		let tag 	= weekplan[wtxt][i]['name'];
-		
-		items 		= find_categories(tag);
-		newData.push(items);
-
-	}
-	console.log(newData)
-
-	view_categories("programs",'without-button',newData);
-}
-
-function setting_info()
-{
-	Swal.fire({
-		position				: 'center',
-		title					: translate_items['weight-txt']+"("+translate_items['kg']+")",
-		input					: 'number',
-		showCancelButton		: false,
-		confirmButtonText		: translate_items['next'] + ' &rarr;',
-			
-		inputValidator: (value) => {
-		    return new Promise((resolve) => {
-		    	if(value){
-					weight = Number(value);
-
-					if(weight>30&&weight<150)
-					{
-
-			    		Swal.fire({
-							position				: 'center',
-							title					: translate_items['height-txt']+"("+translate_items['sm']+")",
-							input					: 'number',
-							confirmButtonText		: translate_items['next'] + ' &rarr;',
-							showCancelButton		: false,	
-							inputValidator: (value) => {
-							    return new Promise((resolve) => {
-							    	if(value){
-										height = Number(value);
-
-										if(height>130&&height<250)
-										{									
-
-											fatting = calculate_fat(weight,height);										
-
-											if(fatting<18.5)
-												bodyType = "weak";
-											
-											else if(fatting>=18.5&&fatting<25)
-												bodyType = "normal-body";
-											
-											else
-												bodyType = "fat";										
-
-											localStorage.weight 	= weight;
-											localStorage.height 	= height; 
-											localStorage.bodyType 	= bodyType;
-
-											setting_programs();
-											translate_words("program");
-								    		notification('success-add-info',bodyType);
-
-							    		}
-										else
-											resolve(notfs['wrong-height']['message']);
-
-									} else {
-
-							        resolve(notfs['empty-field']['message']);
-							      }
-							  	})
-							}
-						});
-					}
-					else
-						resolve(notfs['wrong-weight']['message']);
-
-				} else {
-
-		        resolve(notfs['empty-field']['message']);
-		      }
-		  	})
-		}
-	});
-
-}
-
 function back_func(plan)
 {
 	if(plan == 'open-plan')
 	{
+		simple_program		.hide();
+		controlClass		.hide();
+		timerClass			.hide();
+		training_panel 		.hide();
+		training_que 		= 0;
+		timer 				= 0;		
+		percent 			= 0;
+		cancel_training 	= 0;
+		start_plan 			= 'program';
+
 		if(!openWeek)
 		{
 			menu_start("program");
 			back_tab			.hide();
 			back_tab			.hide();
-			simple_program		.hide();
-			controlClass		.hide();
-			timerClass			.hide();
-			training_panel 		.hide();
+			weekProgramList 	.hide();
+			
 
 			menu_icon			.show();
 			helper_icon			.find("i").show();
 			program_current		.show();
-			start_plan 			= 'program';
-			training_que 		= 0;
-			timer 				= 0;		
-			percent 			= 0;
-			cancel_training 	= 0;		
+			
+					
 			setting_programs();
 		}
 		else
@@ -307,6 +171,7 @@ function back_func(plan)
 	}
 	else if(plan == "program")
 	{
+		console.log("plan")
 		if(openWeek)
 		{
 			openWeek 	= false;
@@ -314,38 +179,6 @@ function back_func(plan)
 			back_func (start_plan);
 		}
 	}
-}
-
-function setting_programs()
-{
-	if(bodyType)
-	{
-		weightHTML	.html(weight);
-		heightHTML	.html(height);
-
-		daysHTML 	.html(traningDays + "/" + calendarMonLength);
-
-		if(bodyType == 'weak')
-			bodyIndex = 8;
-		else if(bodyType == 'normal-body')
-			bodyIndex = 10;
-		else
-			bodyIndex = 12;
-
-
-		timeFull = bodyIndex * 60;
-		$(".add-info-block").hide();
-
-		view_categories("programs",'without-button');
-
-		$(".program").show();
-
-	}
-	else{
-		$(".program").hide();
-		$(".add-info-block").show();
-	}
-
 }
 
 function open_program(tag)
@@ -360,6 +193,7 @@ function open_program(tag)
 	menu_icon			.hide();
 	helper_icon			.find("i").hide();
 	program_current		.hide();
+	weekProgramList		.hide();
 	
 	back_tab			.show();
 	back_tab			.show();
