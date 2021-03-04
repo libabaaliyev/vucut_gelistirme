@@ -53,7 +53,20 @@
 		"time-count"	: "Vaxt :",
 		"start"			: "Başla",
 		"skip-txt"		: "Keç",
-		"minute"		: "dəqiqə"
+		"minute"		: "dəqiqə",
+
+		"Jan"							: "Yanvar",
+		"Feb"							: "Fevral",
+		"Mar"							: "Mart",
+		"Apr"							: "Aprel",
+		"May"							: "May",
+		"Jun"							: "İyun",
+		"Jul"							: "İyul",
+		"Aug"							: "Avqust",
+		"Sep"							: "Sentyabr",
+		"Oct"							: "Oktyabr",
+		"Nov"							: "Noyabr",
+		"Dec"							: "Dekabr"
 
 	},
 	"en":
@@ -109,7 +122,20 @@
 		"pr-count"		: "Exercises count :",
 		"time-count"	: "Time :",
 		"start"			: "Start",
-		"minute"		: "minutes"
+		"minute"		: "minutes",
+
+		"Jan" : "January ",
+		"Feb" : "February ",
+		"Mar" : "March ",
+		"Apr" : "April ",
+		"May" : "May ",
+		"Jun" : "June ",
+		"Jul" : "July ",
+		"Aug" : "August ",
+		"Sep" : "September ",
+		"Oct" : "October ",
+		"Nov" : "November ",
+		"Dec" : "December "
 
 	},
 	"ru":
@@ -165,7 +191,19 @@
 		"pr-count"		: "Количество упражнений :",
 		"time-count"	: "Время :",
 		"start"			: "Начинать",
-		"minute"		: "минут"
+		"minute"		: "минут",
+		"Jan" : " Январь ",
+		"Feb" : " Февраль ",
+		"Mar" : " Mарт ",
+		"Apr" : " Aпрель ",
+		"May" : " Mай ",
+		"Jun" : " Июнь ",
+		"Jul" : " Июль ",
+		"Aug" : " Aвгуст ",
+		"Sep" : " Cентябрь ",
+		"Oct" : " Oктябрь ",
+		"Nov" : " Ноябрь ",
+		"Dec" : " Декабрь "
 
 	},
 	"tr":
@@ -222,7 +260,20 @@
 
 		"pr-count"		: "Egzersiz sayı :",
 		"time-count"	: "Süre :",
-		"minute"		: "dakika"
+		"minute"		: "dakika",
+
+		"Jan"							: "Ocak",
+		"Feb"							: "Şubat",
+		"Mar"							: "Mart",
+		"Apr"							: "Nisan",
+		"May"							: "Mayıs",
+		"Jun"							: "Hazıran",
+		"Jul"							: "Temmuz",
+		"Aug"							: "Ağustos",
+		"Sep"							: "Eylül",
+		"Oct"							: "Ekim",
+		"Nov"							: "Kasım",
+		"Dec"							: "Aralık"
 		
 	}
 

@@ -20,8 +20,16 @@ add_info.click(()=>
 $(document).on('click', '.categories .item', function()
 {
 	tag 				= $(this).data("tag");
+	let count 			= $(this).data("count");
 	start_plan			= 'open-plan';
 	training_count 		= 0;
+
+	if(count){
+		bodyIndex 		= count;
+		timeFull 		= bodyIndex * 60;
+	}
+	else
+		info_bodyType();
 
 	open_program(tag);
 });
@@ -40,16 +48,19 @@ next_txt.click(()=>
 
 start_tr_.click(()=>
 {
-	controlClass.hide();
-	timerClass.show();
-	start_plan = 'start-timer';
+	console.log(bodyIndex);
+
+	controlClass	.hide();
+	timerClass 		.show();
+	start_plan 		= 'start-timer';
 	start_timer();
 });
 
 start_tr_btn.click(()=>
 {
-	start_plan = 'start-training';
-	controlClass.show();
+	start_plan 		= 'start-training';
+	controlClass 	.show();
+
 	start_training();
 });
 
@@ -77,7 +88,7 @@ function start_timer()
 
 		timer+=150;
 		console.log(timer)
-		percent 		= (timer/timeFull) * 100;
+		percent 		= (timer / timeFull) * 100;
 		if(percent<=100)
 		{
 			let timerTxt 	=  timer + "/" + timeFull+"("+bodyIndex+" " + translate_items['minute'] + ")";
@@ -87,9 +98,9 @@ function start_timer()
 			start_timer();
 		}
 		else{
-			timer 		= 0;
-			percent 	= 0;
-			training_count++;
+			timer 			= 0;
+			percent 		= 0;
+			training_count ++;
 			next_training();
 			back_func(start_plan);
 		}
@@ -210,12 +221,12 @@ function open_program(tag)
 	
 	if(time_training > 60){
 		if(floor<10)
-			x_floor = "0"+floor;
+			x_floor = "0" + floor;
 		else
 			x_floor = floor;
 
 		if(modul < 10)
-			x_modul = "0"+modul;
+			x_modul = "0" + modul;
 		else
 			x_modul = modul;
 

@@ -25,28 +25,37 @@ function setting_programs()
 		weightHTML	.html(weight);
 		heightHTML	.html(height);
 
-		if(bodyType == 'weak')
-			bodyIndex = 8;
-		else if(bodyType == 'normal-body')
-			bodyIndex = 10;
-		else
-			bodyIndex = 12;
-
-
-		timeFull = bodyIndex * 60;
+		info_bodyType();
+		
 		$(".add-info-block").hide();
 
 		view_categories("programs",'without-button');
 
-		$(".program").show();
+		$(".program")	.show();
+		weekClass 		.show();
 
 	}
 	else
 	{
-		$(".program").hide();
+		$(".program")		.hide();
+		weekClass 			.hide();
 		$(".add-info-block").show();
 	}
 
+}
+
+function info_bodyType()
+{
+	if(bodyType == 'weak')
+		bodyIndex = 8;
+	else if(bodyType == 'normal-body')
+		bodyIndex = 10;
+	else
+		bodyIndex = 12;
+
+
+	timeFull = bodyIndex * 60;
+	console.log(timeFull)
 }
 
 function setting_week_info()
@@ -63,19 +72,26 @@ function setting_week_info()
 	training_name 		= translate_items['week-txt'];
 	title 				.html(training_name);
 	head_title			.html(training_name);
-	newData 			= [];
+	let newData 		= [];
+	let countDatas 		= [];
 	wtxt 				= 'day-' + weekTraining;
 	
 	for (var i = 0; i < weekplan[wtxt].length; i++) {
 		
-		let tag 	= weekplan[wtxt][i]['name'];
+		let tag 		= weekplan[wtxt][i]['name'];
+		let count 		= weekplan[wtxt][i][bodyType];
+		let items 		= find_categories(tag);
 		
-		items 		= find_categories(tag);
-		newData.push(items);
+		countDatas 		.push(count);		
+		newData			.push(items);
 
 	}
-	
-	view_categories("programs",'without-button',newData);
+	let allDatas = 
+	{
+		'cat' : newData,
+		'count': countDatas
+	}
+	view_categories("programs",'without-button',allDatas);
 }
 
 function setting_info()
@@ -152,4 +168,3 @@ function setting_info()
 	});
 
 }
-
