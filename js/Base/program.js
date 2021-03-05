@@ -1,10 +1,13 @@
 start_plan 		= 'program';
 training_que 	= 0;
-timer 			= 0;
-timeFull 		= 0;
+timer 			= 40;
+
+
 percent 		= 0;
 cancel_training = 0;
 training_count 	= 0;
+repeat_time 	= 1;
+timerV 			= 0;
 
 weekClass.click(()=>
 {
@@ -23,10 +26,12 @@ $(document).on('click', '.categories .item', function()
 	let count 			= $(this).data("count");
 	start_plan			= 'open-plan';
 	training_count 		= 0;
+	timerFull 			= 0;
+	timeStart 			= 0;
+	timeFinish 			= 0;
 
 	if(count){
 		bodyIndex 		= count;
-		timeFull 		= bodyIndex * 60;
 	}
 	else
 		info_bodyType();
@@ -46,16 +51,6 @@ next_txt.click(()=>
 	next_training("cancel-next");
 });
 
-start_tr_.click(()=>
-{
-	console.log(bodyIndex);
-
-	controlClass	.hide();
-	timerClass 		.show();
-	start_plan 		= 'start-timer';
-	start_timer();
-});
-
 start_tr_btn.click(()=>
 {
 	start_plan 		= 'start-training';
@@ -65,6 +60,70 @@ start_tr_btn.click(()=>
 });
 
 
+start_tr_.click(()=>
+{
+	timeSet();	
+	
+	controlClass	.hide();
+	training_info 	.hide();
+	timerClass 		.show();
+	repeat_count 	.show();
+	start_plan 		= 'start-timer';
+	
+	timeStart 		= JSON.parse(date.getTime());
+
+	//start_timer();
+});
+
+
+done.click(()=>
+{
+	timeSet();	
+	
+	$("#rest-timer").html(40);
+	timeFinish = JSON.parse(date.getTime());
+
+	timeFull = timeFinish - timeStart;
+
+	console.log(timerFull)
+	console.log(timeStart)
+	console.log(timeFinish)
+
+	if(training_que == (training[tag].length - 1))
+		finish(cancel_training);
+	else
+	{
+		add_day(training[tag][training_que]);
+		training_count ++;
+		
+		c_training 					= training[tag][training_que+1];
+		let img 					= c_training['image'];
+		let name 					= c_training['name'];
+
+		$("#steps") 				.html((training_que+2) + "/" + training[tag].length);
+		$("#next-training-name") 	.html(name);
+		$("#next-img")				.attr("src",img);
+
+		start_timer();
+		training_all 				.hide();
+		rest		 				.show();
+
+	}
+	//next_training();
+	//back_func(start_plan);
+});
+
+skip.click(()=>
+{
+	next_training();
+	back_func(start_plan);
+});
+
+add_seconds.click(()=>
+{
+	timer+=20;
+
+});
 
 function start_training()
 {
@@ -83,34 +142,30 @@ function start_training()
 
 function start_timer()
 {
-	
+	//timeFull yerine bodyIndex yaziriq, cunki artiq timer kimi yox tekrar sayi kimi istifade edecem	
 	timerV = setTimeout(()=>{
 
-		timer+=150;
-		console.log(timer)
-		percent 		= (timer / timeFull) * 100;
-		if(percent<=100)
+		timer --;	
+		
+		if(timer > 0)
 		{
-			let timerTxt 	=  timer + "/" + timeFull+"("+bodyIndex+" " + translate_items['minute'] + ")";
-			timer_percent	.css("width",percent+"%");
-
-			timer_txt		.html(timerTxt);
+			$("#rest-timer").html(timer);
 			start_timer();
 		}
 		else{
-			timer 			= 0;
-			percent 		= 0;
-			training_count ++;
+			
+			rest 			.hide();
+			training_all	.show();
+			start_alarm(alarm,"play");
 			next_training();
 			back_func(start_plan);
 		}
-	},1000);
+	},repeat_time * 1000);
 }
 
 function next_training(e)
 {
-	timer 			= 0;
-	percent 		= 0;
+	timer 			= 40;
 	start_txt		.html(translate_items['start']);
 	if(e == "cancel-next")
 		cancel_training ++;
@@ -119,7 +174,7 @@ function next_training(e)
 		finish(cancel_training);
 	else
 	{
-		start_alarm(alarm,"play");
+	
 		training_que ++;
 		start_training();
 		
@@ -135,7 +190,7 @@ function back_func(plan)
 		timerClass			.hide();
 		training_panel 		.hide();
 		training_que 		= 0;
-		timer 				= 0;		
+		timer 				= 40;		
 		percent 			= 0;
 		cancel_training 	= 0;
 		start_plan 			= 'program';
@@ -174,15 +229,20 @@ function back_func(plan)
 	}
 	else if(plan == "start-timer")
 	{
-		clearTimeout(timerV);
+		if(timerV != 0)
+			clearTimeout(timerV);
+
+		repeat_count 	.hide();
 		timerClass 		.hide();
-		controlClass	.show();		
+		rest 			.hide();
+		training_all	.show();
+		controlClass	.show();
+		training_info 	.show();		
 		timer_percent	.css("width",0);
 		start_plan 		= 'start-training';
 	}
 	else if(plan == "program")
 	{
-		console.log("plan")
 		if(openWeek)
 		{
 			openWeek 	= false;
@@ -215,26 +275,10 @@ function open_program(tag)
 	s_img_program 		.attr("src",img);
 	pr_count_html 		.html(data.length);
 
-	time_training 		= data.length * bodyIndex;	
-	let modul 			= time_training % 60;
-	let floor 			= Math.floor(time_training / 60);
-	
-	if(time_training > 60){
-		if(floor<10)
-			x_floor = "0" + floor;
-		else
-			x_floor = floor;
+	time_training 		= data.length * bodyIndex * repeat_time;
 
-		if(modul < 10)
-			x_modul = "0" + modul;
-		else
-			x_modul = modul;
-
-		time_count_html 	.html(x_floor + " : " + x_modul + " : 00");
-
-	}
-	else
-		time_count_html 	.html(time_training + " : 00");
+	time_count_html 	.html("x" + bodyIndex);
+	//time_all_training()
 
 }
 
@@ -246,10 +290,9 @@ function finish(count)
 
 	if(training[tag].length == count)
 		notification("do-not-training");
-	else{
-		add_day();
+	else
 		notification("success-training");
-	}
+	
 	
 	
 }

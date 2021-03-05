@@ -64,6 +64,10 @@ time_count_txt	= $(".time-count-txt");
 start_txt		= $(".start-txt");
 next_txt		= $(".next-txt");
 training_info 	= $(".info-txt");
+repeat_count	= $(".repeat-count");
+skip_txt 		= $(".skip-txt");
+skip 			= $(".skip");
+done 			= $(".done");
 
 
 if(localStorage.bodyType)

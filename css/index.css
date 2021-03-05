@@ -435,7 +435,14 @@ body
 	font-size: 14px;
 	font-weight: 600;
 }
-
+.rounded-c
+{
+	border-radius: 25px !important;
+}
+.next-info
+{
+	height: 100px;
+}
 @media(max-width: 320px)
 {
 	.nav-link

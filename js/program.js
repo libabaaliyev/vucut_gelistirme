@@ -29,7 +29,7 @@ $(document).ready(function()
 
 	include(base_menu,	"menu_start","program");
 
-	include(translate_,"translate_words","program");
+	
 
 	include(base_helper);
 
@@ -38,6 +38,8 @@ $(document).ready(function()
 	include(base_categories);
 
 	include(front_program,"setting_programs");
+
+	include(translate_,"translate_words","program");
 
 	include(base_program);
 

@@ -14,6 +14,9 @@ timer_txt 				= $(".timer-txt");
 timer_percent 			= $(".timer-percent");
 weekClass 				= $(".week");
 weekProgramList 		= $(".week-program-list");
+training_all 			= $(".training-all");
+rest 					= $(".rest");
+add_seconds 			= $("#add-seconds");
 openWeek 				= false;
 
 
@@ -51,11 +54,7 @@ function info_bodyType()
 	else if(bodyType == 'normal-body')
 		bodyIndex = 10;
 	else
-		bodyIndex = 12;
-
-
-	timeFull = bodyIndex * 60;
-	console.log(timeFull)
+		bodyIndex = 12;	
 }
 
 function setting_week_info()

@@ -1,16 +1,4 @@
-date  				= new Date();	
-currentYear			= date.getFullYear();
-currentMonthQ 		= date.getMonth();
-currentMonth 		= currentMonthQ + 1;
-currentDay 			= date.getDate();
-currentWeek 		= date.getDay();
-currentDate			= currentDay + "." + currentMonth + "." + currentYear;
-calendarMonth 		= calendar[currentMonthQ];
-calendarDays 		= calendarMonth['days'];
-calendarMonLength 	= calendarMonth['count'];
-calendarYear 		= calendarDays[currentYear];
-calendarCurDay 		= calendarYear[currentDay];
-
+timeSet();
 
 day_chart 	= $("#days-chart");
 month_chart = $("#months-chart");
@@ -25,7 +13,6 @@ for (var i = 1; i <= calendarMonLength; i++) {
 	dData = training_minutes(i,'minutes');
 	daysData.push(dData);
 	
-	console.log(dData)
 }
 
 		
@@ -82,12 +69,19 @@ if(!calendarCurDay){
 else
 	traningDays 		= training_days_count(calendarYear); 
 
-function add_day()
+function add_day(e)
 {
+	let t_name 	= e.name
+	let t_img 	= e.image;
+	
 	let aim = 
 	{
-		"training-name"		: tag,
-		"training-time"		: timeFull*training_count
+		"training-name"		: t_name,
+		"training-tag"		: tag,
+		"training-que"		: training_que,
+		"training-img"		: t_img,
+		"training-repeat"	: bodyIndex,
+		"training-time"		: timeFull
 	}
 	
 
@@ -126,15 +120,55 @@ function training_minutes(e,m)
 		if(calendarYear[e].length > 0)
 		{
 			for (var i = 0; i < calendarYear[e].length; i++) {
-				sumMinutes += calendarYear[e][i]['training-time'];
+				sumMinutes += (calendarYear[e][i]['training-time'])/1000;
 			}
 		}
 	}
 
-	if(m == 'minutes' && sumMinutes !=0 )
-		sumMinutes = (sumMinutes/60);
+	if(sumMinutes !=0 )
+		sumMinutes = Number((sumMinutes/60).toFixed(2));
 
 
 	return sumMinutes;
 
+}
+
+function time_all_training()
+{
+	
+	let modul 			= time_training % 60;
+	let floor 			= Math.floor(time_training / 60);
+	
+	if(time_training > 60){
+		if(floor<10)
+			x_floor = "0" + floor;
+		else
+			x_floor = floor;
+
+		if(modul < 10)
+			x_modul = "0" + modul;
+		else
+			x_modul = modul;
+
+		time_count_html 	.html("00 : " + x_floor + " : " + x_modul);
+
+	}
+	else
+		time_count_html 	.html("00 : 00 : " + time_training);
+}
+
+function timeSet()
+{
+	date  				= new Date();	
+	currentYear			= date.getFullYear();
+	currentMonthQ 		= date.getMonth();
+	currentMonth 		= currentMonthQ + 1;
+	currentDay 			= date.getDate();
+	currentWeek 		= date.getDay();
+	currentDate			= currentDay + "." + currentMonth + "." + currentYear;
+	calendarMonth 		= calendar[currentMonthQ];
+	calendarDays 		= calendarMonth['days'];
+	calendarMonLength 	= calendarMonth['count'];
+	calendarYear 		= calendarDays[currentYear];
+	calendarCurDay 		= calendarYear[currentDay];
 }

@@ -35,9 +35,13 @@ function translate_words(e) {
 		add_info_txt			.html(translate_items['add-info-notf']);
 
 		pr_count_txt			.html(translate_items['pr-count']);
-		time_count_txt			.html(translate_items['time-count']);
+		time_count_txt			.html(translate_items['repeat-count']);
 
+		$(".done-txt")			.html(translate_items['done']);
+		$(".rest-txt")			.html(translate_items['rest']);
+		$(".secund-txt")		.html(translate_items['seconds']);
 		start_txt				.html(translate_items['start']);
 		next_txt				.html(translate_items['next']);
+		skip_txt				.html(translate_items['skip-txt']);
 	}
 }

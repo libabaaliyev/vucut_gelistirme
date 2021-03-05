@@ -54,6 +54,10 @@
 		"start"			: "Başla",
 		"skip-txt"		: "Keç",
 		"minute"		: "dəqiqə",
+		"seconds"		: "sn",
+		"repeat-count" 	: "təkrar sayı",
+		"done"			: "Bitdi",
+		"rest"			: "İstirahət",
 
 		"Jan"							: "Yanvar",
 		"Feb"							: "Fevral",
@@ -123,6 +127,11 @@
 		"time-count"	: "Time :",
 		"start"			: "Start",
 		"minute"		: "minutes",
+		"seconds"		: "s",
+		"skip-txt"		: "Skip",
+		"repeat-count" 	: "number of repetitions",
+		"done"			: "Done",
+		"rest"			: "Rest",
 
 		"Jan" : "January ",
 		"Feb" : "February ",
@@ -191,7 +200,15 @@
 		"pr-count"		: "Количество упражнений :",
 		"time-count"	: "Время :",
 		"start"			: "Начинать",
+		"skip-txt"		: "Пропускать",
 		"minute"		: "минут",
+		"seconds"		: "c",
+
+		"repeat-count" 	: "количество повторов",
+		"done"			: "Выполнено",
+
+		"rest"			: "Отдых",
+
 		"Jan" : " Январь ",
 		"Feb" : " Февраль ",
 		"Mar" : " Mарт ",
@@ -253,6 +270,7 @@
 		"next"			: "Sıradaki",
 		
 		"start"			: "Başla",
+		"skip-txt"		: "Geç",
 
 		"kg"			: "kg",
 		"sm"			: "sm",
@@ -261,6 +279,12 @@
 		"pr-count"		: "Egzersiz sayı :",
 		"time-count"	: "Süre :",
 		"minute"		: "dakika",
+		"seconds"		: "sn",
+
+		"repeat-count" 	: "tekrar sayı",
+		"done"			: "Bitti",
+
+		"rest"			: "Dinlenme",
 
 		"Jan"							: "Ocak",
 		"Feb"							: "Şubat",

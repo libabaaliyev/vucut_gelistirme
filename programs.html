@@ -20,7 +20,7 @@
 		<img src="img/gif/loading.jpg" class="loader">
 	</div>
 
-	<div class="container mt-5">
+	<div class="container mt-5 training-all">
 		<div class="row">
 			<div class="col-12 mt-3">
 
@@ -105,12 +105,12 @@
 						<div class="img-program">
 							<img src="" class="img-fluid s-img-program">
 						</div>
-						<div class="program-datas">
+						<div class="program-datas ">
 							<label class="d-block float-left w-100 pt-1 pb-1 mt-2 text-left">
-								<span class="text-dark d-inline-block w-50 pr-count-txt"></span> <span class="text-danger d-inline-block pr-count"></span>
+								<span class="text-dark d-inline-block w-50 pr-count-txt text-capitalize"></span> <span class="text-danger d-inline-block pr-count"></span>
 							</label>
 							<label class="d-block float-left w-100 pt-1 pb-1 mt-2 text-left">
-								<span class="text-dark d-inline-block w-50 time-count-txt"></span> <span class="text-danger time-count"></span>
+								<span class="text-dark d-inline-block w-50 time-count-txt text-capitalize"></span> <span class="text-danger time-count"></span>
 							</label>
 
 							<button class="btn btn-dark w-100 mt-5 start-txt start-training-btn"></button>
@@ -120,19 +120,21 @@
 
 				<div class="training" style="display: none;">
 					<div class="position-relative mb-5">
-						<img class="img-fluid d-table mx-auto training-img" src="" style="max-height: 250px">
+						<img class="img-fluid d-table mx-auto training-img" src="" style="max-height: 300px">
 					
 						<h6 class="text-center text-dark head-title"></h6>
 						<span class="info-txt">
 							
 						</span>
-					
+						<p class="h3 p-4 mt-4 text-center repeat-count" style="display: none;"><b class="time-count"></b></p>				
+
 						<div class="fixed-bottom controling" style="display: none;">
 							<button class="btn btn-dark float-left training-btn start-txt" style="width: 40%"></button>
 							<button class="btn btn-dark float-right next-txt" style="width: 40%"></button>
 						</div>
-						<div class="timer" style="display: none;">
-							<label class="timer-bar bg-fade rounded">
+						<div class="fixed-bottom timer w-100 text-center mb-5" style="display: none;">
+							<button class="btn btn-primary rounded-c done mx-auto mb-5 w-50"><i class="fas fa-check"></i> <span class="done-txt"></button>
+							<label class="timer-bar bg-fade rounded" style="display: none;">
 								<label class="timer-txt start-txt"></label>
 								<label class="timer-percent bg-orange rounded"></label>
 							</label>
@@ -140,8 +142,45 @@
 					</div>
 				</div>
 
+				
+
 			</div>
 		</div>
+	</div>
+	<div class="fixed-top h-100 row align-items-center bg-dark pt-5 rest" style="display: none;">
+		
+		<div class="mx-auto">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h5 class="text-center text-light rest-txt">Rest</h5>
+					</div>
+					<div class="col-12">
+						<h3 class="text-center text-light"><b><span id="rest-timer">40</span> <span class="secund-txt">sn</span></b></h3>
+					</div>
+					<div class="col-12 text-center">
+						<button class="btn btn-primary pl-4 pr-4 rounded-c m-2" id="add-seconds">+20s</button>
+						<button class="btn btn-light pl-4 pr-4 rounded-c m-2 skip skip-txt">Skip</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="fixed-bottom next-info bg-light p-2">
+			<div class="w-75 float-left">
+				<div class="top">
+					<p class="text-muted mb-2"><small><b><span class="next-txt">Next</span> <span id="steps">3/11</span></b></small></p>
+				</div>
+				<div class="info">
+					<h6 class="text-uppercase"><b id="next-training-name">Push-Ups</b></h6>
+					<span class="text-muted"><small><b class="time-count">x4</b></small></span>
+				</div>
+			</div>
+			<div class="w-25 float-left">
+				<img src="img/cat/sine/Barbell-bench-press.gif" id="next-img" class="img-fluid">
+			</div>
+		</div>
+		
 	</div>
 	<!-- <script type="text/javascript" src="js/SocialSharing.js"></script> -->
 	<script type="text/javascript" src="js/program.js"></script>	
