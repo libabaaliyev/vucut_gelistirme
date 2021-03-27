@@ -1,5 +1,7 @@
+
 $(document).on('click', '.training-items', function()
 {
+	clickCount  ++;
 	let tag 	= $(this).data("tag");
 	let que 	= $(this).data("que"); 
 	let data 	= training[tag][que];
@@ -24,11 +26,18 @@ $(document).on('click', '.training-items', function()
 	back_tab.show();
 	$(".tabs").show();
 
+	training_opening = true;
 
 });
 
 back_tab.click(()=>
 {
+	back_training();
+})
+
+function back_training()
+{
+	training_opening = false;
 	$(".tabs").hide();
 	back_tab.hide();
 	helper_icon.find("i").show();
@@ -41,7 +50,9 @@ back_tab.click(()=>
 	title 		.html(training_name);
 	head_title	.html(training_name);
 
-})
+	if(clickCount!=0 && clickCount % 3 == 0)
+		run_interstitial();
+}
 
 function training_data(tag) {
 	

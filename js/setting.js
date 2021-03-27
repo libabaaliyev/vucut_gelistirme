@@ -1,16 +1,7 @@
 $(document).ready(function()
 {
-	base_			= "Base/base";
-	base_menu		= "Base/menu";
-	base_helper 	= "Base/helper";
-	base_setting	= "Base/setting";
-	front_ 			= "Front/view";
-	adsense_ 		= "Front/adsense";
-	translate_ 		= "Front/translate";
-	notification_ 	= "Front/notification";
-	sound_ 			= "Front/sound";
-
-
+	base_			= "Base/base";	
+	front_ 			= "Front/view";	
 
 	jQuery.ajaxSetup({async:false});
 
@@ -20,21 +11,25 @@ $(document).ready(function()
 	
 	include(sound_);
 
+	include(time_);
+
 	include(translate_,"translate_words","setting");
 
 	include(notification_);
 
 	include(adsense_);
 
-	include(base_setting);
+	include(setting_);
 
 	import_menu();
 	
 	import_helper();	
 
-	include(base_menu,	"menu_start","setting");
+	include(menu__,	"menu_start","setting");
 
-	include(base_helper);
+	include(helper_);
+
+	run_banner();
 
 	
 

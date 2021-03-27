@@ -36,6 +36,7 @@ function translate_words(e) {
 
 		pr_count_txt			.html(translate_items['pr-count']);
 		time_count_txt			.html(translate_items['repeat-count']);
+		set_count_tr 			.html(translate_items['set-txt'])
 
 		$(".done-txt")			.html(translate_items['done']);
 		$(".rest-txt")			.html(translate_items['rest']);

@@ -1,11 +1,8 @@
 $(document).ready(function()
 {
 	base_			= "Base/base";
-	base_menu		= "Base/menu";
-	base_helper 	= "Base/helper";
-	base_categories = "Front/categories";
 	front_ 			= "Front/view";
-	adsense_ 		= "Front/adsense"
+	page 			= "index";
 
 	jQuery.ajaxSetup({async:false});
 
@@ -13,19 +10,26 @@ $(document).ready(function()
 
 	include(base_);
 
-	include(base_categories,"view_categories","training");	
+	include(categories_,"view_categories","training");	
 
 	import_menu();
 
-	include(base_menu,	"menu_start","training");
+	include(notification_);
+
+	include(menu__,	"menu_start","training");
 
 	import_helper();
 	
-	include(base_helper);	
+	include(helper_);	
 
 	loading.hide();
 
-	include(adsense_);	
+	include(adsense_);
+
+	include(events_)
+
+	run_banner();
+
 
 	function include(loc,func,funcData,funcData_1)
 	{
@@ -37,6 +41,6 @@ $(document).ready(function()
 		});
 	}
 
-	console.log( window.performance.timing.domContentLoadedEventEnd- window.performance.timing.navigationStart);
+	//console.log( window.performance.timing.domContentLoadedEventEnd- window.performance.timing.navigationStart);
 
 });

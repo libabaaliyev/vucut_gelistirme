@@ -469,7 +469,7 @@ var menuacilma = 1,aktivm = 1,yardim = 1,bilgim = 0;
 				"kaslar": "Barbell squat, alt gövdeyi güçlendirmek için daha iyi egzersizlerden biridir. Bu egzersizde birçok kas aynı anda çalıştırılır. Halter ağzı, esas olarak dört başlı uyluk kaslarına (aracı, vastus lateralis ve vastus medialis de dahil olmak üzere quadriceps vastus) ve büyük gluteal kaslara (glutaeus maximus) odaklanır. Ayrıca eğitilmiş olan kaslar hamstrings (sırt uyluk kasları) ve alt sırt kaslarıdır."
 			}
 
-		],
+		], 
 		[
 			//1-ci gun
 			[

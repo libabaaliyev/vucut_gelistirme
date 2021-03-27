@@ -3,11 +3,13 @@
 	{
 		"app-name" 		: "Vücud inkişaf rəhbəri",
 		"training" 		: "Məşqlər",
+		"statistic" 	: "Tarixçə",
 		"blog" 			: "Blog",
 		"program" 		: "Proqram",
 		"motivation" 	: "Motivasiya",
 		"setting" 		: "Tənzimləmə",
 		"share" 		: "Paylaş",
+		"rate" 			: "Qiymətləndir",
 		"helper"		: "Faydalı bilgilər",
 		
 		"chest-musc"	: "Sinə əzələsi",
@@ -55,9 +57,10 @@
 		"skip-txt"		: "Keç",
 		"minute"		: "dəqiqə",
 		"seconds"		: "sn",
-		"repeat-count" 	: "təkrar sayı",
+		"repeat-count" 	: "təkrar sayı :",
 		"done"			: "Bitdi",
 		"rest"			: "İstirahət",
+		"set-txt"		: "Dövr sayı :",
 
 		"Jan"							: "Yanvar",
 		"Feb"							: "Fevral",
@@ -77,11 +80,13 @@
 	{
 		"app-name" 		: "Bodybuilding guide",
 		"training" 		: "Exercises",
+		"statistic" 	: "History",
 		"blog" 			: "Blog",
 		"program" 		: "Program",
 		"motivation" 	: "Motivation",
 		"setting" 		: "Settings",
 		"share" 		: "Share",
+		"rate" 			: "Rate Us",
 		"helper"		: "Useful information",
 
 		"chest-musc"	: "Chest Muscle",
@@ -129,9 +134,11 @@
 		"minute"		: "minutes",
 		"seconds"		: "s",
 		"skip-txt"		: "Skip",
-		"repeat-count" 	: "number of repetitions",
+		"repeat-count" 	: "number of repetitions :",
 		"done"			: "Done",
 		"rest"			: "Rest",
+
+		"set-txt"		: "number of periods :",
 
 		"Jan" : "January ",
 		"Feb" : "February ",
@@ -151,11 +158,13 @@
 	{
 		"app-name" 		: "Гид по бодибилдингу",
 		"training" 		: "Упражнения",
+		"statistic" 	: "История",
 		"blog" 			: "Блог",
 		"program" 		: "Программа",
 		"motivation" 	: "Мотивация",
 		"setting" 		: "Настройки",
 		"share" 		: "",
+		"rate" 			: "",
 		"helper"		: "Полезная информация",
 
 		"chest-musc"	: "Грудная мышца",
@@ -204,10 +213,13 @@
 		"minute"		: "минут",
 		"seconds"		: "c",
 
-		"repeat-count" 	: "количество повторов",
+		"repeat-count" 	: "количество повторов :",
 		"done"			: "Выполнено",
 
 		"rest"			: "Отдых",
+
+
+		"set-txt"		: "количество периодов :",
 
 		"Jan" : " Январь ",
 		"Feb" : " Февраль ",
@@ -227,11 +239,13 @@
 	{
 		"app-name" 		: "Vücut geliştirme rehberi",
 		"training" 		: "Antremanlar",
+		"statistic" 	: "Geçmiş",
 		"blog" 			: "Blog",
 		"program" 		: "Program",
 		"motivation" 	: "Motivasyon",
 		"setting" 		: "Ayarlar",
 		"share" 		: "Paylaş",
+		"rate" 			: "Puan ver",
 		"helper"		: "Yararlı bilgiler",
 
 		"share-message"	: "Vücut Geliştirme Rehberi mükemmel sonuçlar elde etmenize yardımcı olacak.",
@@ -281,10 +295,12 @@
 		"minute"		: "dakika",
 		"seconds"		: "sn",
 
-		"repeat-count" 	: "tekrar sayı",
+		"repeat-count" 	: "tekrar sayı :",
 		"done"			: "Bitti",
 
 		"rest"			: "Dinlenme",
+
+		"set-txt"		: "dönem sayısı :",
 
 		"Jan"							: "Ocak",
 		"Feb"							: "Şubat",

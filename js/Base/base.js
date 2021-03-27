@@ -1,3 +1,22 @@
+menu__			= "Base/menu";
+helper_ 		= "Base/helper";
+base_program 	= "Base/program";
+setting_ 		= "Base/setting";
+time_ 			= "Base/time";
+adsense_ 		= "Front/adsense"
+categories_ 	= "Front/categories";
+graphics_ 		= "Front/graphics";
+notification_ 	= "Front/notification";
+front_program 	= "Front/program";
+sound_ 			= "Front/sound";
+training_ 		= "Front/training";
+translate_ 		= "Front/translate";
+events_ 		= "Base/events";
+
+app_url 		= 'https://play.google.com/store/apps/details?id=com.alibabastudio.bodybuilding'
+
+hash 			= location.hash.substr(1);
+
 lang 			= JSON.parse(localStorage.lang);
 notifications	= JSON.parse(localStorage.notifications);
 menu 			= JSON.parse(localStorage.menu);
@@ -15,7 +34,7 @@ training 		= trainings[lang];
 
 
 //console.log(Object.keys(calendar[currentMonth - 1]['days'][currentYear]).length);
-
+training_opening= false;
 menu_opening 	= false;
 helper_opening 	= false; 
 slider 			= true;
@@ -68,6 +87,7 @@ repeat_count	= $(".repeat-count");
 skip_txt 		= $(".skip-txt");
 skip 			= $(".skip");
 done 			= $(".done");
+set_count_tr	= $(".set-count-txt");
 
 
 if(localStorage.bodyType)

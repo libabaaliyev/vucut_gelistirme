@@ -23,7 +23,10 @@
 
 		"do-not-training"	: {"message" 	: "You have never trained", "info": "error"},
 
-		"success-training"	: {"message" 	: "You have finished the workouts. Congratulations", "info": "success"}
+		"success-training"	: {"message" 	: "You have finished the workouts. Congratulations", "info": "success"},
+		"success-share"		: {"message" 	: "Thank you for sharing", "info": "success"},
+
+		"not-full-training"	: {"message" 	: "You haven't completed the workout.", "info": "info"}
 
 
 	},
@@ -51,7 +54,11 @@
 
 		"do-not-training"	: {"message" 	: "Hiç antrenman yapmadınız", "info": "error"},
 
-		"success-training"	: {"message" 	: "Antrenmanları bitirdiniz. Tebrikler", "info": "success"}
+		"success-training"	: {"message" 	: "Antrenmanları bitirdiniz. Tebrikler", "info": "success"},
+		
+		"success-share"		: {"message" 	: "Paylaşım için teşekkürler", "info": "success"},
+
+		"not-full-training"	: {"message" 	: "Antrenmanı tamamlamadınız.", "info": "info"}
 
 	},
 	"az":
@@ -78,7 +85,11 @@
 
 		"do-not-training"	: {"message" 	: "heç məşq etmədiniz.", "info": "error"},
 
-		"success-training"	: {"message" 	: "Təbriklər,məşqi bitirdiniz", "info": "success"}
+		"success-training"	: {"message" 	: "Təbriklər,məşqi bitirdiniz", "info": "success"},
+		
+		"success-share"		: {"message" 	: "Paylaşdığınız üçün təşəkkür edirik", "info": "success"},
+
+		"not-full-training"	: {"message" 	: "Məşqi tam bitirmədiniz.", "info": "info"}
 
 	},
 	"ru":
@@ -102,7 +113,11 @@
 
 		"do-not-training"	: {"message" 	: "Ты никогда не тренировался", "info": "error"},
 
-		"success-training"	: {"message" 	: "Вы закончили тренировки. Поздравления", "info": "success"}
+		"success-training"	: {"message" 	: "Вы закончили тренировки. Поздравления", "info": "success"},
+		
+		"success-share"		: {"message" 	: "Спасибо, что поделились", "info": "success"},
+
+		"not-full-training"	: {"message" 	: "Вы не завершили тренировку.", "info": "info"}
 
 	}
 

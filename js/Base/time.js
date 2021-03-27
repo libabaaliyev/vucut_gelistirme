@@ -1,20 +1,4 @@
 timeSet();
-
-day_chart 	= $("#days-chart");
-month_chart = $("#months-chart");
-year_chart 	= $("#years-chart");
-
-yearsData 	= [0,12,15,46,0,7,12,0,12,15,46,1];
-
-days 		= [];
-daysData 	= [];
-for (var i = 1; i <= calendarMonLength; i++) {
-	days.push(i);
-	dData = training_minutes(i,'minutes');
-	daysData.push(dData);
-	
-}
-
 		
 if(localStorage.weekTraining){
 	
@@ -43,6 +27,8 @@ if(localStorage.weekTraining){
 	
 
 	localStorage.weekTraining = weekTraining;
+
+	wtxt = 'day-' + weekTraining;
 }
 else
 {
@@ -57,7 +43,11 @@ else
 
 
 	localStorage.weekTraining 	= weekTraining;
+
+	wtxt = 'day-' + weekTraining;
 }
+
+
 
 
 if(!calendarCurDay){
@@ -125,9 +115,9 @@ function training_minutes(e,m)
 		}
 	}
 
-	if(sumMinutes !=0 )
+	/*if(sumMinutes !=0 )
 		sumMinutes = Number((sumMinutes/60).toFixed(2));
-
+*/
 
 	return sumMinutes;
 
@@ -167,8 +157,38 @@ function timeSet()
 	currentWeek 		= date.getDay();
 	currentDate			= currentDay + "." + currentMonth + "." + currentYear;
 	calendarMonth 		= calendar[currentMonthQ];
+	calendarMonthTag 	= calendarMonth['name'];
+	calendarMonthName 	= translate_items[calendarMonthTag];
 	calendarDays 		= calendarMonth['days'];
 	calendarMonLength 	= calendarMonth['count'];
 	calendarYear 		= calendarDays[currentYear];
 	calendarCurDay 		= calendarYear[currentDay];
+
+
+}
+
+function time_convert(t)
+{
+	let convert = '';
+	let modul 	= t % 60;
+	let floor 	= Math.floor(t/60);
+
+	if(t>=60 && t < 3600){
+		if(modul<10)
+			modul = "0"+modul;
+
+		if(floor<10)
+			floor = "0"+floor;
+		
+		convert = '00:'+floor+":" + modul;	
+	}
+	else if(t<60){
+
+		if(t<10)
+			t = "0"+t;
+
+		convert = '00:00:' + t;
+	}
+
+	return convert;
 }

@@ -1,89 +1,81 @@
 {
-	"day-0": 
+	"day-0":  
 	[
 		{
-			"name"			: "leg-musc",
-			"weak"			: 3,
-			"normal-body" 	: 5,
-			"fat"			: 6
-		},
-		{
 			"name"			: "chest-musc",
-			"weak"			: 3,
-			"normal-body" 	: 4,
-			"fat"			: 6
+			"set"			: 4,
+			"weak"			: 8,
+			"normal-body" 	: 10,
+			"fat"			: 12,
+			"trainings"		: [0,1,3,4]
 		},
 		{
 			"name"			: "arm-musc",
-			"weak"			: 4,
+			"set"			: 5,
+			"weak"			: 3,
 			"normal-body" 	: 6,
-			"fat"			: 8
+			"fat"			: 8,
+			"trainings"		: [0,1,4]
 		}
 
 	],
 	"day-1": 
 	[
 		{
-			"name"			: "leg-musc",
-			"weak"			: 4,
-			"normal-body" 	: 5,
-			"fat"			: 8
-		},
-		{
-			"name"			: "back-musc",
-			"weak"			: 2,
-			"normal-body" 	: 4,
-			"fat"			: 6
+			"name"			: "shoulder-musc",
+			"set"			: 5,
+			"weak"			: 6,
+			"normal-body" 	: 8,
+			"fat"			: 10,
+			"trainings"		: [0,1,2]
 		},
 		{
 			"name"			: "sixpack-musc",
+			"set"			: 4,
 			"weak"			: 3,
-			"normal-body" 	: 5,
-			"fat"			: 7
+			"normal-body" 	: 4,
+			"fat"			: 6,
+			"trainings"		: [0,1,2,3]
 		}
 
 	],
 	"day-2": 
 	[
 		{
-			"name"			: "chest-musc",
+			"name"			: "back-musc",
+			"set"			: 4,
 			"weak"			: 4,
 			"normal-body" 	: 6,
-			"fat"			: 8
+			"fat"			: 8,
+			"trainings"		: [1,2,5,6]
 		},
 		{
-			"name"			: "arm-musc",
+			"name"			: "leg-musc",
+			"set"			: 4,
 			"weak"			: 3,
 			"normal-body" 	: 5,
-			"fat"			: 6
-		},
-		{
-			"name"			: "shoulder-musc",
-			"weak"			: 3,
-			"normal-body" 	: 4,
-			"fat"			: 6
+			"fat"			: 6,
+			"trainings"		: [2,4,5,8]
 		}
 
 	],
 	"day-3": 
 	[
 		{
-			"name"			: "back-musc",
-			"weak"			: 5,
-			"normal-body" 	: 7,
-			"fat"			: 8
+			"name"			: "shoulder-musc",
+			"set"			: 4,
+			"weak"			: 4,
+			"normal-body" 	: 6,
+			"fat"			: 8,
+			"trainings"		: [0,1,2]
 		},
 		{
 			"name"			: "sixpack-musc",
-			"weak"			: 3,
-			"normal-body" 	: 4,
-			"fat"			: 5
-		},
-		{
-			"name"			: "shoulder-musc",
-			"weak"			: 2,
-			"normal-body" 	: 3,
-			"fat"			: 9
+			"set"			: 5,
+			"weak"			: 5,
+			"normal-body" 	: 7,
+			"fat"			: 9,
+			"trainings"		: [0,1,2,3]
 		}
 
 	],
@@ -91,43 +83,40 @@
 	[
 		{
 			"name"			: "chest-musc",
-			"weak"			: 2,
-			"normal-body" 	: 5,
-			"fat"			: 7
+			"set"			: 4,
+			"weak"			: 6,
+			"normal-body" 	: 9,
+			"fat"			: 12,
+			"trainings"		: [1,2,5,6]
+
 		},
 		{
-			"name"			: "sixpack-musc",
-			"weak"			: 4,
-			"normal-body" 	: 5,
-			"fat"			: 9
-		},
-		{
-			"name"			: "back-musc",
-			"weak"			: 3,
-			"normal-body" 	: 5,
-			"fat"			: 5
+			"name"			: "arm-musc",
+			"set"			: 3,
+			"weak"			: 5,
+			"normal-body" 	: 8,
+			"fat"			: 10,
+			"trainings"		: [2,3,5,6]
 		}
 
 	],
 	"day-5": 
 	[
 		{
+			"name"			: "back-musc",
+			"set"			: 4,
+			"weak"			: 5,
+			"normal-body" 	: 8,
+			"fat"			: 10,
+			"trainings"		: [0,3,4,6]
+		},
+		{
 			"name"			: "leg-musc",
-			"weak"			: 3,
-			"normal-body" 	: 5,
-			"fat"			: 6
-		},
-		{
-			"name"			: "arm-musc",
-			"weak"			: 3,
-			"normal-body" 	: 4,
-			"fat"			: 6
-		},
-		{
-			"name"			: "shoulder-musc",
-			"weak"			: 4,
-			"normal-body" 	: 6,
-			"fat"			: 8
+			"set"			: 4,
+			"weak"			: 6,
+			"normal-body" 	: 10,
+			"fat"			: 12,
+			"trainings"		: [1,6,7,9]
 		}
 
 	]

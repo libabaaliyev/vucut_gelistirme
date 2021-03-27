@@ -1,25 +1,18 @@
 $(document).ready(function()
 {
-	base_			= "Base/base";
-	base_menu		= "Base/menu";
-	base_helper 	= "Base/helper";
-	base_categories = "Front/categories";
-	base_program	= "Base/program";
-	front_program	= "Front/program";
+	base_			= "Base/base";	
 	front_ 			= "Front/view";
-	adsense_ 		= "Front/adsense"
-	translate_ 		= "Front/translate";
-	notification_ 	= "Front/notification";
-	time_ 			= "Base/time";
-	sound_ 			= "Front/sound";
-
+	page 			= "program";
+	
 	jQuery.ajaxSetup({async:false});
 
 	include(front_,"import_topbar");
 	
 	include(base_);	
 	
-	include(time_);	
+	include(time_);
+
+	include(adsense_);	
 
 	import_menu();
 	
@@ -27,15 +20,13 @@ $(document).ready(function()
 
 	include(sound_);	
 
-	include(base_menu,	"menu_start","program");
+	include(menu__,	"menu_start","program");
 
-	
-
-	include(base_helper);
+	include(helper_);
 
 	include(notification_);
 
-	include(base_categories);
+	include(categories_);
 
 	include(front_program,"setting_programs");
 
@@ -43,9 +34,12 @@ $(document).ready(function()
 
 	include(base_program);
 
-
+	include(events_);
 
 	loading.hide();
+
+	run_banner();
+
 
 	function include(loc,func,funcData,funcData_1)
 	{

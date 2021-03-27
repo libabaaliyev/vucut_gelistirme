@@ -1,15 +1,8 @@
 $(document).ready(function()
 {
-	base_			= "Base/base";
-	base_menu		= "Base/menu";
-	base_helper 	= "Base/helper";
-	time_ 			= "Base/time";
-	base_categories = "Front/categories";
+	base_			= "Base/base";	
 	front_ 			= "Front/view";
-	graphics_ 		= "Front/graphics";
-	adsense_ 		= "Front/adsense";
-	charts 			= "Chart.bundle"
-
+		
 	jQuery.ajaxSetup({async:false});
 
 	include(front_,"import_topbar");
@@ -18,21 +11,21 @@ $(document).ready(function()
 
 	import_menu();
 
-	include(base_menu,	"menu_start","training");
+	include(adsense_);
+
+	include(menu__,	"menu_start","statistic");
 
 	import_helper();
 	
-	include(base_helper);
+	include(helper_);
 
 	include(time_);
-
-	//include(charts);
 
 	include(graphics_);
 
 	loading.hide();
 
-	include(adsense_);	
+	run_banner();
 
 	function include(loc,func,funcData,funcData_1)
 	{

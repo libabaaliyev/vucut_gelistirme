@@ -41,5 +41,11 @@ set_reset_txt.click(()=>
 	localStorage.removeItem("height");
 	localStorage.removeItem("bodyType");
 
+	calendar[currentMonthQ]['days'][currentYear][currentDay] = [];
+	traningDays = 0;
+	save();
+
 	notification("success-reset"); 
+
+	run_interstitial();
 });

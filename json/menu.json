@@ -5,7 +5,6 @@
 		"icon" 	: "fas fa-dumbbell",
 		"active": true
 	},
-
 	{
 		"name" 	: "blog",
 		"url" 	: "blog.html",
@@ -21,10 +20,17 @@
 	},
 
 	{
+		"name" 	: "statistic",
+		"url" 	: "graphics.html",
+		"icon" 	: "fas fa-history",
+		"active": true
+	},
+
+	{
 		"name" 	: "motivation",
 		"url" 	: "motivation.html",
 		"icon" 	: "fas fa-child",
-		"active": true
+		"active": false
 	},
 
 	{
@@ -35,9 +41,18 @@
 	},
 
 	{
+		"name" 	: "rate",
+		"url" 	: "#rate",
+		"icon" 	: "fas fa-star",
+		"active": true
+	},
+
+	{
 		"name" 	: "share",
 		"url" 	: "#share",
 		"icon" 	: "fas fa-share-alt",
 		"active": true
 	}
+
+
 ]

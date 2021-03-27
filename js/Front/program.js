@@ -5,6 +5,9 @@ tr_program				= $(".training-program");
 s_img_program 			= $(".s-img-program");
 pr_count_html 			= $(".pr-count");
 time_count_html			= $(".time-count");
+set_count_html			= $(".set-count");
+set_count_ 				= $(".set-count_");
+
 start_tr_btn 			= $(".start-training-btn");
 start_tr_ 				= $(".training-btn");
 training_panel 			= $(".training");
@@ -73,13 +76,14 @@ function setting_week_info()
 	head_title			.html(training_name);
 	let newData 		= [];
 	let countDatas 		= [];
-	wtxt 				= 'day-' + weekTraining;
+	
 	
 	for (var i = 0; i < weekplan[wtxt].length; i++) {
 		
 		let tag 		= weekplan[wtxt][i]['name'];
 		let count 		= weekplan[wtxt][i][bodyType];
 		let items 		= find_categories(tag);
+
 		
 		countDatas 		.push(count);		
 		newData			.push(items);
@@ -166,4 +170,18 @@ function setting_info()
 		}
 	});
 
+}
+
+function find_plans(tag)
+{
+	for (var i = 0; i < weekplan[wtxt].length; i++) {
+	
+		if(weekplan[wtxt][i]['name'] == tag){
+			return weekplan[wtxt][i];
+			break;
+		}
+		else
+			if(i == (weekplan[wtxt].length - 1))
+				return 'none';
+	}
 }

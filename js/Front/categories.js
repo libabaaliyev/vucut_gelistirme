@@ -14,6 +14,8 @@ function find_categories(tag)
 }
 
 
+
+
 function view_categories(link,wb,bs)
 {
 	

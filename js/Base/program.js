@@ -1,13 +1,14 @@
 start_plan 		= 'program';
 training_que 	= 0;
 timer 			= 40;
-
-
 percent 		= 0;
 cancel_training = 0;
 training_count 	= 0;
 repeat_time 	= 1;
 timerV 			= 0;
+lengthMax 		= 0;
+lengthSet 		= 1;
+doneTraining 	= 0;
 
 weekClass.click(()=>
 {
@@ -31,10 +32,23 @@ $(document).on('click', '.categories .item', function()
 	timeFinish 			= 0;
 
 	if(count){
+		plan_data = find_plans(tag);
+
+		if(plan_data == 'none')
+			location.reload();
+		else
+		{
+			set 		= plan_data['set'];
+			trainings 	= plan_data['trainings'];
+			lengthMax 	= trainings.length * set;	
+		
+		}
 		bodyIndex 		= count;
 	}
-	else
+	else{
+		lengthMax = (training[tag].length - 1);
 		info_bodyType();
+	}
 
 	open_program(tag);
 });
@@ -55,7 +69,7 @@ start_tr_btn.click(()=>
 {
 	start_plan 		= 'start-training';
 	controlClass 	.show();
-
+	clickCount 		++;
 	start_training();
 });
 
@@ -68,66 +82,50 @@ start_tr_.click(()=>
 	training_info 	.hide();
 	timerClass 		.show();
 	repeat_count 	.show();
-	start_plan 		= 'start-timer';
-	
+	start_plan 		= 'start-timer';	
 	timeStart 		= JSON.parse(date.getTime());
-
+	
 	//start_timer();
 });
 
 
 done.click(()=>
 {
-	timeSet();	
-	
-	$("#rest-timer").html(40);
-	timeFinish = JSON.parse(date.getTime());
-
-	timeFull = timeFinish - timeStart;
-
-	console.log(timerFull)
-	console.log(timeStart)
-	console.log(timeFinish)
-
-	if(training_que == (training[tag].length - 1))
-		finish(cancel_training);
-	else
-	{
-		add_day(training[tag][training_que]);
-		training_count ++;
-		
-		c_training 					= training[tag][training_que+1];
-		let img 					= c_training['image'];
-		let name 					= c_training['name'];
-
-		$("#steps") 				.html((training_que+2) + "/" + training[tag].length);
-		$("#next-training-name") 	.html(name);
-		$("#next-img")				.attr("src",img);
-
-		start_timer();
-		training_all 				.hide();
-		rest		 				.show();
-
-	}
-	//next_training();
-	//back_func(start_plan);
+	done_func();
 });
 
 skip.click(()=>
 {
 	next_training();
 	back_func(start_plan);
+	
 });
 
 add_seconds.click(()=>
 {
 	timer+=20;
-
 });
 
 function start_training()
 {
-	let data 	= training[tag][training_que];
+	let t;
+	let data;
+	let module_t;
+	if(openWeek){
+
+		if(training_que>0)
+			module_t = training_que % trainings.length;
+		else
+			module_t = 0;
+
+		console.log("training_que: "+training_que+",module_t: "+module_t);
+
+		t 		 = trainings[module_t];
+		data 	 = training[tag][t];
+	}
+	else
+		data 	= training[tag][training_que];	
+	
 	let img 	= data['image'];
 	let name 	= data['name'];
 	let info 	= data['information'];
@@ -167,18 +165,36 @@ function next_training(e)
 {
 	timer 			= 40;
 	start_txt		.html(translate_items['start']);
+	
 	if(e == "cancel-next")
 		cancel_training ++;
 
-	if(training_que == (training[tag].length - 1))
-		finish(cancel_training);
+	if(openWeek)
+	{
+		if(training_que == lengthMax)
+			finish(cancel_training);
+		else
+		{
+			if(!bannerShow)
+			run_banner("bottom","show");
+			training_que ++;
+			start_training();	
+		}
+	}
 	else
 	{
-	
-		training_que ++;
-		start_training();
-		
+		if(training_que == (lengthMax -1))
+			finish(cancel_training)
+		else
+		{
+			if(!bannerShow)
+			run_banner("bottom","show");
+			training_que ++;
+			
+			start_training();	
+		}
 	}
+
 }
 
 function back_func(plan)
@@ -190,6 +206,8 @@ function back_func(plan)
 		timerClass			.hide();
 		training_panel 		.hide();
 		training_que 		= 0;
+		doneTraining 		= 0;
+		lengthSet 			= 1;
 		timer 				= 40;		
 		percent 			= 0;
 		cancel_training 	= 0;
@@ -249,6 +267,8 @@ function back_func(plan)
 			start_plan 	= 'open-plan';
 			back_func (start_plan);
 		}
+		else
+			window.location = "main.html";
 	}
 }
 
@@ -273,27 +293,126 @@ function open_program(tag)
 	title 				.html(training_name);
 	head_title			.html(training_name);
 	s_img_program 		.attr("src",img);
-	pr_count_html 		.html(data.length);
+	if(openWeek){
+		pr_count_html 		.html(trainings.length);
+		set_count_html 		.html(set);
+		set_count_ 			.show();
+	}
+	else{
+		pr_count_html 		.html(data.length);
+		set_count_ 			.hide();
+	}
 
 	time_training 		= data.length * bodyIndex * repeat_time;
 
 	time_count_html 	.html("x" + bodyIndex);
+
+
 	//time_all_training()
 
 }
 
 
+function done_func(e)
+{
+	timeSet();	
+	
+	$("#rest-timer").html(40);
+
+	timeFinish 	= JSON.parse(date.getTime());
+	timeFull 	= timeFinish - timeStart;
+
+	if(openWeek)
+	{
+		if(training_que == (lengthMax -1))			
+			finish(cancel_training);
+		else
+			done_ok();
+	}
+	else
+	{
+		if(training_que == lengthMax)
+			finish(cancel_training);
+		else
+			done_ok();
+	}
+	//next_training();
+	//back_func(start_plan);
+}
+
+function done_ok()
+{
+	
+	let t;
+	let f;
+	let data;
+	let allT;
+	let module_t;
+	if(openWeek){
+		module_t 	= training_que % trainings.length;
+		t 			= trainings[module_t];
+		if(module_t > (trainings.length - 2))
+			module_t = -1;
+
+		f 			= trainings[module_t + 1];
+		
+		data 		= training[tag][t];
+		c_training 	= training[tag][f];
+		allT 		= training_que + 2;	
+
+		$("#steps") 				.html(allT + "/" + trainings.length * set);
+	}
+	else{
+		data 		= training[tag][training_que];
+		c_training 	= training[tag][training_que+1];
+
+		$("#steps") .html((training_que+2) + "/" + training[tag].length);
+	}
+
+	run_banner("bottom","hide");
+	run_banner("top","show");
+	if(clickCount != 0 && clickCount % 3 == 0)
+		run_interstitial();
+
+	add_day(data);
+	training_count ++;	
+	
+	let img 					= c_training['image'];
+	let name 					= c_training['name'];
+
+	
+	$("#next-training-name") 	.html(name);
+	$("#next-img")				.attr("src",img);
+
+	start_timer();
+	training_all 				.hide();
+	rest		 				.show();
+
+	doneTraining ++;
+}
 
 function finish(count)
 {
-	back_func("open-plan");
+	
 
-	if(training[tag].length == count)
-		notification("do-not-training");
+	if(openWeek)
+	{
+		if(doneTraining == 0)
+			notification("do-not-training");
+		else if(count == 0)
+			notification("success-training");
+		else
+			notification("not-full-training");
+	}
 	else
-		notification("success-training");
+	{
+		if(training[tag].length == count)
+			notification("do-not-training");
+		else
+			notification("success-training");
+	}
 	
-	
+	back_func("open-plan");
 	
 }
 
