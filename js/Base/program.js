@@ -13,12 +13,22 @@ doneTraining 	= 0;
 weekClass.click(()=>
 {
 	openWeek 	= true;
+	plan_week();
+	//setting_week_info();
+});
+
+selectDay.click(function()
+{
+	start_plan 	= 'select-day';
+	let day = $(this).data('day')
+	wtxt = 'day-'+day;
 	setting_week_info();
 });
 
 add_info.click(()=>
 {
 	setting_info();
+
 });
 
 $(document).on('click', '.categories .item', function()
@@ -56,7 +66,6 @@ $(document).on('click', '.categories .item', function()
 back_tab.click(()=>
 {
 	back_func(start_plan);
-
 });
 
 
@@ -199,19 +208,25 @@ function next_training(e)
 
 function back_func(plan)
 {
+	console.log(plan);
 	if(plan == 'open-plan')
 	{
 		simple_program		.hide();
 		controlClass		.hide();
 		timerClass			.hide();
 		training_panel 		.hide();
+		weekSelect 			.hide();
 		training_que 		= 0;
 		doneTraining 		= 0;
 		lengthSet 			= 1;
 		timer 				= 40;		
 		percent 			= 0;
 		cancel_training 	= 0;
-		start_plan 			= 'program';
+
+		if(openWeek)
+			start_plan 		= 'select-day'
+		else
+			start_plan 			= 'program';
 
 		if(!openWeek)
 		{
@@ -225,25 +240,23 @@ function back_func(plan)
 			helper_icon			.find("i").show();
 			program_current		.show();
 			
-					
+			//set_name(training_name);
 			setting_programs();
+		
 		}
 		else
 		{
 			weekProgramList		.show();
-			training_name 		= translate_items['week-txt'];
-			title 				.html(training_name);
-			head_title			.html(training_name);
+			week_set();
 		}
 	}
 	else if(plan == "start-training")
 	{
 		training_panel.hide();
 		simple_program.show();
-		
 		start_plan 			= 'open-plan';
-		title 				.html(training_name);
-		head_title			.html(training_name);
+		
+		set_name(training_name);
 	}
 	else if(plan == "start-timer")
 	{
@@ -270,6 +283,14 @@ function back_func(plan)
 		else
 			window.location = "main.html";
 	}
+	else if(plan == "select-day")
+	{
+		start_plan 	= 'program';
+		weekProgramList		.hide();
+		
+		plan_week()
+		
+	}
 }
 
 function open_program(tag)
@@ -290,8 +311,8 @@ function open_program(tag)
 	back_tab			.show();
 	simple_program		.show();	
 
-	title 				.html(training_name);
-	head_title			.html(training_name);
+	set_name(training_name);
+
 	s_img_program 		.attr("src",img);
 	if(openWeek){
 		pr_count_html 		.html(trainings.length);

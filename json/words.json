@@ -51,6 +51,15 @@
 		"sm"			: "sm",
 		"week-txt"		: "Həftəlik Proqram",
 
+		"first-week"	: "Birinci həftə",
+		"second-week"	: "İkinci həftə",
+		"third-week"	: "Üçüncü həftə",
+		"fourth-week"	: "Dördüncü həftə",
+
+		"first-day"		: "Birinci gün",
+		"second-day"	: "İkinci gün",
+		"third-day"		: "Üçüncü gün",
+
 		"pr-count"		: "Məşq sayı :",
 		"time-count"	: "Vaxt :",
 		"start"			: "Başla",
@@ -127,6 +136,15 @@
 		"kg"			: "kg",
 		"sm"			: "sm",
 		"week-txt"		: "Weekly program",
+
+		"first-week"	: "First week",
+		"second-week"	: "Second week",
+		"third-week"	: "Third week",
+		"fourth-week"	: "Fourth week",
+
+		"first-day"		: "First day",
+		"second-day"	: "Second day",
+		"third-day"		: "Third day",
 
 		"pr-count"		: "Exercises count :",
 		"time-count"	: "Time :",
@@ -205,6 +223,15 @@
 		"kg"			: "кг",
 		"sm"			: "см",
 		"week-txt"		: "Еженедельная программа",
+
+		"first-week"	: "Первая неделя",
+		"second-week"	: "Вторая неделя",
+		"third-week"	: "Третья неделя",
+		"fourth-week"	: "Четвертая неделя",
+
+		"first-day"		: "Первый день",
+		"second-day"	: "Второй день",
+		"third-day"		: "Третий день",
 
 		"pr-count"		: "Количество упражнений :",
 		"time-count"	: "Время :",
@@ -289,6 +316,15 @@
 		"kg"			: "kg",
 		"sm"			: "sm",
 		"week-txt"		: "Haftalık Program",
+
+		"first-week"	: "Birinci hafta",
+		"second-week"	: "İkinci hafta",
+		"third-week"	: "Üçüncü hafta",
+		"fourth-week"	: "Dördüncü hafta",
+
+		"first-day"		: "Birinci gün",
+		"second-day"	: "İkinci gün",
+		"third-day"		: "Üçüncü gün",
 
 		"pr-count"		: "Egzersiz sayı :",
 		"time-count"	: "Süre :",

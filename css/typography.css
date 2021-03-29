@@ -1,3 +1,203 @@
+.text-10px
+{
+	font-size: 10px;
+}
+
+.text-12px
+{
+	font-size: 12px;
+}
+
+.text-14px
+{
+	font-size: 14px;
+}
+
+.text-16px
+{
+	font-size: 16px;
+}
+
+.text-18px
+{
+	font-size: 18px;
+}
+
+.text-20px
+{
+	font-size: 20px;
+}
+
+.text-22px
+{
+	font-size: 22px;
+}
+
+.text-24px
+{
+	font-size: 24px;
+}
+
+
+.text-26px
+{
+	font-size: 26px;
+}
+
+
+.text-28px
+{
+	font-size: 28px;
+}
+
+
+.text-30px
+{
+	font-size: 30px;
+}
+
+
+.w-75px
+{
+	width: 75px !important;
+}
+.w-80px
+{
+	width: 80px !important;
+}
+
+.mt-6
+{
+	margin-top: 5rem !important;
+}
+.mb-6
+{
+	margin-bottom: 5rem !important;
+}
+.ml-6
+{
+	margin-left: 5rem !important;
+}
+.mr-6
+{
+	margin-right: 5rem !important;
+}
+
+
+.ml-10px
+{
+	margin-left: 10px !important;
+}
+
+.ml-20px
+{
+	margin-left: 20px !important;
+}
+
+@media(min-width: 900px)
+{
+	.mt-4--lg
+	{
+		margin-top: 1.5rem !important;
+	}
+	.mt-5--lg
+	{
+		margin-top: 3rem !important;
+	}
+}
+
+.rounded-10px
+{
+	border-radius: 10px !important;
+}
+
+.rounded-15px
+{
+	border-radius: 15px !important;
+}
+
+.rounded-20px
+{
+	border-radius: 20px !important;
+}
+
+.rounded-30px
+{
+	border-radius: 30px !important;
+}
+
+.rounded-50px
+{
+	border-radius: 50px !important;
+}
+.position-relative
+{
+	position: relative;
+}
+
+.w-80px
+{
+	width: 80px !important;
+}
+.w-90px
+{
+	width: 90px;
+}
+
+.w-100px
+{
+	width: 110px;
+}
+.w-120px
+{
+	width: 120px;
+}
+
+.w-calc-80px
+{
+	width: calc(100% - 80px);
+}
+
+.w-calc-90px
+{
+	width: calc(100% - 90px);
+}
+
+.w-calc-100px
+{
+	width: calc(100% - 100px);
+}
+
+.h-min-100px
+{
+	min-height: 100px;
+}
+
+
+.h-max-100px
+{
+	max-height: 100px;
+}
+
+.h-max-150px
+{
+	max-height: 150px;
+}
+
+.h-max-200px
+{
+	max-height: 200px;
+}
+
+.h-max-250px
+{
+	max-height: 250px;
+}
+
+.h-max-300px
+{
+	max-height: 300px;
+}
 .h-10px
 {
 	height: 10px;
@@ -40,39 +240,19 @@
 
 .h-100px
 {
-	height: 100px;
+	height: 110px;
 }
-.text-10px
+.h-120px
 {
-	font-size: 10px;
-}
-
-.text-12px
-{
-	font-size: 12px;
+	height: 120px;
 }
 
-.text-14px
+.line-height-14px
 {
-	font-size: 14px;
+	line-height: 14px !important;
 }
 
-.text-16px
+.weight-bold
 {
-	font-size: 16px;
-}
-
-.text-18px
-{
-	font-size: 18px;
-}
-
-.text-20px
-{
-	font-size: 20px;
-}
-
-.text-22px
-{
-	font-size: 22px;
+	font-weight: bolder;
 }

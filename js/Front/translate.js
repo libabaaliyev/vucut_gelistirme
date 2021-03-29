@@ -41,6 +41,14 @@ function translate_words(e) {
 		$(".done-txt")			.html(translate_items['done']);
 		$(".rest-txt")			.html(translate_items['rest']);
 		$(".secund-txt")		.html(translate_items['seconds']);
+
+		$("#first-week")		.html(translate_items['first-week']);
+		$("#second-week")		.html(translate_items['second-week']);
+		
+		$(".first-day")			.html(translate_items['first-day']);
+		$(".second-day")		.html(translate_items['second-day']);
+		$(".third-day")			.html(translate_items['third-day']);
+
 		start_txt				.html(translate_items['start']);
 		next_txt				.html(translate_items['next']);
 		skip_txt				.html(translate_items['skip-txt']);

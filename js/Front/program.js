@@ -16,6 +16,8 @@ timerClass				= $(".timer");
 timer_txt 				= $(".timer-txt");
 timer_percent 			= $(".timer-percent");
 weekClass 				= $(".week");
+weekSelect				= $("#week-select-day");
+selectDay 				= $(".select-day");
 weekProgramList 		= $(".week-program-list");
 training_all 			= $(".training-all");
 rest 					= $(".rest");
@@ -60,20 +62,34 @@ function info_bodyType()
 		bodyIndex = 12;	
 }
 
-function setting_week_info()
+function plan_week()
 {
 	program_current		.hide();
 	menu_icon			.hide();
 	helper_icon			.find("i").hide();
 	program_current		.hide();
+
+	back_tab			.show();
+	back_tab			.show();
+	weekSelect 			.show();
+
+	training_name 		= translate_items['week-txt'];
+	set_name(training_name);
+}
+
+
+function setting_week_info()
+{
+	weekSelect 			.hide();
 	
 	back_tab			.show();
 	back_tab			.show();
 	weekProgramList		.show();
 
 	training_name 		= translate_items['week-txt'];
-	title 				.html(training_name);
-	head_title			.html(training_name);
+	
+	week_set();
+
 	let newData 		= [];
 	let countDatas 		= [];
 	
@@ -96,6 +112,37 @@ function setting_week_info()
 	}
 	view_categories("programs",'without-button',allDatas);
 }
+
+function week_set()
+{
+	if(wtxt == 'day-0')
+		training_name = translate_items['first-week']+ " - " + translate_items['first-day'];
+
+	else if(wtxt == 'day-1')
+		training_name = translate_items['first-week']+ " - " + translate_items['second-day'];
+
+	else if(wtxt == 'day-2')
+		training_name = translate_items['first-week']+ " - " + translate_items['third-day'];
+
+	else if(wtxt == 'day-3')
+		training_name = translate_items['second-week']+ " - " + translate_items['first-day'];
+
+	else if(wtxt == 'day-4')
+		training_name = translate_items['second-week']+ " - " + translate_items['second-day'];
+
+	else if(wtxt == 'day-5')
+		training_name = translate_items['second-week']+ " - " + translate_items['third-day'];
+
+
+	set_name(training_name);
+}
+
+function set_name(txt)
+{
+	title 				.html(txt);
+	head_title			.html(txt);
+}
+
 
 function setting_info()
 {
